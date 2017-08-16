@@ -28,14 +28,12 @@ LIBS:opto
 LIBS:atmel
 LIBS:contrib
 LIBS:valves
-LIBS:nxp-ic
-LIBS:7400-ic
 LIBS:cubesatFunkmodul-cache
 EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 2
+Sheet 1 3
 Title ""
 Date ""
 Rev ""
@@ -51,7 +49,6 @@ U 5993797A
 F0 "Funkmodul1" 60
 F1 "Funkmodul1.sch" 60
 F2 "+3.3V" I R 2050 3000 60 
-F3 "+5V" I R 2050 3100 60 
-F4 "GND" I R 2050 3200 60 
+F3 "GND" I R 2050 3200 60 
 $EndSheet
 $EndSCHEMATC
