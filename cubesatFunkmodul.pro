@@ -1,4 +1,4 @@
-update=13.08.2017 18:20:05
+update=23.08.2017 00:51:45
 version=1
 last_client=kicad
 [pcbnew]
@@ -61,3 +61,4 @@ LibName29=valves
 LibName30=C:/Users/Local/Documents/KicadLib/kicad-lib-master/kicad-lib-master/components/nxp-ic
 LibName31=C:/Users/Local/Documents/KicadLib/kicad-lib-master/kicad-lib-master/components/7400-ic
 LibName32=cubesatFunkmodul-cache
+LibName33=funkmodul
