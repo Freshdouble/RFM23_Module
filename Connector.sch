@@ -1,0 +1,227 @@
+EESchema Schematic File Version 2
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:nxp-ic
+LIBS:7400-ic
+LIBS:cubesatFunkmodul-cache
+LIBS:funkmodul
+EELAYER 25 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 4 4
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+Text HLabel 2300 4400 1    60   Input ~ 0
+RX1
+Text HLabel 2600 4400 1    60   Input ~ 0
+TX1
+Text HLabel 2900 4400 1    60   Input ~ 0
+~ENABLE1~
+$Comp
+L D_Zener D?
+U 1 1 59C451A8
+P 2300 4550
+F 0 "D?" H 2300 4650 50  0000 C CNN
+F 1 "D_Zener" H 2300 4450 50  0000 C CNN
+F 2 "" H 2300 4550 50  0001 C CNN
+F 3 "" H 2300 4550 50  0001 C CNN
+	1    2300 4550
+	0    1    1    0   
+$EndComp
+$Comp
+L D_Zener D?
+U 1 1 59C451CF
+P 2600 4550
+F 0 "D?" H 2600 4650 50  0000 C CNN
+F 1 "D_Zener" H 2600 4450 50  0000 C CNN
+F 2 "" H 2600 4550 50  0001 C CNN
+F 3 "" H 2600 4550 50  0001 C CNN
+	1    2600 4550
+	0    1    1    0   
+$EndComp
+$Comp
+L D_Zener D?
+U 1 1 59C451EA
+P 2900 4550
+F 0 "D?" H 2900 4650 50  0000 C CNN
+F 1 "D_Zener" H 2900 4450 50  0000 C CNN
+F 2 "" H 2900 4550 50  0001 C CNN
+F 3 "" H 2900 4550 50  0001 C CNN
+	1    2900 4550
+	0    1    1    0   
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 59C4523B
+P 2300 4700
+F 0 "#PWR?" H 2300 4450 50  0001 C CNN
+F 1 "GND" H 2300 4550 50  0000 C CNN
+F 2 "" H 2300 4700 50  0001 C CNN
+F 3 "" H 2300 4700 50  0001 C CNN
+	1    2300 4700
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 59C45255
+P 2600 4700
+F 0 "#PWR?" H 2600 4450 50  0001 C CNN
+F 1 "GND" H 2600 4550 50  0000 C CNN
+F 2 "" H 2600 4700 50  0001 C CNN
+F 3 "" H 2600 4700 50  0001 C CNN
+	1    2600 4700
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 59C4526F
+P 2900 4700
+F 0 "#PWR?" H 2900 4450 50  0001 C CNN
+F 1 "GND" H 2900 4550 50  0000 C CNN
+F 2 "" H 2900 4700 50  0001 C CNN
+F 3 "" H 2900 4700 50  0001 C CNN
+	1    2900 4700
+	1    0    0    -1  
+$EndComp
+Text HLabel 3400 4400 1    60   Input ~ 0
+RX2
+Text HLabel 3700 4400 1    60   Input ~ 0
+TX2
+Text HLabel 4000 4400 1    60   Input ~ 0
+~ENABLE2~
+$Comp
+L D_Zener D?
+U 1 1 59C452D2
+P 3400 4550
+F 0 "D?" H 3400 4650 50  0000 C CNN
+F 1 "D_Zener" H 3400 4450 50  0000 C CNN
+F 2 "" H 3400 4550 50  0001 C CNN
+F 3 "" H 3400 4550 50  0001 C CNN
+	1    3400 4550
+	0    1    1    0   
+$EndComp
+$Comp
+L D_Zener D?
+U 1 1 59C452D8
+P 3700 4550
+F 0 "D?" H 3700 4650 50  0000 C CNN
+F 1 "D_Zener" H 3700 4450 50  0000 C CNN
+F 2 "" H 3700 4550 50  0001 C CNN
+F 3 "" H 3700 4550 50  0001 C CNN
+	1    3700 4550
+	0    1    1    0   
+$EndComp
+$Comp
+L D_Zener D?
+U 1 1 59C452DE
+P 4000 4550
+F 0 "D?" H 4000 4650 50  0000 C CNN
+F 1 "D_Zener" H 4000 4450 50  0000 C CNN
+F 2 "" H 4000 4550 50  0001 C CNN
+F 3 "" H 4000 4550 50  0001 C CNN
+	1    4000 4550
+	0    1    1    0   
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 59C452E4
+P 3400 4700
+F 0 "#PWR?" H 3400 4450 50  0001 C CNN
+F 1 "GND" H 3400 4550 50  0000 C CNN
+F 2 "" H 3400 4700 50  0001 C CNN
+F 3 "" H 3400 4700 50  0001 C CNN
+	1    3400 4700
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 59C452EA
+P 3700 4700
+F 0 "#PWR?" H 3700 4450 50  0001 C CNN
+F 1 "GND" H 3700 4550 50  0000 C CNN
+F 2 "" H 3700 4700 50  0001 C CNN
+F 3 "" H 3700 4700 50  0001 C CNN
+	1    3700 4700
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 59C452F0
+P 4000 4700
+F 0 "#PWR?" H 4000 4450 50  0001 C CNN
+F 1 "GND" H 4000 4550 50  0000 C CNN
+F 2 "" H 4000 4700 50  0001 C CNN
+F 3 "" H 4000 4700 50  0001 C CNN
+	1    4000 4700
+	1    0    0    -1  
+$EndComp
+Text GLabel 4650 4400 1    60   Input ~ 0
+WIRE_CONN
+$Comp
+L D_Zener D?
+U 1 1 59C45961
+P 4650 4550
+F 0 "D?" H 4650 4650 50  0000 C CNN
+F 1 "D_Zener" H 4650 4450 50  0000 C CNN
+F 2 "" H 4650 4550 50  0001 C CNN
+F 3 "" H 4650 4550 50  0001 C CNN
+	1    4650 4550
+	0    1    1    0   
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 59C45994
+P 4650 4700
+F 0 "#PWR?" H 4650 4450 50  0001 C CNN
+F 1 "GND" H 4650 4550 50  0000 C CNN
+F 2 "" H 4650 4700 50  0001 C CNN
+F 3 "" H 4650 4700 50  0001 C CNN
+	1    4650 4700
+	1    0    0    -1  
+$EndComp
+Wire Notes Line
+	1900 3600 5550 3600
+Wire Notes Line
+	5550 3600 5550 5550
+Wire Notes Line
+	5550 5550 1900 5550
+Wire Notes Line
+	1900 5550 1900 3600
+Text Notes 3150 3800 0    60   ~ 0
+ESD Protection
+$EndSCHEMATC
