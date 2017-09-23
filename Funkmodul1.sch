@@ -200,7 +200,7 @@ $EndComp
 Connection ~ 4550 2650
 Connection ~ 4300 3050
 $Sheet
-S 9050 2700 950  1400
+S 9050 2700 950  1550
 U 5994BAF1
 F0 "Funkeinheit" 60
 F1 "Funkeinheit.sch" 60
@@ -480,7 +480,7 @@ $EndComp
 Connection ~ 1650 2550
 Connection ~ 1650 2650
 Wire Wire Line
-	2250 1250 2000 1250
+	2000 1250 2250 1250
 Text Label 2000 1250 0    60   ~ 0
 ~ON~
 Text Label 3000 2600 0    60   ~ 0
@@ -580,36 +580,7 @@ Wire Wire Line
 Wire Wire Line
 	2700 2400 3300 2400
 Wire Wire Line
-	2500 3600 3300 3600
-$Comp
-L C C?
-U 1 1 59B90241
-P 3450 3600
-F 0 "C?" H 3475 3700 50  0000 L CNN
-F 1 "1nF" H 3475 3500 50  0000 L CNN
-F 2 "" H 3488 3450 50  0001 C CNN
-F 3 "" H 3450 3600 50  0001 C CNN
-	1    3450 3600
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	3300 3350 3200 3350
-Wire Wire Line
-	3200 3350 3200 3600
-Connection ~ 3200 3600
-Wire Wire Line
-	3600 3350 3750 3350
-Wire Wire Line
-	3750 3350 3750 3600
-Wire Wire Line
-	3600 3600 3850 3600
-Connection ~ 3750 3600
-Wire Wire Line
-	4150 3600 4150 3150
-Wire Wire Line
-	4150 3150 3300 3150
-Wire Wire Line
-	3300 3150 3300 1850
+	3300 1850 3300 3600
 Wire Wire Line
 	3300 1850 2400 1850
 Connection ~ 3300 2400
@@ -618,32 +589,10 @@ L R R?
 U 1 1 59B91347
 P 2250 1850
 F 0 "R?" V 2330 1850 50  0000 C CNN
-F 1 "10k" V 2250 1850 50  0000 C CNN
+F 1 "100k" V 2250 1850 50  0000 C CNN
 F 2 "" V 2180 1850 50  0001 C CNN
 F 3 "" H 2250 1850 50  0001 C CNN
 	1    2250 1850
-	0    1    1    0   
-$EndComp
-$Comp
-L D_Schottky D?
-U 1 1 59B914FB
-P 4000 3600
-F 0 "D?" H 4000 3700 50  0000 C CNN
-F 1 "D_Schottky" H 4000 3500 50  0000 C CNN
-F 2 "" H 4000 3600 50  0001 C CNN
-F 3 "" H 4000 3600 50  0001 C CNN
-	1    4000 3600
-	1    0    0    -1  
-$EndComp
-$Comp
-L R R?
-U 1 1 59B916C6
-P 3450 3350
-F 0 "R?" V 3530 3350 50  0000 C CNN
-F 1 "100k" V 3450 3350 50  0000 C CNN
-F 2 "" V 3380 3350 50  0001 C CNN
-F 3 "" H 3450 3350 50  0001 C CNN
-	1    3450 3350
 	0    1    1    0   
 $EndComp
 Text HLabel 2700 2200 2    60   Input ~ 0
@@ -712,7 +661,7 @@ L R R?
 U 1 1 59C301B6
 P 750 1500
 F 0 "R?" V 830 1500 50  0000 C CNN
-F 1 "47k" V 750 1500 50  0000 C CNN
+F 1 "22k" V 750 1500 50  0000 C CNN
 F 2 "" V 680 1500 50  0001 C CNN
 F 3 "" H 750 1500 50  0001 C CNN
 	1    750  1500
@@ -773,31 +722,30 @@ $EndComp
 $Comp
 L R R?
 U 1 1 59C31E7D
-P 2100 1400
-F 0 "R?" V 2180 1400 50  0000 C CNN
-F 1 "100k" V 2100 1400 50  0000 C CNN
-F 2 "" V 2030 1400 50  0001 C CNN
-F 3 "" H 2100 1400 50  0001 C CNN
-	1    2100 1400
+P 800 4700
+F 0 "R?" V 880 4700 50  0000 C CNN
+F 1 "100k" V 800 4700 50  0000 C CNN
+F 2 "" V 730 4700 50  0001 C CNN
+F 3 "" H 800 4700 50  0001 C CNN
+	1    800  4700
 	1    0    0    -1  
 $EndComp
 $Comp
 L GND #PWR?
 U 1 1 59C31F10
-P 2100 1550
-F 0 "#PWR?" H 2100 1300 50  0001 C CNN
-F 1 "GND" H 2100 1400 50  0000 C CNN
-F 2 "" H 2100 1550 50  0001 C CNN
-F 3 "" H 2100 1550 50  0001 C CNN
-	1    2100 1550
+P 800 4850
+F 0 "#PWR?" H 800 4600 50  0001 C CNN
+F 1 "GND" H 800 4700 50  0000 C CNN
+F 2 "" H 800 4850 50  0001 C CNN
+F 3 "" H 800 4850 50  0001 C CNN
+	1    800  4850
 	1    0    0    -1  
 $EndComp
-Connection ~ 2100 1250
 Connection ~ 1000 2450
 Text HLabel 1000 2800 3    60   Input ~ 0
 ~MODULE_ON~
 Wire Wire Line
-	2100 1850 1300 1850
+	1300 1850 2100 1850
 Text HLabel 1150 1050 0    60   Input ~ 0
 3.3V
 Connection ~ 1300 1050
@@ -1082,13 +1030,7 @@ Burnwire circuit with detection
 Wire Notes Line
 	1700 1700 3450 1700
 Wire Notes Line
-	3450 1700 3450 3150
-Wire Notes Line
-	3450 3150 4250 3150
-Wire Notes Line
-	4250 3150 4250 4300
-Wire Notes Line
-	4250 4300 1150 4300
+	3450 1700 3450 4300
 Wire Notes Line
 	1150 4300 1150 2600
 Wire Notes Line
@@ -1139,4 +1081,20 @@ $EndComp
 Wire Wire Line
 	3650 5200 4050 5200
 Connection ~ 3950 5200
+Wire Wire Line
+	3300 3600 2500 3600
+Wire Notes Line
+	3450 4300 1150 4300
+Text Label 800  4550 0    60   ~ 0
+~ON~
+Wire Notes Line
+	550  4350 550  5200
+Wire Notes Line
+	550  5200 1100 5200
+Wire Notes Line
+	1100 5200 1100 4350
+Wire Notes Line
+	1100 4350 550  4350
+Text Notes 550  5300 0    60   ~ 0
+ON Pulldown
 $EndSCHEMATC
