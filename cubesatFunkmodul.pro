@@ -1,4 +1,4 @@
-update=23.08.2017 00:51:45
+update=08.10.2017 21:01:33
 version=1
 last_client=kicad
 [pcbnew]
@@ -62,3 +62,4 @@ LibName30=C:/Users/Local/Documents/KicadLib/kicad-lib-master/kicad-lib-master/co
 LibName31=C:/Users/Local/Documents/KicadLib/kicad-lib-master/kicad-lib-master/components/7400-ic
 LibName32=cubesatFunkmodul-cache
 LibName33=funkmodul
+LibName34=C:/Users/Local/Desktop/lib/converted/DISCO_Connector
