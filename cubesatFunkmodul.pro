@@ -1,4 +1,4 @@
-update=08.10.2017 21:01:33
+update=17.10.2017 14:19:38
 version=1
 last_client=kicad
 [pcbnew]
@@ -23,8 +23,6 @@ ModuleOutlineThickness=0.150000000000
 [cvpcb]
 version=1
 NetIExt=net
-[general]
-version=1
 [eeschema]
 version=1
 LibDir=
@@ -62,4 +60,7 @@ LibName30=C:/Users/Local/Documents/KicadLib/kicad-lib-master/kicad-lib-master/co
 LibName31=C:/Users/Local/Documents/KicadLib/kicad-lib-master/kicad-lib-master/components/7400-ic
 LibName32=cubesatFunkmodul-cache
 LibName33=funkmodul
-LibName34=C:/Users/Local/Desktop/lib/converted/DISCO_Connector
+LibName34=C:/Users/Local/Desktop/Cubesatlib/converted/CubeSat-Bus-1
+LibName35=C:/Users/Local/Desktop/Cubesatlib/converted/CubeSat-Bus-2
+[general]
+version=1
