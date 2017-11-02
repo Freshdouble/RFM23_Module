@@ -1,4 +1,4 @@
-update=17.10.2017 14:19:38
+update=02.11.2017 22:44:30
 version=1
 last_client=kicad
 [pcbnew]
@@ -23,6 +23,8 @@ ModuleOutlineThickness=0.150000000000
 [cvpcb]
 version=1
 NetIExt=net
+[general]
+version=1
 [eeschema]
 version=1
 LibDir=
@@ -62,5 +64,4 @@ LibName32=cubesatFunkmodul-cache
 LibName33=funkmodul
 LibName34=C:/Users/Local/Desktop/Cubesatlib/converted/CubeSat-Bus-1
 LibName35=C:/Users/Local/Desktop/Cubesatlib/converted/CubeSat-Bus-2
-[general]
-version=1
+LibName36=disco-con
