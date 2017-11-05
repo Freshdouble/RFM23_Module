@@ -30,6 +30,7 @@ LIBS:contrib
 LIBS:valves
 LIBS:nxp-ic
 LIBS:7400-ic
+LIBS:cubesatFunkmodul-cache
 LIBS:funkmodul
 LIBS:CubeSat-Bus-1
 LIBS:CubeSat-Bus-2
@@ -38,7 +39,7 @@ EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 4
+Sheet 1 6
 Title ""
 Date ""
 Rev ""
@@ -110,4 +111,20 @@ Wire Wire Line
 	4550 3850 4550 4000
 Wire Wire Line
 	4550 4000 4900 4000
+$Sheet
+S 2650 4250 1050 1550
+U 59FF6F05
+F0 "Funkmodul2" 60
+F1 "Funkmodul2.sch" 60
+F2 "RX" I R 3700 4850 60 
+F3 "TX" I R 3700 4950 60 
+F4 "3.3V" I R 3700 4350 60 
+F5 "~MODULE_ON~" I R 3700 5050 60 
+F6 "TCK" I R 3700 5200 60 
+F7 "TMS" I R 3700 5300 60 
+F8 "TDO" I R 3700 5500 60 
+F9 "TDI" I R 3700 5400 60 
+F10 "BAT_OK" I R 3700 4600 60 
+F11 "~RBF~" I R 3700 5650 60 
+$EndSheet
 $EndSCHEMATC
