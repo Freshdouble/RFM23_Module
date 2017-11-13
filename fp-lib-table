@@ -1,4 +1,5 @@
 (fp_lib_table
   (lib (name Maxim)(type KiCad)(uri "$(KIPRJMOD)/Maxim.pretty")(options "")(descr ""))
   (lib (name cubesatFunkmodul)(type KiCad)(uri "$(KIPRJMOD)/cubesatFunkmodul.pretty")(options "")(descr ""))
+  (lib (name HopeRF)(type KiCad)(uri "$(KIPRJMOD)/HopeRF.pretty")(options "")(descr ""))
 )
