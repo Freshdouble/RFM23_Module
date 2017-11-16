@@ -28,12 +28,8 @@ LIBS:opto
 LIBS:atmel
 LIBS:contrib
 LIBS:valves
-LIBS:nxp-ic
-LIBS:7400-ic
 LIBS:cubesatFunkmodul-cache
 LIBS:funkmodul
-LIBS:CubeSat-Bus-1
-LIBS:CubeSat-Bus-2
 LIBS:disco-con
 EELAYER 25 0
 EELAYER END
@@ -896,14 +892,14 @@ Precission resistors < 1%
 Text Label 9750 4450 0    60   ~ 0
 5V
 $Comp
-L Antenna AE?
+L Antenna_Shield AE?
 U 1 1 59C98C71
 P 9700 3700
 AR Path="/59FF6F05/5994BAF1/59C98C71" Ref="AE?"  Part="1" 
 AR Path="/59FF6F05/59FF9D3B/59C98C71" Ref="AE2"  Part="1" 
 F 0 "AE2" H 9625 3775 50  0000 R CNN
 F 1 "Antenna" H 9625 3700 50  0000 R CNN
-F 2 "" H 9700 3700 50  0001 C CNN
+F 2 "Connectors:SMA_THT_Jack_Straight" H 9700 3700 50  0001 C CNN
 F 3 "" H 9700 3700 50  0001 C CNN
 	1    9700 3700
 	1    0    0    -1  
@@ -1040,4 +1036,6 @@ Wire Notes Line
 Text Notes 1700 5800 0    60   ~ 0
 3.3V to 5V Levelconverter
 Connection ~ 8400 5100
+Text Label 9800 3900 0    60   ~ 0
+PGND
 $EndSCHEMATC
