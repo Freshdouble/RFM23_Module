@@ -1,0 +1,3241 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="D">
+  <design>
+    <source>F:/Local/Documents/cubesatFunkmodul/cubesatFunkmodul.sch</source>
+    <date>17.11.2017 15:37:10</date>
+    <tool>Eeschema 4.0.6</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>cubesatFunkmodul.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="2" name="/Funkmodul1/" tstamps="/5993797A/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>Funkmodul1.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="3" name="/Funkmodul1/Funkeinheit/" tstamps="/5993797A/5994BAF1/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>Funkeinheit.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="4" name="/Connector/" tstamps="/59C45183/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>Connector.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="5" name="/Funkmodul2/" tstamps="/59FF6F05/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>Funkmodul2.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="6" name="/Funkmodul2/Funkeinheit2/" tstamps="/59FF6F05/59FF9D3B/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>Funkeinheit2.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="U3">
+      <value>ATMEGA128-16AU</value>
+      <footprint>Housings_QFP:TQFP-64_14x14mm_Pitch0.8mm</footprint>
+      <libsource lib="atmel" part="ATMEGA128-16AU"/>
+      <sheetpath names="/Funkmodul1/" tstamps="/5993797A/"/>
+      <tstamp>59937F4F</tstamp>
+    </comp>
+    <comp ref="C10">
+      <value>100nF</value>
+      <footprint>Capacitors_SMD:C_0603_HandSoldering</footprint>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/Funkmodul1/" tstamps="/5993797A/"/>
+      <tstamp>59937F57</tstamp>
+    </comp>
+    <comp ref="C11">
+      <value>100nF</value>
+      <footprint>Capacitors_SMD:C_0603_HandSoldering</footprint>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/Funkmodul1/" tstamps="/5993797A/"/>
+      <tstamp>59FF9D33</tstamp>
+    </comp>
+    <comp ref="L1">
+      <value>10nH</value>
+      <footprint>Inductors_SMD:L_0603_HandSoldering</footprint>
+      <libsource lib="device" part="Ferrite_Bead"/>
+      <sheetpath names="/Funkmodul1/" tstamps="/5993797A/"/>
+      <tstamp>59FF9D34</tstamp>
+    </comp>
+    <comp ref="C12">
+      <value>100nF</value>
+      <footprint>Capacitors_SMD:C_0603_HandSoldering</footprint>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/Funkmodul1/" tstamps="/5993797A/"/>
+      <tstamp>59FF9D35</tstamp>
+    </comp>
+    <comp ref="R14">
+      <value>100k</value>
+      <footprint>Resistors_SMD:R_0603_HandSoldering</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/Funkmodul1/" tstamps="/5993797A/"/>
+      <tstamp>59FF9D36</tstamp>
+    </comp>
+    <comp ref="C9">
+      <value>10nF</value>
+      <footprint>Capacitors_SMD:C_0603_HandSoldering</footprint>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/Funkmodul1/" tstamps="/5993797A/"/>
+      <tstamp>59FF9D37</tstamp>
+    </comp>
+    <comp ref="D9">
+      <value>TS4148C</value>
+      <footprint>Diodes_SMD:D_0603</footprint>
+      <libsource lib="device" part="D"/>
+      <sheetpath names="/Funkmodul1/" tstamps="/5993797A/"/>
+      <tstamp>59FF9D38</tstamp>
+    </comp>
+    <comp ref="C7">
+      <value>10pF</value>
+      <footprint>Capacitors_SMD:C_0603_HandSoldering</footprint>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/Funkmodul1/" tstamps="/5993797A/"/>
+      <tstamp>59FF9D39</tstamp>
+    </comp>
+    <comp ref="C8">
+      <value>10pF</value>
+      <footprint>Capacitors_SMD:C_0603_HandSoldering</footprint>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/Funkmodul1/" tstamps="/5993797A/"/>
+      <tstamp>59FF9D3A</tstamp>
+    </comp>
+    <comp ref="U2">
+      <value>MAX892</value>
+      <footprint>Maxim:µMAX-8</footprint>
+      <datasheet>https://datasheets.maximintegrated.com/en/ds/MAX891L-MAX892L.pdf</datasheet>
+      <libsource lib="cubesatFunkmodul-cache" part="MAX892"/>
+      <sheetpath names="/Funkmodul1/" tstamps="/5993797A/"/>
+      <tstamp>59FF9D52</tstamp>
+    </comp>
+    <comp ref="R10">
+      <value>15k</value>
+      <footprint>Resistors_SMD:R_0603_HandSoldering</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/Funkmodul1/" tstamps="/5993797A/"/>
+      <tstamp>59B7DF07</tstamp>
+    </comp>
+    <comp ref="R11">
+      <value>100k</value>
+      <footprint>Resistors_SMD:R_0603_HandSoldering</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/Funkmodul1/" tstamps="/5993797A/"/>
+      <tstamp>59B7E653</tstamp>
+    </comp>
+    <comp ref="U1">
+      <value>MC74HC4538A</value>
+      <footprint>Housings_SOIC:SOIC-16_3.9x9.9mm_Pitch1.27mm</footprint>
+      <datasheet>https://www.onsemi.com/pub/Collateral/MC74HC4538A-D.PDF</datasheet>
+      <libsource lib="cubesatFunkmodul-cache" part="MC74HC4538A"/>
+      <sheetpath names="/Funkmodul1/" tstamps="/5993797A/"/>
+      <tstamp>59FF9D64</tstamp>
+    </comp>
+    <comp ref="D4">
+      <value>TS4148C</value>
+      <footprint>Diodes_SMD:D_0603</footprint>
+      <libsource lib="device" part="D"/>
+      <sheetpath names="/Funkmodul1/" tstamps="/5993797A/"/>
+      <tstamp>59B8D267</tstamp>
+    </comp>
+    <comp ref="C5">
+      <value>100nF</value>
+      <footprint>Capacitors_SMD:C_0603_HandSoldering</footprint>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/Funkmodul1/" tstamps="/5993797A/"/>
+      <tstamp>59B8D3A5</tstamp>
+    </comp>
+    <comp ref="C2">
+      <value>1µF</value>
+      <footprint>Capacitors_SMD:C_1210_HandSoldering</footprint>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/Funkmodul1/" tstamps="/5993797A/"/>
+      <tstamp>59B8D42A</tstamp>
+    </comp>
+    <comp ref="R6">
+      <value>100k</value>
+      <footprint>Resistors_SMD:R_0603_HandSoldering</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/Funkmodul1/" tstamps="/5993797A/"/>
+      <tstamp>59FF9D6C</tstamp>
+    </comp>
+    <comp ref="C3">
+      <value>1nF</value>
+      <footprint>Capacitors_SMD:C_0603_HandSoldering</footprint>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/Funkmodul1/" tstamps="/5993797A/"/>
+      <tstamp>59FF9D6D</tstamp>
+    </comp>
+    <comp ref="R8">
+      <value>10k</value>
+      <footprint>Resistors_SMD:R_0603_HandSoldering</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/Funkmodul1/" tstamps="/5993797A/"/>
+      <tstamp>59FF9D6E</tstamp>
+    </comp>
+    <comp ref="R18">
+      <value>100R</value>
+      <footprint>Resistors_SMD:R_0603_HandSoldering</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/Funkmodul1/" tstamps="/5993797A/"/>
+      <tstamp>59FF9D70</tstamp>
+    </comp>
+    <comp ref="R1">
+      <value>22k</value>
+      <footprint>Resistors_SMD:R_0603_HandSoldering</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/Funkmodul1/" tstamps="/5993797A/"/>
+      <tstamp>59C301B6</tstamp>
+    </comp>
+    <comp ref="D1">
+      <value>TS4148C</value>
+      <footprint>Diodes_SMD:D_0603</footprint>
+      <libsource lib="device" part="D"/>
+      <sheetpath names="/Funkmodul1/" tstamps="/5993797A/"/>
+      <tstamp>59C30428</tstamp>
+    </comp>
+    <comp ref="D2">
+      <value>TS4148C</value>
+      <footprint>Diodes_SMD:D_0603</footprint>
+      <libsource lib="device" part="D"/>
+      <sheetpath names="/Funkmodul1/" tstamps="/5993797A/"/>
+      <tstamp>59FF9D7A</tstamp>
+    </comp>
+    <comp ref="D6">
+      <value>TS4148C</value>
+      <footprint>Diodes_SMD:D_0603</footprint>
+      <datasheet>http://www.st.com/content/ccc/resource/technical/document/datasheet/98/bc/9f/6f/26/c3/4e/73/CD00002613.pdf/files/CD00002613.pdf/jcr:content/translations/en.CD00002613.pdf</datasheet>
+      <libsource lib="device" part="D"/>
+      <sheetpath names="/Funkmodul1/" tstamps="/5993797A/"/>
+      <tstamp>59C31DDE</tstamp>
+    </comp>
+    <comp ref="R2">
+      <value>100k</value>
+      <footprint>Resistors_SMD:R_0603_HandSoldering</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/Funkmodul1/" tstamps="/5993797A/"/>
+      <tstamp>59C31E7D</tstamp>
+    </comp>
+    <comp ref="R4">
+      <value>47R</value>
+      <footprint>Resistors_SMD:R_0603_HandSoldering</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/Funkmodul1/" tstamps="/5993797A/"/>
+      <tstamp>59C336BC</tstamp>
+    </comp>
+    <comp ref="C4">
+      <value>10µF</value>
+      <footprint>Capacitors_SMD:C_1210_HandSoldering</footprint>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/Funkmodul1/" tstamps="/5993797A/"/>
+      <tstamp>59C38D4B</tstamp>
+    </comp>
+    <comp ref="R9">
+      <value>100k</value>
+      <footprint>Resistors_SMD:R_0603_HandSoldering</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/Funkmodul1/" tstamps="/5993797A/"/>
+      <tstamp>59FF9D80</tstamp>
+    </comp>
+    <comp ref="C1">
+      <value>10µF</value>
+      <footprint>Capacitors_SMD:C_1210_HandSoldering</footprint>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/Funkmodul1/" tstamps="/5993797A/"/>
+      <tstamp>59FF9D82</tstamp>
+    </comp>
+    <comp ref="R3">
+      <value>100k</value>
+      <footprint>Resistors_SMD:R_0603_HandSoldering</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/Funkmodul1/" tstamps="/5993797A/"/>
+      <tstamp>59C3BF75</tstamp>
+    </comp>
+    <comp ref="D3">
+      <value>TS4148C</value>
+      <footprint>Diodes_SMD:D_0603</footprint>
+      <libsource lib="device" part="D"/>
+      <sheetpath names="/Funkmodul1/" tstamps="/5993797A/"/>
+      <tstamp>59C3CB02</tstamp>
+    </comp>
+    <comp ref="D5">
+      <value>TS4148C</value>
+      <footprint>Diodes_SMD:D_0603</footprint>
+      <datasheet>http://www.st.com/content/ccc/resource/technical/document/datasheet/98/bc/9f/6f/26/c3/4e/73/CD00002613.pdf/files/CD00002613.pdf/jcr:content/translations/en.CD00002613.pdf</datasheet>
+      <libsource lib="device" part="D"/>
+      <sheetpath names="/Funkmodul1/" tstamps="/5993797A/"/>
+      <tstamp>59FF9D86</tstamp>
+    </comp>
+    <comp ref="Q2">
+      <value>AO3414</value>
+      <footprint>TO_SOT_Packages_SMD:SOT-23</footprint>
+      <datasheet>http://aosmd.com/res/data_sheets/AO3414.pdf</datasheet>
+      <libsource lib="device" part="Q_NMOS_DGS"/>
+      <sheetpath names="/Funkmodul1/" tstamps="/5993797A/"/>
+      <tstamp>59FF9D87</tstamp>
+    </comp>
+    <comp ref="R7">
+      <value>100k</value>
+      <footprint>Resistors_SMD:R_0603_HandSoldering</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/Funkmodul1/" tstamps="/5993797A/"/>
+      <tstamp>59FF9D89</tstamp>
+    </comp>
+    <comp ref="R12">
+      <value>10k</value>
+      <footprint>Resistors_SMD:R_0603_HandSoldering</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/Funkmodul1/" tstamps="/5993797A/"/>
+      <tstamp>59FF9D8B</tstamp>
+    </comp>
+    <comp ref="D8">
+      <value>TS4148C</value>
+      <footprint>Diodes_SMD:D_0603</footprint>
+      <libsource lib="device" part="D"/>
+      <sheetpath names="/Funkmodul1/" tstamps="/5993797A/"/>
+      <tstamp>59C3FBB2</tstamp>
+    </comp>
+    <comp ref="D7">
+      <value>TS4148C</value>
+      <footprint>Diodes_SMD:D_0603</footprint>
+      <libsource lib="device" part="D"/>
+      <sheetpath names="/Funkmodul1/" tstamps="/5993797A/"/>
+      <tstamp>59C3FB09</tstamp>
+    </comp>
+    <comp ref="R13">
+      <value>10k</value>
+      <footprint>Resistors_SMD:R_0603_HandSoldering</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/Funkmodul1/" tstamps="/5993797A/"/>
+      <tstamp>59C438AA</tstamp>
+    </comp>
+    <comp ref="C6">
+      <value>100nF</value>
+      <footprint>Capacitors_SMD:C_0603_HandSoldering</footprint>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/Funkmodul1/" tstamps="/5993797A/"/>
+      <tstamp>59C444BD</tstamp>
+    </comp>
+    <comp ref="D10">
+      <value>DZ2J036M0LCT-ND</value>
+      <footprint>Diodes_SMD:D_SOD-323F</footprint>
+      <libsource lib="device" part="D_Zener"/>
+      <sheetpath names="/Funkmodul1/" tstamps="/5993797A/"/>
+      <tstamp>59D3B574</tstamp>
+    </comp>
+    <comp ref="C20">
+      <value>100nF</value>
+      <footprint>Capacitors_SMD:C_0603_HandSoldering</footprint>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/Funkmodul1/" tstamps="/5993797A/"/>
+      <tstamp>59DB28E1</tstamp>
+    </comp>
+    <comp ref="Y1">
+      <value>407F39D007M3728</value>
+      <footprint>Crystals:Crystal_SMD_7050-4pin_7.0x5.0mm</footprint>
+      <libsource lib="device" part="Crystal_GND24"/>
+      <sheetpath names="/Funkmodul1/" tstamps="/5993797A/"/>
+      <tstamp>59DB4E21</tstamp>
+    </comp>
+    <comp ref="Q1">
+      <value>SSM3J334RLFTR-ND</value>
+      <footprint>TO_SOT_Packages_SMD:SOT-23</footprint>
+      <datasheet>https://toshiba.semicon-storage.com/info/docget.jsp?did=5579&amp;prodName=SSM3J334R</datasheet>
+      <libsource lib="device" part="Q_PMOS_SGD"/>
+      <sheetpath names="/Funkmodul1/" tstamps="/5993797A/"/>
+      <tstamp>59FF9DB0</tstamp>
+    </comp>
+    <comp ref="R5">
+      <value>100R</value>
+      <footprint>Resistors_SMD:R_0603_HandSoldering</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/Funkmodul1/" tstamps="/5993797A/"/>
+      <tstamp>59FF9D88</tstamp>
+    </comp>
+    <comp ref="Q17">
+      <value>AO3414</value>
+      <footprint>TO_SOT_Packages_SMD:SOT-23</footprint>
+      <datasheet>http://aosmd.com/res/data_sheets/AO3414.pdf</datasheet>
+      <libsource lib="device" part="Q_NMOS_DGS"/>
+      <sheetpath names="/Funkmodul1/" tstamps="/5993797A/"/>
+      <tstamp>5A07537D</tstamp>
+    </comp>
+    <comp ref="R92">
+      <value>100k</value>
+      <footprint>Resistors_SMD:R_0603_HandSoldering</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/Funkmodul1/" tstamps="/5993797A/"/>
+      <tstamp>5A075383</tstamp>
+    </comp>
+    <comp ref="R93">
+      <value>10k</value>
+      <footprint>Resistors_SMD:R_0603_HandSoldering</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/Funkmodul1/" tstamps="/5993797A/"/>
+      <tstamp>5A075391</tstamp>
+    </comp>
+    <comp ref="D30">
+      <value>TS4148C</value>
+      <footprint>Diodes_SMD:D_0603</footprint>
+      <libsource lib="device" part="D"/>
+      <sheetpath names="/Funkmodul1/" tstamps="/5993797A/"/>
+      <tstamp>5A07539E</tstamp>
+    </comp>
+    <comp ref="D29">
+      <value>TS4148C</value>
+      <footprint>Diodes_SMD:D_0603</footprint>
+      <libsource lib="device" part="D"/>
+      <sheetpath names="/Funkmodul1/" tstamps="/5993797A/"/>
+      <tstamp>5A0753A4</tstamp>
+    </comp>
+    <comp ref="C41">
+      <value>100nF</value>
+      <footprint>Capacitors_SMD:C_0603_HandSoldering</footprint>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/Funkmodul1/" tstamps="/5993797A/"/>
+      <tstamp>5A0753AA</tstamp>
+    </comp>
+    <comp ref="R91">
+      <value>100R</value>
+      <footprint>Resistors_SMD:R_0603_HandSoldering</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/Funkmodul1/" tstamps="/5993797A/"/>
+      <tstamp>5A0753C4</tstamp>
+    </comp>
+    <comp ref="R94">
+      <value>10k</value>
+      <footprint>Resistors_SMD:R_0603_HandSoldering</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/Funkmodul1/" tstamps="/5993797A/"/>
+      <tstamp>5A0761D8</tstamp>
+    </comp>
+    <comp ref="R15">
+      <value>0R</value>
+      <footprint>Resistors_SMD:R_0805_HandSoldering</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/Funkmodul1/" tstamps="/5993797A/"/>
+      <tstamp>5A0FBAB8</tstamp>
+    </comp>
+    <comp ref="R19">
+      <value>10k</value>
+      <footprint>Resistors_SMD:R_0603_HandSoldering</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/Funkmodul1/Funkeinheit/" tstamps="/5993797A/5994BAF1/"/>
+      <tstamp>5994BD7C</tstamp>
+    </comp>
+    <comp ref="R20">
+      <value>4k7</value>
+      <footprint>Resistors_SMD:R_0603_HandSoldering</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/Funkmodul1/Funkeinheit/" tstamps="/5993797A/5994BAF1/"/>
+      <tstamp>5994BD83</tstamp>
+    </comp>
+    <comp ref="Q6">
+      <value>MMBT5551-TP</value>
+      <footprint>TO_SOT_Packages_SMD:SOT-23</footprint>
+      <libsource lib="device" part="Q_NPN_BEC"/>
+      <sheetpath names="/Funkmodul1/Funkeinheit/" tstamps="/5993797A/5994BAF1/"/>
+      <tstamp>59FF9D3E</tstamp>
+    </comp>
+    <comp ref="Q7">
+      <value>MMBT5551-TP</value>
+      <footprint>TO_SOT_Packages_SMD:SOT-23</footprint>
+      <libsource lib="device" part="Q_NPN_BEC"/>
+      <sheetpath names="/Funkmodul1/Funkeinheit/" tstamps="/5993797A/5994BAF1/"/>
+      <tstamp>599CAF76</tstamp>
+    </comp>
+    <comp ref="Q3">
+      <value>MMBT5551-TP</value>
+      <footprint>TO_SOT_Packages_SMD:SOT-23</footprint>
+      <libsource lib="device" part="Q_NPN_BEC"/>
+      <sheetpath names="/Funkmodul1/Funkeinheit/" tstamps="/5993797A/5994BAF1/"/>
+      <tstamp>599CAF95</tstamp>
+    </comp>
+    <comp ref="Q4">
+      <value>MMBT5551-TP</value>
+      <footprint>TO_SOT_Packages_SMD:SOT-23</footprint>
+      <libsource lib="device" part="Q_NPN_BEC"/>
+      <sheetpath names="/Funkmodul1/Funkeinheit/" tstamps="/5993797A/5994BAF1/"/>
+      <tstamp>599CB00B</tstamp>
+    </comp>
+    <comp ref="Q5">
+      <value>MMBT5551-TP</value>
+      <footprint>TO_SOT_Packages_SMD:SOT-23</footprint>
+      <libsource lib="device" part="Q_NPN_BEC"/>
+      <sheetpath names="/Funkmodul1/Funkeinheit/" tstamps="/5993797A/5994BAF1/"/>
+      <tstamp>599CB196</tstamp>
+    </comp>
+    <comp ref="R26">
+      <value>4k7</value>
+      <footprint>Resistors_SMD:R_0603_HandSoldering</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/Funkmodul1/Funkeinheit/" tstamps="/5993797A/5994BAF1/"/>
+      <tstamp>59FF9D43</tstamp>
+    </comp>
+    <comp ref="R21">
+      <value>10k</value>
+      <footprint>Resistors_SMD:R_0603_HandSoldering</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/Funkmodul1/Funkeinheit/" tstamps="/5993797A/5994BAF1/"/>
+      <tstamp>599CB4C0</tstamp>
+    </comp>
+    <comp ref="R22">
+      <value>10k</value>
+      <footprint>Resistors_SMD:R_0603_HandSoldering</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/Funkmodul1/Funkeinheit/" tstamps="/5993797A/5994BAF1/"/>
+      <tstamp>599CB4F7</tstamp>
+    </comp>
+    <comp ref="R27">
+      <value>4k7</value>
+      <footprint>Resistors_SMD:R_0603_HandSoldering</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/Funkmodul1/Funkeinheit/" tstamps="/5993797A/5994BAF1/"/>
+      <tstamp>599CB530</tstamp>
+    </comp>
+    <comp ref="R23">
+      <value>10k</value>
+      <footprint>Resistors_SMD:R_0603_HandSoldering</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/Funkmodul1/Funkeinheit/" tstamps="/5993797A/5994BAF1/"/>
+      <tstamp>599CB563</tstamp>
+    </comp>
+    <comp ref="R28">
+      <value>4k7</value>
+      <footprint>Resistors_SMD:R_0603_HandSoldering</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/Funkmodul1/Funkeinheit/" tstamps="/5993797A/5994BAF1/"/>
+      <tstamp>599CB59A</tstamp>
+    </comp>
+    <comp ref="R24">
+      <value>10k</value>
+      <footprint>Resistors_SMD:R_0603_HandSoldering</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/Funkmodul1/Funkeinheit/" tstamps="/5993797A/5994BAF1/"/>
+      <tstamp>59FF9D49</tstamp>
+    </comp>
+    <comp ref="R29">
+      <value>4k7</value>
+      <footprint>Resistors_SMD:R_0603_HandSoldering</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/Funkmodul1/Funkeinheit/" tstamps="/5993797A/5994BAF1/"/>
+      <tstamp>599CB606</tstamp>
+    </comp>
+    <comp ref="R25">
+      <value>10k</value>
+      <footprint>Resistors_SMD:R_0603_HandSoldering</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/Funkmodul1/Funkeinheit/" tstamps="/5993797A/5994BAF1/"/>
+      <tstamp>59FF9D4B</tstamp>
+    </comp>
+    <comp ref="R30">
+      <value>4k7</value>
+      <footprint>Resistors_SMD:R_0603_HandSoldering</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/Funkmodul1/Funkeinheit/" tstamps="/5993797A/5994BAF1/"/>
+      <tstamp>59FF9D4C</tstamp>
+    </comp>
+    <comp ref="R31">
+      <value>10k</value>
+      <footprint>Resistors_SMD:R_0603_HandSoldering</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/Funkmodul1/Funkeinheit/" tstamps="/5993797A/5994BAF1/"/>
+      <tstamp>59FF9D4D</tstamp>
+    </comp>
+    <comp ref="R32">
+      <value>10k</value>
+      <footprint>Resistors_SMD:R_0603_HandSoldering</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/Funkmodul1/Funkeinheit/" tstamps="/5993797A/5994BAF1/"/>
+      <tstamp>59FF9D4E</tstamp>
+    </comp>
+    <comp ref="R33">
+      <value>10k</value>
+      <footprint>Resistors_SMD:R_0603_HandSoldering</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/Funkmodul1/Funkeinheit/" tstamps="/5993797A/5994BAF1/"/>
+      <tstamp>59FF9D4F</tstamp>
+    </comp>
+    <comp ref="R34">
+      <value>10k</value>
+      <footprint>Resistors_SMD:R_0603_HandSoldering</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/Funkmodul1/Funkeinheit/" tstamps="/5993797A/5994BAF1/"/>
+      <tstamp>59FF9D50</tstamp>
+    </comp>
+    <comp ref="R35">
+      <value>10k</value>
+      <footprint>Resistors_SMD:R_0603_HandSoldering</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/Funkmodul1/Funkeinheit/" tstamps="/5993797A/5994BAF1/"/>
+      <tstamp>599CBFAB</tstamp>
+    </comp>
+    <comp ref="L2">
+      <value>5µH</value>
+      <footprint>Inductors_SMD:L_6.3x6.3_H3</footprint>
+      <datasheet>http://products.sumida.com/products/pdf/CDRH5D28R.pdf</datasheet>
+      <fields>
+        <field name="Typ">CDRH5D28RNP-5R0NC</field>
+      </fields>
+      <libsource lib="device" part="L"/>
+      <sheetpath names="/Funkmodul1/Funkeinheit/" tstamps="/5993797A/5994BAF1/"/>
+      <tstamp>59BD8CDE</tstamp>
+    </comp>
+    <comp ref="C14">
+      <value>47µF</value>
+      <footprint>Capacitors_SMD:C_1210_HandSoldering</footprint>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/Funkmodul1/Funkeinheit/" tstamps="/5993797A/5994BAF1/"/>
+      <tstamp>59BD91A9</tstamp>
+    </comp>
+    <comp ref="C13">
+      <value>47µF</value>
+      <footprint>Capacitors_SMD:C_1210_HandSoldering</footprint>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/Funkmodul1/Funkeinheit/" tstamps="/5993797A/5994BAF1/"/>
+      <tstamp>59BD91F8</tstamp>
+    </comp>
+    <comp ref="C15">
+      <value>47µF</value>
+      <footprint>Capacitors_SMD:C_1210_HandSoldering</footprint>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/Funkmodul1/Funkeinheit/" tstamps="/5993797A/5994BAF1/"/>
+      <tstamp>59BD95C3</tstamp>
+    </comp>
+    <comp ref="U4">
+      <value>LTC3113</value>
+      <footprint>Housings_SSOP:HTSSOP-20-1EP_4.4x6.5mm_Pitch0.65mm_ThermalPad</footprint>
+      <datasheet>http://cds.linear.com/docs/en/datasheet/3113f.pdf</datasheet>
+      <libsource lib="cubesatFunkmodul-cache" part="LTC3113"/>
+      <sheetpath names="/Funkmodul1/Funkeinheit/" tstamps="/5993797A/5994BAF1/"/>
+      <tstamp>59BDB4B6</tstamp>
+    </comp>
+    <comp ref="R42">
+      <value>10k</value>
+      <footprint>Resistors_SMD:R_0603_HandSoldering</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/Funkmodul1/Funkeinheit/" tstamps="/5993797A/5994BAF1/"/>
+      <tstamp>59C59E59</tstamp>
+    </comp>
+    <comp ref="Q8">
+      <value>MMBT5551-TP</value>
+      <footprint>TO_SOT_Packages_SMD:SOT-23</footprint>
+      <libsource lib="device" part="Q_NPN_BEC"/>
+      <sheetpath names="/Funkmodul1/Funkeinheit/" tstamps="/5993797A/5994BAF1/"/>
+      <tstamp>59FF9D94</tstamp>
+    </comp>
+    <comp ref="R41">
+      <value>10k</value>
+      <footprint>Resistors_SMD:R_0603_HandSoldering</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/Funkmodul1/Funkeinheit/" tstamps="/5993797A/5994BAF1/"/>
+      <tstamp>59FF9D96</tstamp>
+    </comp>
+    <comp ref="R36">
+      <value>90k9</value>
+      <footprint>Resistors_SMD:R_0603_HandSoldering</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/Funkmodul1/Funkeinheit/" tstamps="/5993797A/5994BAF1/"/>
+      <tstamp>59FF9D97</tstamp>
+    </comp>
+    <comp ref="R40">
+      <value>887k</value>
+      <footprint>Resistors_SMD:R_0603_HandSoldering</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/Funkmodul1/Funkeinheit/" tstamps="/5993797A/5994BAF1/"/>
+      <tstamp>59C601D7</tstamp>
+    </comp>
+    <comp ref="R39">
+      <value>121k</value>
+      <footprint>Resistors_SMD:R_0603_HandSoldering</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/Funkmodul1/Funkeinheit/" tstamps="/5993797A/5994BAF1/"/>
+      <tstamp>59C6023C</tstamp>
+    </comp>
+    <comp ref="R38">
+      <value>6k81</value>
+      <footprint>Resistors_SMD:R_0603_HandSoldering</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/Funkmodul1/Funkeinheit/" tstamps="/5993797A/5994BAF1/"/>
+      <tstamp>59FF9D9C</tstamp>
+    </comp>
+    <comp ref="C16">
+      <value>47pF</value>
+      <footprint>Capacitors_SMD:C_0603_HandSoldering</footprint>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/Funkmodul1/Funkeinheit/" tstamps="/5993797A/5994BAF1/"/>
+      <tstamp>59C60B7E</tstamp>
+    </comp>
+    <comp ref="C18">
+      <value>12pF</value>
+      <footprint>Capacitors_SMD:C_0603_HandSoldering</footprint>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/Funkmodul1/Funkeinheit/" tstamps="/5993797A/5994BAF1/"/>
+      <tstamp>59FF9D9E</tstamp>
+    </comp>
+    <comp ref="R37">
+      <value>49k9</value>
+      <footprint>Resistors_SMD:R_0603_HandSoldering</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/Funkmodul1/Funkeinheit/" tstamps="/5993797A/5994BAF1/"/>
+      <tstamp>59C60DED</tstamp>
+    </comp>
+    <comp ref="U5">
+      <value>RFM23BP</value>
+      <footprint>HopeRF:RFM23BP</footprint>
+      <libsource lib="cubesatFunkmodul-cache" part="RFM23BP"/>
+      <sheetpath names="/Funkmodul1/Funkeinheit/" tstamps="/5993797A/5994BAF1/"/>
+      <tstamp>59FF9DA0</tstamp>
+    </comp>
+    <comp ref="C17">
+      <value>680pF</value>
+      <footprint>Capacitors_SMD:C_0603_HandSoldering</footprint>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/Funkmodul1/Funkeinheit/" tstamps="/5993797A/5994BAF1/"/>
+      <tstamp>59FF9DA1</tstamp>
+    </comp>
+    <comp ref="AE1">
+      <value>Antenna</value>
+      <footprint>Connectors:SMA_THT_Jack_Straight</footprint>
+      <libsource lib="device" part="Antenna_Shield"/>
+      <sheetpath names="/Funkmodul1/Funkeinheit/" tstamps="/5993797A/5994BAF1/"/>
+      <tstamp>59FF9DA2</tstamp>
+    </comp>
+    <comp ref="C19">
+      <value>100nF</value>
+      <footprint>Capacitors_SMD:C_0603_HandSoldering</footprint>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/Funkmodul1/Funkeinheit/" tstamps="/5993797A/5994BAF1/"/>
+      <tstamp>59FF9DA3</tstamp>
+    </comp>
+    <comp ref="R43">
+      <value>0R</value>
+      <footprint>Resistors_SMD:R_0603_HandSoldering</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/Funkmodul1/Funkeinheit/" tstamps="/5993797A/5994BAF1/"/>
+      <tstamp>59FF9DAC</tstamp>
+    </comp>
+    <comp ref="R45">
+      <value>4k7</value>
+      <footprint>Resistors_SMD:R_0603_HandSoldering</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/Funkmodul1/Funkeinheit/" tstamps="/5993797A/5994BAF1/"/>
+      <tstamp>59FF9DAD</tstamp>
+    </comp>
+    <comp ref="R44">
+      <value>10k</value>
+      <footprint>Resistors_SMD:R_0603_HandSoldering</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/Funkmodul1/Funkeinheit/" tstamps="/5993797A/5994BAF1/"/>
+      <tstamp>59FF9DAE</tstamp>
+    </comp>
+    <comp ref="D11">
+      <value>SMF3.3</value>
+      <footprint>Diodes_SMD:D_SOD-123F</footprint>
+      <libsource lib="device" part="D_Zener"/>
+      <sheetpath names="/Connector/" tstamps="/59C45183/"/>
+      <tstamp>59C451A8</tstamp>
+    </comp>
+    <comp ref="D12">
+      <value>SMF3.3</value>
+      <footprint>Diodes_SMD:D_SOD-123F</footprint>
+      <libsource lib="device" part="D_Zener"/>
+      <sheetpath names="/Connector/" tstamps="/59C45183/"/>
+      <tstamp>59C451CF</tstamp>
+    </comp>
+    <comp ref="D13">
+      <value>SMF3.3</value>
+      <footprint>Diodes_SMD:D_SOD-123F</footprint>
+      <libsource lib="device" part="D_Zener"/>
+      <sheetpath names="/Connector/" tstamps="/59C45183/"/>
+      <tstamp>59C451EA</tstamp>
+    </comp>
+    <comp ref="D14">
+      <value>SMF3.3</value>
+      <footprint>Diodes_SMD:D_SOD-123F</footprint>
+      <libsource lib="device" part="D_Zener"/>
+      <sheetpath names="/Connector/" tstamps="/59C45183/"/>
+      <tstamp>59C452D2</tstamp>
+    </comp>
+    <comp ref="D15">
+      <value>SMF3.3</value>
+      <footprint>Diodes_SMD:D_SOD-123F</footprint>
+      <libsource lib="device" part="D_Zener"/>
+      <sheetpath names="/Connector/" tstamps="/59C45183/"/>
+      <tstamp>59C452D8</tstamp>
+    </comp>
+    <comp ref="D16">
+      <value>SMF3.3</value>
+      <footprint>Diodes_SMD:D_SOD-123F</footprint>
+      <libsource lib="device" part="D_Zener"/>
+      <sheetpath names="/Connector/" tstamps="/59C45183/"/>
+      <tstamp>59C452DE</tstamp>
+    </comp>
+    <comp ref="D17">
+      <value>SMF3.3</value>
+      <footprint>Diodes_SMD:D_SOD-123F</footprint>
+      <libsource lib="device" part="D_Zener"/>
+      <sheetpath names="/Connector/" tstamps="/59C45183/"/>
+      <tstamp>59C45961</tstamp>
+    </comp>
+    <comp ref="D18">
+      <value>SMF3.3</value>
+      <footprint>Diodes_SMD:D_SOD-123F</footprint>
+      <libsource lib="device" part="D_Zener"/>
+      <sheetpath names="/Connector/" tstamps="/59C45183/"/>
+      <tstamp>59DAB8D7</tstamp>
+    </comp>
+    <comp ref="CON21">
+      <value>DISCO-CON2</value>
+      <footprint>cubesatFunkmodul:Cubesatconnector</footprint>
+      <libsource lib="cubesatFunkmodul-cache" part="DISCO-CON2"/>
+      <sheetpath names="/Connector/" tstamps="/59C45183/"/>
+      <tstamp>59FBB064</tstamp>
+    </comp>
+    <comp ref="CON11">
+      <value>DISCO-CON1</value>
+      <footprint>cubesatFunkmodul:Cubesatconnector</footprint>
+      <libsource lib="cubesatFunkmodul-cache" part="DISCO-CON1"/>
+      <sheetpath names="/Connector/" tstamps="/59C45183/"/>
+      <tstamp>59FBB0E1</tstamp>
+    </comp>
+    <comp ref="D33">
+      <value>SMF3.3</value>
+      <footprint>Diodes_SMD:D_SOD-123F</footprint>
+      <libsource lib="device" part="D_Zener"/>
+      <sheetpath names="/Connector/" tstamps="/59C45183/"/>
+      <tstamp>5A0B499B</tstamp>
+    </comp>
+    <comp ref="J1">
+      <value>Conn_01x03</value>
+      <footprint>Pin_Headers:Pin_Header_Straight_1x03_Pitch2.54mm</footprint>
+      <libsource lib="cubesatFunkmodul-cache" part="Conn_01x03"/>
+      <sheetpath names="/Connector/" tstamps="/59C45183/"/>
+      <tstamp>5A0DBE27</tstamp>
+    </comp>
+    <comp ref="U8">
+      <value>ATMEGA128-16AU</value>
+      <footprint>Housings_QFP:TQFP-64_14x14mm_Pitch0.8mm</footprint>
+      <libsource lib="atmel" part="ATMEGA128-16AU"/>
+      <sheetpath names="/Funkmodul2/" tstamps="/59FF6F05/"/>
+      <tstamp>59FF9D31</tstamp>
+    </comp>
+    <comp ref="C31">
+      <value>100nF</value>
+      <footprint>Capacitors_SMD:C_0603_HandSoldering</footprint>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/Funkmodul2/" tstamps="/59FF6F05/"/>
+      <tstamp>59FF9D32</tstamp>
+    </comp>
+    <comp ref="C32">
+      <value>100nF</value>
+      <footprint>Capacitors_SMD:C_0603_HandSoldering</footprint>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/Funkmodul2/" tstamps="/59FF6F05/"/>
+      <tstamp>59937F5E</tstamp>
+    </comp>
+    <comp ref="L3">
+      <value>10nH</value>
+      <footprint>Inductors_SMD:L_0603_HandSoldering</footprint>
+      <libsource lib="device" part="Ferrite_Bead"/>
+      <sheetpath names="/Funkmodul2/" tstamps="/59FF6F05/"/>
+      <tstamp>59937F89</tstamp>
+    </comp>
+    <comp ref="C33">
+      <value>100nF</value>
+      <footprint>Capacitors_SMD:C_0603_HandSoldering</footprint>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/Funkmodul2/" tstamps="/59FF6F05/"/>
+      <tstamp>59937F90</tstamp>
+    </comp>
+    <comp ref="R59">
+      <value>100k</value>
+      <footprint>Resistors_SMD:R_0603_HandSoldering</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/Funkmodul2/" tstamps="/59FF6F05/"/>
+      <tstamp>59937FF2</tstamp>
+    </comp>
+    <comp ref="C30">
+      <value>10nF</value>
+      <footprint>Capacitors_SMD:C_0603_HandSoldering</footprint>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/Funkmodul2/" tstamps="/59FF6F05/"/>
+      <tstamp>59938000</tstamp>
+    </comp>
+    <comp ref="D27">
+      <value>TS4148C</value>
+      <footprint>Diodes_SMD:D_0603</footprint>
+      <libsource lib="device" part="D"/>
+      <sheetpath names="/Funkmodul2/" tstamps="/59FF6F05/"/>
+      <tstamp>5993800E</tstamp>
+    </comp>
+    <comp ref="C28">
+      <value>10pF</value>
+      <footprint>Capacitors_SMD:C_0603_HandSoldering</footprint>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/Funkmodul2/" tstamps="/59FF6F05/"/>
+      <tstamp>59938036</tstamp>
+    </comp>
+    <comp ref="C29">
+      <value>10pF</value>
+      <footprint>Capacitors_SMD:C_0603_HandSoldering</footprint>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/Funkmodul2/" tstamps="/59FF6F05/"/>
+      <tstamp>5993803D</tstamp>
+    </comp>
+    <comp ref="U7">
+      <value>MAX892</value>
+      <footprint>Maxim:µMAX-8</footprint>
+      <datasheet>https://datasheets.maximintegrated.com/en/ds/MAX891L-MAX892L.pdf</datasheet>
+      <libsource lib="cubesatFunkmodul-cache" part="MAX892"/>
+      <sheetpath names="/Funkmodul2/" tstamps="/59FF6F05/"/>
+      <tstamp>59B7DE36</tstamp>
+    </comp>
+    <comp ref="R55">
+      <value>15k</value>
+      <footprint>Resistors_SMD:R_0603_HandSoldering</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/Funkmodul2/" tstamps="/59FF6F05/"/>
+      <tstamp>59FF9D53</tstamp>
+    </comp>
+    <comp ref="R56">
+      <value>100k</value>
+      <footprint>Resistors_SMD:R_0603_HandSoldering</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/Funkmodul2/" tstamps="/59FF6F05/"/>
+      <tstamp>59FF9D55</tstamp>
+    </comp>
+    <comp ref="U6">
+      <value>MC74HC4538A</value>
+      <footprint>Housings_SOIC:SOIC-16_3.9x9.9mm_Pitch1.27mm</footprint>
+      <datasheet>https://www.onsemi.com/pub/Collateral/MC74HC4538A-D.PDF</datasheet>
+      <libsource lib="cubesatFunkmodul-cache" part="MC74HC4538A"/>
+      <sheetpath names="/Funkmodul2/" tstamps="/59FF6F05/"/>
+      <tstamp>59B8BE56</tstamp>
+    </comp>
+    <comp ref="D22">
+      <value>TS4148C</value>
+      <footprint>Diodes_SMD:D_0603</footprint>
+      <libsource lib="device" part="D"/>
+      <sheetpath names="/Funkmodul2/" tstamps="/59FF6F05/"/>
+      <tstamp>59FF9D66</tstamp>
+    </comp>
+    <comp ref="C26">
+      <value>100nF</value>
+      <footprint>Capacitors_SMD:C_0603_HandSoldering</footprint>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/Funkmodul2/" tstamps="/59FF6F05/"/>
+      <tstamp>59FF9D67</tstamp>
+    </comp>
+    <comp ref="C23">
+      <value>1µF</value>
+      <footprint>Capacitors_SMD:C_1210_HandSoldering</footprint>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/Funkmodul2/" tstamps="/59FF6F05/"/>
+      <tstamp>59FF9D68</tstamp>
+    </comp>
+    <comp ref="R51">
+      <value>100k</value>
+      <footprint>Resistors_SMD:R_0603_HandSoldering</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/Funkmodul2/" tstamps="/59FF6F05/"/>
+      <tstamp>59B91347</tstamp>
+    </comp>
+    <comp ref="C24">
+      <value>1nF</value>
+      <footprint>Capacitors_SMD:C_0603_HandSoldering</footprint>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/Funkmodul2/" tstamps="/59FF6F05/"/>
+      <tstamp>59B94E3E</tstamp>
+    </comp>
+    <comp ref="R53">
+      <value>10k</value>
+      <footprint>Resistors_SMD:R_0603_HandSoldering</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/Funkmodul2/" tstamps="/59FF6F05/"/>
+      <tstamp>59B94EF1</tstamp>
+    </comp>
+    <comp ref="R63">
+      <value>100R</value>
+      <footprint>Resistors_SMD:R_0603_HandSoldering</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/Funkmodul2/" tstamps="/59FF6F05/"/>
+      <tstamp>59B9638E</tstamp>
+    </comp>
+    <comp ref="R46">
+      <value>22k</value>
+      <footprint>Resistors_SMD:R_0603_HandSoldering</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/Funkmodul2/" tstamps="/59FF6F05/"/>
+      <tstamp>59FF9D77</tstamp>
+    </comp>
+    <comp ref="D19">
+      <value>TS4148C</value>
+      <footprint>Diodes_SMD:D_0603</footprint>
+      <libsource lib="device" part="D"/>
+      <sheetpath names="/Funkmodul2/" tstamps="/59FF6F05/"/>
+      <tstamp>59FF9D79</tstamp>
+    </comp>
+    <comp ref="D20">
+      <value>TS4148C</value>
+      <footprint>Diodes_SMD:D_0603</footprint>
+      <libsource lib="device" part="D"/>
+      <sheetpath names="/Funkmodul2/" tstamps="/59FF6F05/"/>
+      <tstamp>59C31C6C</tstamp>
+    </comp>
+    <comp ref="D24">
+      <value>TS4148C</value>
+      <footprint>Diodes_SMD:D_0603</footprint>
+      <datasheet>http://www.st.com/content/ccc/resource/technical/document/datasheet/98/bc/9f/6f/26/c3/4e/73/CD00002613.pdf/files/CD00002613.pdf/jcr:content/translations/en.CD00002613.pdf</datasheet>
+      <libsource lib="device" part="D"/>
+      <sheetpath names="/Funkmodul2/" tstamps="/59FF6F05/"/>
+      <tstamp>59FF9D7B</tstamp>
+    </comp>
+    <comp ref="R47">
+      <value>100k</value>
+      <footprint>Resistors_SMD:R_0603_HandSoldering</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/Funkmodul2/" tstamps="/59FF6F05/"/>
+      <tstamp>59FF9D7C</tstamp>
+    </comp>
+    <comp ref="R49">
+      <value>47R</value>
+      <footprint>Resistors_SMD:R_0603_HandSoldering</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/Funkmodul2/" tstamps="/59FF6F05/"/>
+      <tstamp>59FF9D7E</tstamp>
+    </comp>
+    <comp ref="C25">
+      <value>10µF</value>
+      <footprint>Capacitors_SMD:C_1210_HandSoldering</footprint>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/Funkmodul2/" tstamps="/59FF6F05/"/>
+      <tstamp>59FF9D7F</tstamp>
+    </comp>
+    <comp ref="R54">
+      <value>100k</value>
+      <footprint>Resistors_SMD:R_0603_HandSoldering</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/Funkmodul2/" tstamps="/59FF6F05/"/>
+      <tstamp>59C39ADA</tstamp>
+    </comp>
+    <comp ref="C21">
+      <value>10µF</value>
+      <footprint>Capacitors_SMD:C_1210_HandSoldering</footprint>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/Funkmodul2/" tstamps="/59FF6F05/"/>
+      <tstamp>59C3BEDA</tstamp>
+    </comp>
+    <comp ref="R48">
+      <value>100k</value>
+      <footprint>Resistors_SMD:R_0603_HandSoldering</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/Funkmodul2/" tstamps="/59FF6F05/"/>
+      <tstamp>59FF9D83</tstamp>
+    </comp>
+    <comp ref="D21">
+      <value>TS4148C</value>
+      <footprint>Diodes_SMD:D_0603</footprint>
+      <libsource lib="device" part="D"/>
+      <sheetpath names="/Funkmodul2/" tstamps="/59FF6F05/"/>
+      <tstamp>59FF9D85</tstamp>
+    </comp>
+    <comp ref="D23">
+      <value>TS4148C</value>
+      <footprint>Diodes_SMD:D_0603</footprint>
+      <datasheet>http://www.st.com/content/ccc/resource/technical/document/datasheet/98/bc/9f/6f/26/c3/4e/73/CD00002613.pdf/files/CD00002613.pdf/jcr:content/translations/en.CD00002613.pdf</datasheet>
+      <libsource lib="device" part="D"/>
+      <sheetpath names="/Funkmodul2/" tstamps="/59FF6F05/"/>
+      <tstamp>59C3D96E</tstamp>
+    </comp>
+    <comp ref="Q10">
+      <value>AO3414</value>
+      <footprint>TO_SOT_Packages_SMD:SOT-23</footprint>
+      <datasheet>http://aosmd.com/res/data_sheets/AO3414.pdf</datasheet>
+      <libsource lib="device" part="Q_NMOS_DGS"/>
+      <sheetpath names="/Funkmodul2/" tstamps="/59FF6F05/"/>
+      <tstamp>59C3EDE3</tstamp>
+    </comp>
+    <comp ref="R52">
+      <value>100k</value>
+      <footprint>Resistors_SMD:R_0603_HandSoldering</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/Funkmodul2/" tstamps="/59FF6F05/"/>
+      <tstamp>59C3F098</tstamp>
+    </comp>
+    <comp ref="R57">
+      <value>10k</value>
+      <footprint>Resistors_SMD:R_0603_HandSoldering</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/Funkmodul2/" tstamps="/59FF6F05/"/>
+      <tstamp>59C3F9E2</tstamp>
+    </comp>
+    <comp ref="D26">
+      <value>TS4148C</value>
+      <footprint>Diodes_SMD:D_0603</footprint>
+      <libsource lib="device" part="D"/>
+      <sheetpath names="/Funkmodul2/" tstamps="/59FF6F05/"/>
+      <tstamp>59FF9D8D</tstamp>
+    </comp>
+    <comp ref="D25">
+      <value>TS4148C</value>
+      <footprint>Diodes_SMD:D_0603</footprint>
+      <libsource lib="device" part="D"/>
+      <sheetpath names="/Funkmodul2/" tstamps="/59FF6F05/"/>
+      <tstamp>59FF9D8C</tstamp>
+    </comp>
+    <comp ref="R58">
+      <value>10k</value>
+      <footprint>Resistors_SMD:R_0603_HandSoldering</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/Funkmodul2/" tstamps="/59FF6F05/"/>
+      <tstamp>59FF9D8F</tstamp>
+    </comp>
+    <comp ref="C27">
+      <value>100nF</value>
+      <footprint>Capacitors_SMD:C_0603_HandSoldering</footprint>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/Funkmodul2/" tstamps="/59FF6F05/"/>
+      <tstamp>59FF9D90</tstamp>
+    </comp>
+    <comp ref="D28">
+      <value>DZ2J036M0LCT-ND</value>
+      <footprint>Diodes_SMD:D_SOD-323F</footprint>
+      <libsource lib="device" part="D_Zener"/>
+      <sheetpath names="/Funkmodul2/" tstamps="/59FF6F05/"/>
+      <tstamp>59FF9DA4</tstamp>
+    </comp>
+    <comp ref="C22">
+      <value>100nF</value>
+      <footprint>Capacitors_SMD:C_0603_HandSoldering</footprint>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/Funkmodul2/" tstamps="/59FF6F05/"/>
+      <tstamp>59FF9DA9</tstamp>
+    </comp>
+    <comp ref="Y2">
+      <value>407F39D007M3728</value>
+      <footprint>Crystals:Crystal_SMD_7050-4pin_7.0x5.0mm</footprint>
+      <libsource lib="device" part="Crystal_GND24"/>
+      <sheetpath names="/Funkmodul2/" tstamps="/59FF6F05/"/>
+      <tstamp>59FF9DAB</tstamp>
+    </comp>
+    <comp ref="Q9">
+      <value>SSM3J334RLFTR-ND</value>
+      <footprint>TO_SOT_Packages_SMD:SOT-23</footprint>
+      <datasheet>https://toshiba.semicon-storage.com/info/docget.jsp?did=5579&amp;prodName=SSM3J334R</datasheet>
+      <libsource lib="device" part="Q_PMOS_SGD"/>
+      <sheetpath names="/Funkmodul2/" tstamps="/59FF6F05/"/>
+      <tstamp>59F0FE2A</tstamp>
+    </comp>
+    <comp ref="R50">
+      <value>100R</value>
+      <footprint>Resistors_SMD:R_0603_HandSoldering</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/Funkmodul2/" tstamps="/59FF6F05/"/>
+      <tstamp>59C3EF2C</tstamp>
+    </comp>
+    <comp ref="Q18">
+      <value>AO3414</value>
+      <footprint>TO_SOT_Packages_SMD:SOT-23</footprint>
+      <datasheet>http://aosmd.com/res/data_sheets/AO3414.pdf</datasheet>
+      <libsource lib="device" part="Q_NMOS_DGS"/>
+      <sheetpath names="/Funkmodul2/" tstamps="/59FF6F05/"/>
+      <tstamp>5A078208</tstamp>
+    </comp>
+    <comp ref="R96">
+      <value>100k</value>
+      <footprint>Resistors_SMD:R_0603_HandSoldering</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/Funkmodul2/" tstamps="/59FF6F05/"/>
+      <tstamp>5A07820F</tstamp>
+    </comp>
+    <comp ref="R97">
+      <value>10k</value>
+      <footprint>Resistors_SMD:R_0603_HandSoldering</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/Funkmodul2/" tstamps="/59FF6F05/"/>
+      <tstamp>5A07821E</tstamp>
+    </comp>
+    <comp ref="D32">
+      <value>TS4148C</value>
+      <footprint>Diodes_SMD:D_0603</footprint>
+      <libsource lib="device" part="D"/>
+      <sheetpath names="/Funkmodul2/" tstamps="/59FF6F05/"/>
+      <tstamp>5A07822C</tstamp>
+    </comp>
+    <comp ref="D31">
+      <value>TS4148C</value>
+      <footprint>Diodes_SMD:D_0603</footprint>
+      <libsource lib="device" part="D"/>
+      <sheetpath names="/Funkmodul2/" tstamps="/59FF6F05/"/>
+      <tstamp>5A078233</tstamp>
+    </comp>
+    <comp ref="C42">
+      <value>100nF</value>
+      <footprint>Capacitors_SMD:C_0603_HandSoldering</footprint>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/Funkmodul2/" tstamps="/59FF6F05/"/>
+      <tstamp>5A07823A</tstamp>
+    </comp>
+    <comp ref="R95">
+      <value>100R</value>
+      <footprint>Resistors_SMD:R_0603_HandSoldering</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/Funkmodul2/" tstamps="/59FF6F05/"/>
+      <tstamp>5A078255</tstamp>
+    </comp>
+    <comp ref="R98">
+      <value>10k</value>
+      <footprint>Resistors_SMD:R_0603_HandSoldering</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/Funkmodul2/" tstamps="/59FF6F05/"/>
+      <tstamp>5A07825C</tstamp>
+    </comp>
+    <comp ref="R16">
+      <value>0R</value>
+      <footprint>Resistors_SMD:R_0805_HandSoldering</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/Funkmodul2/" tstamps="/59FF6F05/"/>
+      <tstamp>5A0FAB4F</tstamp>
+    </comp>
+    <comp ref="R69">
+      <value>10k</value>
+      <footprint>Resistors_SMD:R_0603_HandSoldering</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/Funkmodul2/Funkeinheit2/" tstamps="/59FF6F05/59FF9D3B/"/>
+      <tstamp>59FF9D3C</tstamp>
+    </comp>
+    <comp ref="R76">
+      <value>4k7</value>
+      <footprint>Resistors_SMD:R_0603_HandSoldering</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/Funkmodul2/Funkeinheit2/" tstamps="/59FF6F05/59FF9D3B/"/>
+      <tstamp>59FF9D3D</tstamp>
+    </comp>
+    <comp ref="Q14">
+      <value>MMBT5551-TP</value>
+      <footprint>TO_SOT_Packages_SMD:SOT-23</footprint>
+      <libsource lib="device" part="Q_NPN_BEC"/>
+      <sheetpath names="/Funkmodul2/Funkeinheit2/" tstamps="/59FF6F05/59FF9D3B/"/>
+      <tstamp>599CAE07</tstamp>
+    </comp>
+    <comp ref="Q15">
+      <value>MMBT5551-TP</value>
+      <footprint>TO_SOT_Packages_SMD:SOT-23</footprint>
+      <libsource lib="device" part="Q_NPN_BEC"/>
+      <sheetpath names="/Funkmodul2/Funkeinheit2/" tstamps="/59FF6F05/59FF9D3B/"/>
+      <tstamp>59FF9D3F</tstamp>
+    </comp>
+    <comp ref="Q11">
+      <value>MMBT5551-TP</value>
+      <footprint>TO_SOT_Packages_SMD:SOT-23</footprint>
+      <libsource lib="device" part="Q_NPN_BEC"/>
+      <sheetpath names="/Funkmodul2/Funkeinheit2/" tstamps="/59FF6F05/59FF9D3B/"/>
+      <tstamp>59FF9D40</tstamp>
+    </comp>
+    <comp ref="Q12">
+      <value>MMBT5551-TP</value>
+      <footprint>TO_SOT_Packages_SMD:SOT-23</footprint>
+      <libsource lib="device" part="Q_NPN_BEC"/>
+      <sheetpath names="/Funkmodul2/Funkeinheit2/" tstamps="/59FF6F05/59FF9D3B/"/>
+      <tstamp>59FF9D41</tstamp>
+    </comp>
+    <comp ref="Q13">
+      <value>MMBT5551-TP</value>
+      <footprint>TO_SOT_Packages_SMD:SOT-23</footprint>
+      <libsource lib="device" part="Q_NPN_BEC"/>
+      <sheetpath names="/Funkmodul2/Funkeinheit2/" tstamps="/59FF6F05/59FF9D3B/"/>
+      <tstamp>59FF9D42</tstamp>
+    </comp>
+    <comp ref="R71">
+      <value>4k7</value>
+      <footprint>Resistors_SMD:R_0603_HandSoldering</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/Funkmodul2/Funkeinheit2/" tstamps="/59FF6F05/59FF9D3B/"/>
+      <tstamp>599CB475</tstamp>
+    </comp>
+    <comp ref="R64">
+      <value>10k</value>
+      <footprint>Resistors_SMD:R_0603_HandSoldering</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/Funkmodul2/Funkeinheit2/" tstamps="/59FF6F05/59FF9D3B/"/>
+      <tstamp>59FF9D44</tstamp>
+    </comp>
+    <comp ref="R65">
+      <value>10k</value>
+      <footprint>Resistors_SMD:R_0603_HandSoldering</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/Funkmodul2/Funkeinheit2/" tstamps="/59FF6F05/59FF9D3B/"/>
+      <tstamp>59FF9D45</tstamp>
+    </comp>
+    <comp ref="R72">
+      <value>4k7</value>
+      <footprint>Resistors_SMD:R_0603_HandSoldering</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/Funkmodul2/Funkeinheit2/" tstamps="/59FF6F05/59FF9D3B/"/>
+      <tstamp>59FF9D46</tstamp>
+    </comp>
+    <comp ref="R66">
+      <value>10k</value>
+      <footprint>Resistors_SMD:R_0603_HandSoldering</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/Funkmodul2/Funkeinheit2/" tstamps="/59FF6F05/59FF9D3B/"/>
+      <tstamp>59FF9D47</tstamp>
+    </comp>
+    <comp ref="R73">
+      <value>4k7</value>
+      <footprint>Resistors_SMD:R_0603_HandSoldering</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/Funkmodul2/Funkeinheit2/" tstamps="/59FF6F05/59FF9D3B/"/>
+      <tstamp>59FF9D48</tstamp>
+    </comp>
+    <comp ref="R67">
+      <value>10k</value>
+      <footprint>Resistors_SMD:R_0603_HandSoldering</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/Funkmodul2/Funkeinheit2/" tstamps="/59FF6F05/59FF9D3B/"/>
+      <tstamp>599CB5CD</tstamp>
+    </comp>
+    <comp ref="R74">
+      <value>4k7</value>
+      <footprint>Resistors_SMD:R_0603_HandSoldering</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/Funkmodul2/Funkeinheit2/" tstamps="/59FF6F05/59FF9D3B/"/>
+      <tstamp>59FF9D4A</tstamp>
+    </comp>
+    <comp ref="R68">
+      <value>10k</value>
+      <footprint>Resistors_SMD:R_0603_HandSoldering</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/Funkmodul2/Funkeinheit2/" tstamps="/59FF6F05/59FF9D3B/"/>
+      <tstamp>599CB649</tstamp>
+    </comp>
+    <comp ref="R75">
+      <value>4k7</value>
+      <footprint>Resistors_SMD:R_0603_HandSoldering</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/Funkmodul2/Funkeinheit2/" tstamps="/59FF6F05/59FF9D3B/"/>
+      <tstamp>599CB6B7</tstamp>
+    </comp>
+    <comp ref="R78">
+      <value>10k</value>
+      <footprint>Resistors_SMD:R_0603_HandSoldering</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/Funkmodul2/Funkeinheit2/" tstamps="/59FF6F05/59FF9D3B/"/>
+      <tstamp>599CBEB7</tstamp>
+    </comp>
+    <comp ref="R79">
+      <value>10k</value>
+      <footprint>Resistors_SMD:R_0603_HandSoldering</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/Funkmodul2/Funkeinheit2/" tstamps="/59FF6F05/59FF9D3B/"/>
+      <tstamp>599CBEF0</tstamp>
+    </comp>
+    <comp ref="R80">
+      <value>10k</value>
+      <footprint>Resistors_SMD:R_0603_HandSoldering</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/Funkmodul2/Funkeinheit2/" tstamps="/59FF6F05/59FF9D3B/"/>
+      <tstamp>599CBF2D</tstamp>
+    </comp>
+    <comp ref="R81">
+      <value>10k</value>
+      <footprint>Resistors_SMD:R_0603_HandSoldering</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/Funkmodul2/Funkeinheit2/" tstamps="/59FF6F05/59FF9D3B/"/>
+      <tstamp>599CBF6A</tstamp>
+    </comp>
+    <comp ref="R82">
+      <value>10k</value>
+      <footprint>Resistors_SMD:R_0603_HandSoldering</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/Funkmodul2/Funkeinheit2/" tstamps="/59FF6F05/59FF9D3B/"/>
+      <tstamp>59FF9D51</tstamp>
+    </comp>
+    <comp ref="L4">
+      <value>5µH</value>
+      <footprint>Inductors_SMD:L_6.3x6.3_H3</footprint>
+      <datasheet>http://products.sumida.com/products/pdf/CDRH5D28R.pdf</datasheet>
+      <fields>
+        <field name="Typ">CDRH5D28RNP-5R0NC</field>
+      </fields>
+      <libsource lib="device" part="L"/>
+      <sheetpath names="/Funkmodul2/Funkeinheit2/" tstamps="/59FF6F05/59FF9D3B/"/>
+      <tstamp>59FF9D72</tstamp>
+    </comp>
+    <comp ref="C35">
+      <value>47µF</value>
+      <footprint>Capacitors_SMD:C_1210_HandSoldering</footprint>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/Funkmodul2/Funkeinheit2/" tstamps="/59FF6F05/59FF9D3B/"/>
+      <tstamp>59FF9D73</tstamp>
+    </comp>
+    <comp ref="C34">
+      <value>47µF</value>
+      <footprint>Capacitors_SMD:C_1210_HandSoldering</footprint>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/Funkmodul2/Funkeinheit2/" tstamps="/59FF6F05/59FF9D3B/"/>
+      <tstamp>59FF9D74</tstamp>
+    </comp>
+    <comp ref="C36">
+      <value>47µF</value>
+      <footprint>Capacitors_SMD:C_1210_HandSoldering</footprint>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/Funkmodul2/Funkeinheit2/" tstamps="/59FF6F05/59FF9D3B/"/>
+      <tstamp>59FF9D75</tstamp>
+    </comp>
+    <comp ref="U9">
+      <value>LTC3113</value>
+      <footprint>Housings_SSOP:HTSSOP-20-1EP_4.4x6.5mm_Pitch0.65mm_ThermalPad</footprint>
+      <datasheet>http://cds.linear.com/docs/en/datasheet/3113f.pdf</datasheet>
+      <libsource lib="cubesatFunkmodul-cache" part="LTC3113"/>
+      <sheetpath names="/Funkmodul2/Funkeinheit2/" tstamps="/59FF6F05/59FF9D3B/"/>
+      <tstamp>59FF9D76</tstamp>
+    </comp>
+    <comp ref="R90">
+      <value>10k</value>
+      <footprint>Resistors_SMD:R_0603_HandSoldering</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/Funkmodul2/Funkeinheit2/" tstamps="/59FF6F05/59FF9D3B/"/>
+      <tstamp>59FF9D93</tstamp>
+    </comp>
+    <comp ref="Q16">
+      <value>MMBT5551-TP</value>
+      <footprint>TO_SOT_Packages_SMD:SOT-23</footprint>
+      <libsource lib="device" part="Q_NPN_BEC"/>
+      <sheetpath names="/Funkmodul2/Funkeinheit2/" tstamps="/59FF6F05/59FF9D3B/"/>
+      <tstamp>59C5A277</tstamp>
+    </comp>
+    <comp ref="R89">
+      <value>10k</value>
+      <footprint>Resistors_SMD:R_0603_HandSoldering</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/Funkmodul2/Funkeinheit2/" tstamps="/59FF6F05/59FF9D3B/"/>
+      <tstamp>59C5A3D8</tstamp>
+    </comp>
+    <comp ref="R84">
+      <value>90k9</value>
+      <footprint>Resistors_SMD:R_0603_HandSoldering</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/Funkmodul2/Funkeinheit2/" tstamps="/59FF6F05/59FF9D3B/"/>
+      <tstamp>59C5FAC7</tstamp>
+    </comp>
+    <comp ref="R88">
+      <value>887k</value>
+      <footprint>Resistors_SMD:R_0603_HandSoldering</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/Funkmodul2/Funkeinheit2/" tstamps="/59FF6F05/59FF9D3B/"/>
+      <tstamp>59FF9D99</tstamp>
+    </comp>
+    <comp ref="R87">
+      <value>121k</value>
+      <footprint>Resistors_SMD:R_0603_HandSoldering</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/Funkmodul2/Funkeinheit2/" tstamps="/59FF6F05/59FF9D3B/"/>
+      <tstamp>59FF9D9A</tstamp>
+    </comp>
+    <comp ref="R86">
+      <value>6k81</value>
+      <footprint>Resistors_SMD:R_0603_HandSoldering</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/Funkmodul2/Funkeinheit2/" tstamps="/59FF6F05/59FF9D3B/"/>
+      <tstamp>59C60B17</tstamp>
+    </comp>
+    <comp ref="C37">
+      <value>47pF</value>
+      <footprint>Capacitors_SMD:C_0603_HandSoldering</footprint>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/Funkmodul2/Funkeinheit2/" tstamps="/59FF6F05/59FF9D3B/"/>
+      <tstamp>59FF9D9D</tstamp>
+    </comp>
+    <comp ref="C39">
+      <value>12pF</value>
+      <footprint>Capacitors_SMD:C_0603_HandSoldering</footprint>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/Funkmodul2/Funkeinheit2/" tstamps="/59FF6F05/59FF9D3B/"/>
+      <tstamp>59C60CFB</tstamp>
+    </comp>
+    <comp ref="R85">
+      <value>49k9</value>
+      <footprint>Resistors_SMD:R_0603_HandSoldering</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/Funkmodul2/Funkeinheit2/" tstamps="/59FF6F05/59FF9D3B/"/>
+      <tstamp>59FF9D9F</tstamp>
+    </comp>
+    <comp ref="U10">
+      <value>RFM23BP</value>
+      <footprint>HopeRF:RFM23BP</footprint>
+      <libsource lib="cubesatFunkmodul-cache" part="RFM23BP"/>
+      <sheetpath names="/Funkmodul2/Funkeinheit2/" tstamps="/59FF6F05/59FF9D3B/"/>
+      <tstamp>59C696A7</tstamp>
+    </comp>
+    <comp ref="C38">
+      <value>680pF</value>
+      <footprint>Capacitors_SMD:C_0603_HandSoldering</footprint>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/Funkmodul2/Funkeinheit2/" tstamps="/59FF6F05/59FF9D3B/"/>
+      <tstamp>59C94242</tstamp>
+    </comp>
+    <comp ref="AE2">
+      <value>Antenna</value>
+      <footprint>Connectors:SMA_THT_Jack_Straight</footprint>
+      <libsource lib="device" part="Antenna_Shield"/>
+      <sheetpath names="/Funkmodul2/Funkeinheit2/" tstamps="/59FF6F05/59FF9D3B/"/>
+      <tstamp>59C98C71</tstamp>
+    </comp>
+    <comp ref="C40">
+      <value>100nF</value>
+      <footprint>Capacitors_SMD:C_0603_HandSoldering</footprint>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/Funkmodul2/Funkeinheit2/" tstamps="/59FF6F05/59FF9D3B/"/>
+      <tstamp>59CB2ACF</tstamp>
+    </comp>
+    <comp ref="R83">
+      <value>0R</value>
+      <footprint>Resistors_SMD:R_0603_HandSoldering</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/Funkmodul2/Funkeinheit2/" tstamps="/59FF6F05/59FF9D3B/"/>
+      <tstamp>59DBF7EA</tstamp>
+    </comp>
+    <comp ref="R77">
+      <value>4k7</value>
+      <footprint>Resistors_SMD:R_0603_HandSoldering</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/Funkmodul2/Funkeinheit2/" tstamps="/59FF6F05/59FF9D3B/"/>
+      <tstamp>59DE3235</tstamp>
+    </comp>
+    <comp ref="R70">
+      <value>10k</value>
+      <footprint>Resistors_SMD:R_0603_HandSoldering</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/Funkmodul2/Funkeinheit2/" tstamps="/59FF6F05/59FF9D3B/"/>
+      <tstamp>59DE32B8</tstamp>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="atmel" part="ATMEGA128-16AU">
+      <description>TQFP64, 128k Flash, 4k SRAM, 4k EEPROM, JTAG</description>
+      <docs>http://www.atmel.com/Images/doc2467.pdf</docs>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">ATMEGA128-16AU</field>
+        <field name="Footprint">TQFP64</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~PEN" type="input"/>
+        <pin num="2" name="PE0(RXD0/PDI)" type="BiDi"/>
+        <pin num="3" name="PE1(TXD0/PDO)" type="BiDi"/>
+        <pin num="4" name="PE2(XCK0/AIN0)" type="BiDi"/>
+        <pin num="5" name="PE3(OC3A/AIN1)" type="BiDi"/>
+        <pin num="6" name="PE4(OC3B/INT4)" type="BiDi"/>
+        <pin num="7" name="PE5(OC3C/INT5)" type="BiDi"/>
+        <pin num="8" name="PE6(T3/INT6)" type="BiDi"/>
+        <pin num="9" name="PE7(IC3/INT7)" type="BiDi"/>
+        <pin num="10" name="(~SS~)PB0" type="BiDi"/>
+        <pin num="11" name="(SCK)PB1" type="BiDi"/>
+        <pin num="12" name="(MOSI)PB2" type="BiDi"/>
+        <pin num="13" name="(MISO)PB3" type="BiDi"/>
+        <pin num="14" name="(OC0)PB4" type="BiDi"/>
+        <pin num="15" name="(OC1A)PB5" type="BiDi"/>
+        <pin num="16" name="(OC1B)PB6" type="BiDi"/>
+        <pin num="17" name="(OC2/OC1C)PB7" type="BiDi"/>
+        <pin num="18" name="PG3(TOSC2)" type="BiDi"/>
+        <pin num="19" name="PG4(TOSC1)" type="BiDi"/>
+        <pin num="20" name="~RESET" type="input"/>
+        <pin num="21" name="VCC" type="power_in"/>
+        <pin num="22" name="GND" type="power_in"/>
+        <pin num="23" name="XTAL2" type="BiDi"/>
+        <pin num="24" name="XTAL1" type="BiDi"/>
+        <pin num="25" name="(SCL/INT0)PD0" type="BiDi"/>
+        <pin num="26" name="(SDA/INT1)PD1" type="BiDi"/>
+        <pin num="27" name="(RXD1/INT2)PD2" type="BiDi"/>
+        <pin num="28" name="(TXD1/INT3)PD3" type="BiDi"/>
+        <pin num="29" name="(ICP1)PD4" type="BiDi"/>
+        <pin num="30" name="(XCK1)PD5" type="BiDi"/>
+        <pin num="31" name="(T1)PD6" type="BiDi"/>
+        <pin num="32" name="(T2)PD7" type="BiDi"/>
+        <pin num="33" name="PG0(~WR~)" type="BiDi"/>
+        <pin num="34" name="PG1(~RD~)" type="BiDi"/>
+        <pin num="35" name="(A8)PC0" type="output"/>
+        <pin num="36" name="(A9)PC1" type="output"/>
+        <pin num="37" name="(A10)PC2" type="output"/>
+        <pin num="38" name="(A11)PC3" type="output"/>
+        <pin num="39" name="(A12)PC4" type="output"/>
+        <pin num="40" name="(A13)PC5" type="output"/>
+        <pin num="41" name="(A14)PC6" type="output"/>
+        <pin num="42" name="(A15)PC7" type="output"/>
+        <pin num="43" name="PG2(ALE)" type="BiDi"/>
+        <pin num="44" name="(AD7)PA7" type="BiDi"/>
+        <pin num="45" name="(AD6)PA6" type="BiDi"/>
+        <pin num="46" name="(AD5)PA5" type="BiDi"/>
+        <pin num="47" name="(AD4)PA4" type="BiDi"/>
+        <pin num="48" name="(AD3)PA3" type="BiDi"/>
+        <pin num="49" name="(AD2)PA2" type="BiDi"/>
+        <pin num="50" name="(AD1)PA1" type="BiDi"/>
+        <pin num="51" name="(AD0)PA0" type="BiDi"/>
+        <pin num="52" name="VCC" type="power_in"/>
+        <pin num="53" name="GND" type="power_in"/>
+        <pin num="54" name="PF7(ADC7/TDI)" type="input"/>
+        <pin num="55" name="PF6(ADC6/TDO)" type="input"/>
+        <pin num="56" name="PF5(ADC5/TMS)" type="input"/>
+        <pin num="57" name="PF4(ADC4/TCK)" type="input"/>
+        <pin num="58" name="PF3(ADC3)" type="input"/>
+        <pin num="59" name="PF2(ADC2)" type="input"/>
+        <pin num="60" name="PF1(ADC1)" type="input"/>
+        <pin num="61" name="PF0(ADC0)" type="input"/>
+        <pin num="62" name="AREF" type="BiDi"/>
+        <pin num="63" name="AGND" type="power_in"/>
+        <pin num="64" name="AVCC" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="Antenna_Shield">
+      <description>Antenna symbol with extra pin for shielding</description>
+      <fields>
+        <field name="Reference">AE</field>
+        <field name="Value">Antenna_Shield</field>
+      </fields>
+      <pins>
+        <pin num="1" name="A" type="input"/>
+        <pin num="2" name="Shield" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="C">
+      <description>Unpolarized capacitor</description>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="cubesatFunkmodul-cache" part="Conn_01x03">
+      <footprints>
+        <fp>Connector*:*_??x*mm*</fp>
+        <fp>Connector*:*1x??x*mm*</fp>
+        <fp>Pin?Header?Straight?1X*</fp>
+        <fp>Pin?Header?Angled?1X*</fp>
+        <fp>Socket?Strip?Straight?1X*</fp>
+        <fp>Socket?Strip?Angled?1X*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x03</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="Crystal_GND24">
+      <description>Four pin crystal (GND on pins 2 and 4), e.g. in SMD package</description>
+      <footprints>
+        <fp>Crystal*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">Y</field>
+        <field name="Value">Crystal_GND24</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+        <pin num="3" name="3" type="passive"/>
+        <pin num="4" name="4" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="D">
+      <description>Diode</description>
+      <footprints>
+        <fp>TO-???*</fp>
+        <fp>*SingleDiode</fp>
+        <fp>*_Diode_*</fp>
+        <fp>*SingleDiode*</fp>
+        <fp>D_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">D</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="cubesatFunkmodul-cache" part="DISCO-CON1">
+      <footprints>
+        <fp>*FTS-CLP*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">CON1</field>
+        <field name="Value">DISCO-CON1</field>
+        <field name="Footprint">CubeSat-Bus-1_FTS-CLP</field>
+      </fields>
+      <pins>
+        <pin num="1" name="GND" type="BiDi"/>
+        <pin num="2" name="PV4" type="BiDi"/>
+        <pin num="3" name="PV3" type="BiDi"/>
+        <pin num="4" name="PV2" type="BiDi"/>
+        <pin num="5" name="PV1" type="BiDi"/>
+        <pin num="6" name="GND" type="BiDi"/>
+        <pin num="7" name="GND" type="BiDi"/>
+        <pin num="8" name="3V3" type="BiDi"/>
+        <pin num="9" name="12V" type="BiDi"/>
+        <pin num="10" name="PV-BUS" type="BiDi"/>
+        <pin num="11" name="BAT+$1" type="BiDi"/>
+        <pin num="12" name="BAT+$2" type="BiDi"/>
+        <pin num="13" name="BAT-" type="BiDi"/>
+        <pin num="14" name="MT_RIN1" type="BiDi"/>
+        <pin num="15" name="MT_FIN1" type="BiDi"/>
+        <pin num="16" name="MT_RIN2" type="BiDi"/>
+        <pin num="17" name="MT_FIN2" type="BiDi"/>
+        <pin num="18" name="MT_RIN3" type="BiDi"/>
+        <pin num="19" name="MT_FIN3" type="BiDi"/>
+        <pin num="20" name="UNUSED" type="BiDi"/>
+        <pin num="21" name="RADIO2_IO" type="BiDi"/>
+        <pin num="22" name="RADIO2_RX" type="BiDi"/>
+        <pin num="23" name="RADIO2_TX" type="BiDi"/>
+        <pin num="24" name="KS1" type="BiDi"/>
+        <pin num="25" name="GND" type="BiDi"/>
+        <pin num="26" name="PV5" type="BiDi"/>
+        <pin num="27" name="PV6" type="BiDi"/>
+        <pin num="28" name="PV7" type="BiDi"/>
+        <pin num="29" name="PV8" type="BiDi"/>
+        <pin num="30" name="GND" type="BiDi"/>
+      </pins>
+    </libpart>
+    <libpart lib="cubesatFunkmodul-cache" part="DISCO-CON2">
+      <footprints>
+        <fp>*FTS-CLP*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">CON2</field>
+        <field name="Value">DISCO-CON2</field>
+        <field name="Footprint">CubeSat-Bus-2_FTS-CLP</field>
+      </fields>
+      <pins>
+        <pin num="1" name="GND" type="BiDi"/>
+        <pin num="2" name="JTAG-TCK" type="BiDi"/>
+        <pin num="3" name="JTAG-TMS" type="BiDi"/>
+        <pin num="4" name="JTAG-TDI" type="BiDi"/>
+        <pin num="5" name="JTAG-TDO" type="BiDi"/>
+        <pin num="6" name="JTAG-TDO-RF" type="BiDi"/>
+        <pin num="7" name="SPI_SDO" type="BiDi"/>
+        <pin num="8" name="SPI_SDI" type="BiDi"/>
+        <pin num="9" name="SPI_SCK" type="BiDi"/>
+        <pin num="10" name="~SPI_CS" type="BiDi"/>
+        <pin num="11" name="ADC_EOC" type="BiDi"/>
+        <pin num="12" name="3V3_PW_RST" type="BiDi"/>
+        <pin num="13" name="BAT_OK" type="BiDi"/>
+        <pin num="14" name="RS485_A" type="BiDi"/>
+        <pin num="15" name="RS485_B" type="BiDi"/>
+        <pin num="16" name="RADIO1_TX" type="BiDi"/>
+        <pin num="17" name="RADIO1_RX" type="BiDi"/>
+        <pin num="18" name="RADIO1_GPIO" type="BiDi"/>
+        <pin num="19" name="~OBC_RESET" type="BiDi"/>
+        <pin num="20" name="~MRR_RES" type="BiDi"/>
+        <pin num="21" name="MRR_TEST" type="BiDi"/>
+        <pin num="22" name="MT_EN" type="BiDi"/>
+        <pin num="23" name="~RBF_INSERTED" type="BiDi"/>
+        <pin num="24" name="KS2" type="BiDi"/>
+        <pin num="25" name="UNUSED1" type="BiDi"/>
+        <pin num="26" name="I_PV" type="BiDi"/>
+        <pin num="27" name="V_TEMP" type="BiDi"/>
+        <pin num="28" name="12V_PW_RST" type="BiDi"/>
+        <pin num="29" name="GND" type="BiDi"/>
+        <pin num="30" name="GND" type="BiDi"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="D_Zener">
+      <description>Zener Diode</description>
+      <docs>https://en.wikipedia.org/wiki/Zener_diode</docs>
+      <footprints>
+        <fp>TO-???*</fp>
+        <fp>*SingleDiode</fp>
+        <fp>*_Diode_*</fp>
+        <fp>*SingleDiode*</fp>
+        <fp>D_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">D_Zener</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="Ferrite_Bead">
+      <description>Ferrite bead</description>
+      <footprints>
+        <fp>Inductor_*</fp>
+        <fp>L_*</fp>
+        <fp>*Ferrite*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">L</field>
+        <field name="Value">Ferrite_Bead</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="L">
+      <description>Inductor</description>
+      <footprints>
+        <fp>Choke_*</fp>
+        <fp>*Coil*</fp>
+        <fp>Inductor_*</fp>
+        <fp>L_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">L</field>
+        <field name="Value">L</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="cubesatFunkmodul-cache" part="LTC3113">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">LTC3113</field>
+      </fields>
+      <pins>
+        <pin num="1" name="PGND" type="input"/>
+        <pin num="2" name="VOUT" type="input"/>
+        <pin num="3" name="VOUT" type="input"/>
+        <pin num="4" name="VIN" type="input"/>
+        <pin num="5" name="VIN" type="input"/>
+        <pin num="6" name="VIN" type="input"/>
+        <pin num="7" name="SGND" type="input"/>
+        <pin num="8" name="BURST" type="input"/>
+        <pin num="9" name="RT" type="input"/>
+        <pin num="10" name="PGND" type="input"/>
+        <pin num="11" name="PGND" type="input"/>
+        <pin num="12" name="VC" type="input"/>
+        <pin num="13" name="FB" type="input"/>
+        <pin num="14" name="RUN" type="input"/>
+        <pin num="15" name="SW1" type="input"/>
+        <pin num="16" name="SW1" type="input"/>
+        <pin num="17" name="SW1" type="input"/>
+        <pin num="18" name="SW2" type="input"/>
+        <pin num="19" name="SW2" type="input"/>
+        <pin num="20" name="PGND" type="input"/>
+        <pin num="21" name="PAD" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="cubesatFunkmodul-cache" part="MAX892">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">MAX892</field>
+      </fields>
+      <pins>
+        <pin num="1" name="IN" type="input"/>
+        <pin num="2" name="IN" type="input"/>
+        <pin num="3" name="~ON~" type="input"/>
+        <pin num="4" name="GND" type="input"/>
+        <pin num="5" name="SET" type="input"/>
+        <pin num="6" name="~FAULT~" type="input"/>
+        <pin num="7" name="OUT" type="input"/>
+        <pin num="8" name="OUT" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="cubesatFunkmodul-cache" part="MC74HC4538A">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">MC74HC4538A</field>
+      </fields>
+      <pins>
+        <pin num="1" name="GND" type="input"/>
+        <pin num="2" name="RX/Cx" type="input"/>
+        <pin num="3" name="RESET" type="input"/>
+        <pin num="4" name="A" type="input"/>
+        <pin num="5" name="B" type="input"/>
+        <pin num="6" name="Q" type="input"/>
+        <pin num="7" name="~Q~" type="input"/>
+        <pin num="8" name="GND" type="input"/>
+        <pin num="9" name="~Q~" type="input"/>
+        <pin num="10" name="Q" type="input"/>
+        <pin num="11" name="B" type="input"/>
+        <pin num="12" name="A" type="input"/>
+        <pin num="13" name="RESET" type="input"/>
+        <pin num="14" name="Cx/Rx" type="input"/>
+        <pin num="15" name="GND" type="input"/>
+        <pin num="16" name="VCC" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="Q_NMOS_DGS">
+      <description>Transistor N-MOSFET (general)</description>
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">Q_NMOS_DGS</field>
+      </fields>
+      <pins>
+        <pin num="1" name="D" type="passive"/>
+        <pin num="2" name="G" type="input"/>
+        <pin num="3" name="S" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="Q_NPN_BEC">
+      <description>Transistor NPN (general)</description>
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">Q_NPN_BEC</field>
+      </fields>
+      <pins>
+        <pin num="1" name="B" type="input"/>
+        <pin num="2" name="E" type="passive"/>
+        <pin num="3" name="C" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="Q_PMOS_SGD">
+      <description>Transistor P-MOSFET with substrate diode (general)</description>
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">Q_PMOS_SGD</field>
+      </fields>
+      <pins>
+        <pin num="1" name="S" type="passive"/>
+        <pin num="2" name="G" type="input"/>
+        <pin num="3" name="D" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="R">
+      <description>Resistor</description>
+      <footprints>
+        <fp>R_*</fp>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="cubesatFunkmodul-cache" part="RFM23BP">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">RFM23BP</field>
+      </fields>
+      <pins>
+        <pin num="1" name="GND" type="input"/>
+        <pin num="2" name="SDO" type="input"/>
+        <pin num="3" name="SDI" type="input"/>
+        <pin num="4" name="SCK" type="input"/>
+        <pin num="5" name="NSEL" type="input"/>
+        <pin num="6" name="NIRQ" type="input"/>
+        <pin num="7" name="SDN" type="input"/>
+        <pin num="8" name="GND" type="input"/>
+        <pin num="9" name="ANT" type="input"/>
+        <pin num="10" name="GND" type="input"/>
+        <pin num="11" name="TXON" type="input"/>
+        <pin num="12" name="RXON" type="input"/>
+        <pin num="13" name="VCC" type="input"/>
+        <pin num="14" name="GPIO0" type="input"/>
+        <pin num="15" name="GPIO1" type="input"/>
+        <pin num="16" name="GPIO2" type="input"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="device">
+      <uri>C:\Program Files\KiCad\share\kicad\library\device.lib</uri>
+    </library>
+    <library logical="atmel">
+      <uri>C:\Program Files\KiCad\share\kicad\library\atmel.lib</uri>
+    </library>
+    <library logical="cubesatFunkmodul-cache">
+      <uri>F:\Local\Documents\cubesatFunkmodul\cubesatFunkmodul-cache.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="/Connector/~ENABLE2~">
+      <node ref="CON21" pin="18"/>
+      <node ref="D20" pin="2"/>
+      <node ref="D19" pin="2"/>
+      <node ref="D16" pin="1"/>
+    </net>
+    <net code="2" name="/Funkmodul2/TX">
+      <node ref="U8" pin="3"/>
+      <node ref="CON21" pin="17"/>
+      <node ref="D15" pin="1"/>
+    </net>
+    <net code="3" name="/Funkmodul2/RX">
+      <node ref="U8" pin="2"/>
+      <node ref="D14" pin="1"/>
+      <node ref="CON21" pin="16"/>
+    </net>
+    <net code="4" name="/Connector/3V3_Reset">
+      <node ref="CON21" pin="12"/>
+      <node ref="U8" pin="29"/>
+      <node ref="U3" pin="29"/>
+    </net>
+    <net code="5" name="/Funkmodul1/TDI">
+      <node ref="U8" pin="55"/>
+      <node ref="U3" pin="54"/>
+    </net>
+    <net code="6" name="/Funkmodul1/TDO">
+      <node ref="CON21" pin="6"/>
+      <node ref="U3" pin="55"/>
+    </net>
+    <net code="7" name="/Funkmodul2/TDI">
+      <node ref="CON21" pin="5"/>
+      <node ref="U8" pin="54"/>
+    </net>
+    <net code="8" name="/Connector/~RBF~">
+      <node ref="U3" pin="5"/>
+      <node ref="CON21" pin="23"/>
+      <node ref="U8" pin="5"/>
+    </net>
+    <net code="9" name="/Funkmodul1/TX">
+      <node ref="D12" pin="1"/>
+      <node ref="U3" pin="3"/>
+      <node ref="CON11" pin="22"/>
+    </net>
+    <net code="10" name="/Funkmodul1/RX">
+      <node ref="CON11" pin="23"/>
+      <node ref="D11" pin="1"/>
+      <node ref="U3" pin="2"/>
+    </net>
+    <net code="11" name="/Connector/BAT_OK">
+      <node ref="U8" pin="59"/>
+      <node ref="CON21" pin="13"/>
+      <node ref="D18" pin="1"/>
+      <node ref="U3" pin="59"/>
+    </net>
+    <net code="12" name="/Connector/TCK">
+      <node ref="U3" pin="57"/>
+      <node ref="U8" pin="57"/>
+      <node ref="CON21" pin="2"/>
+    </net>
+    <net code="13" name="/Connector/~ENABLE1~">
+      <node ref="D13" pin="1"/>
+      <node ref="CON11" pin="21"/>
+      <node ref="D2" pin="2"/>
+      <node ref="D1" pin="2"/>
+    </net>
+    <net code="14" name="/Connector/3.3V">
+      <node ref="U2" pin="1"/>
+      <node ref="U2" pin="2"/>
+      <node ref="U1" pin="13"/>
+      <node ref="C24" pin="1"/>
+      <node ref="R11" pin="1"/>
+      <node ref="C2" pin="2"/>
+      <node ref="R56" pin="1"/>
+      <node ref="D22" pin="1"/>
+      <node ref="D4" pin="1"/>
+      <node ref="U6" pin="3"/>
+      <node ref="U7" pin="1"/>
+      <node ref="U7" pin="2"/>
+      <node ref="CON11" pin="8"/>
+      <node ref="C3" pin="1"/>
+      <node ref="C23" pin="2"/>
+      <node ref="Q1" pin="1"/>
+      <node ref="Q9" pin="1"/>
+      <node ref="U6" pin="13"/>
+      <node ref="U1" pin="3"/>
+    </net>
+    <net code="15" name="/Connector/TDI">
+      <node ref="CON21" pin="4"/>
+    </net>
+    <net code="16" name="/Connector/TMS">
+      <node ref="U8" pin="56"/>
+      <node ref="CON21" pin="3"/>
+      <node ref="U3" pin="56"/>
+    </net>
+    <net code="17" name="/Funkmodul1/Funkeinheit/TXON">
+      <node ref="Q5" pin="2"/>
+      <node ref="R25" pin="2"/>
+      <node ref="U3" pin="16"/>
+    </net>
+    <net code="18" name="/Funkmodul1/WDG_TRIGGER">
+      <node ref="U1" pin="4"/>
+      <node ref="R18" pin="2"/>
+    </net>
+    <net code="19" name="/Funkmodul1/Funkeinheit/RXON">
+      <node ref="U3" pin="15"/>
+      <node ref="Q4" pin="2"/>
+      <node ref="R24" pin="2"/>
+    </net>
+    <net code="20" name="/Funkmodul1/Funkeinheit/MISO">
+      <node ref="R20" pin="2"/>
+      <node ref="U3" pin="13"/>
+      <node ref="R19" pin="1"/>
+    </net>
+    <net code="21" name="/Funkmodul1/Funkeinheit/MOSI">
+      <node ref="U3" pin="12"/>
+      <node ref="R23" pin="2"/>
+      <node ref="Q3" pin="2"/>
+    </net>
+    <net code="22" name="/Funkmodul1/Funkeinheit/SCK">
+      <node ref="Q7" pin="2"/>
+      <node ref="R22" pin="2"/>
+      <node ref="U3" pin="11"/>
+    </net>
+    <net code="23" name="/Funkmodul1/Funkeinheit/SS">
+      <node ref="U3" pin="10"/>
+      <node ref="R21" pin="2"/>
+      <node ref="Q6" pin="2"/>
+    </net>
+    <net code="24" name="Net-(D1-Pad1)">
+      <node ref="Q1" pin="2"/>
+      <node ref="R1" pin="1"/>
+      <node ref="D1" pin="1"/>
+    </net>
+    <net code="25" name="Net-(C3-Pad2)">
+      <node ref="R8" pin="1"/>
+      <node ref="U1" pin="12"/>
+      <node ref="C3" pin="2"/>
+    </net>
+    <net code="26" name="Net-(U1-Pad11)">
+      <node ref="U1" pin="6"/>
+      <node ref="U1" pin="11"/>
+    </net>
+    <net code="27" name="GND">
+      <node ref="D28" pin="2"/>
+      <node ref="C26" pin="1"/>
+      <node ref="CON21" pin="29"/>
+      <node ref="CON11" pin="30"/>
+      <node ref="C27" pin="2"/>
+      <node ref="CON11" pin="1"/>
+      <node ref="D33" pin="2"/>
+      <node ref="D26" pin="2"/>
+      <node ref="C22" pin="2"/>
+      <node ref="C23" pin="1"/>
+      <node ref="R19" pin="2"/>
+      <node ref="U4" pin="7"/>
+      <node ref="R36" pin="2"/>
+      <node ref="CON21" pin="30"/>
+      <node ref="R39" pin="2"/>
+      <node ref="U4" pin="8"/>
+      <node ref="D18" pin="2"/>
+      <node ref="CON21" pin="1"/>
+      <node ref="C5" pin="1"/>
+      <node ref="R44" pin="2"/>
+      <node ref="R43" pin="2"/>
+      <node ref="D17" pin="2"/>
+      <node ref="D14" pin="2"/>
+      <node ref="D15" pin="2"/>
+      <node ref="D16" pin="2"/>
+      <node ref="D11" pin="2"/>
+      <node ref="D12" pin="2"/>
+      <node ref="D13" pin="2"/>
+      <node ref="Q8" pin="2"/>
+      <node ref="C32" pin="1"/>
+      <node ref="U6" pin="1"/>
+      <node ref="U7" pin="4"/>
+      <node ref="U6" pin="8"/>
+      <node ref="U6" pin="15"/>
+      <node ref="C31" pin="1"/>
+      <node ref="R55" pin="2"/>
+      <node ref="U9" pin="8"/>
+      <node ref="R83" pin="2"/>
+      <node ref="C33" pin="1"/>
+      <node ref="C30" pin="2"/>
+      <node ref="C28" pin="2"/>
+      <node ref="C29" pin="1"/>
+      <node ref="R70" pin="2"/>
+      <node ref="Q16" pin="2"/>
+      <node ref="U9" pin="7"/>
+      <node ref="R87" pin="2"/>
+      <node ref="R69" pin="2"/>
+      <node ref="R84" pin="2"/>
+      <node ref="R52" pin="2"/>
+      <node ref="Q10" pin="3"/>
+      <node ref="Y2" pin="2"/>
+      <node ref="C21" pin="2"/>
+      <node ref="Y2" pin="4"/>
+      <node ref="C25" pin="2"/>
+      <node ref="U8" pin="22"/>
+      <node ref="U8" pin="53"/>
+      <node ref="U8" pin="63"/>
+      <node ref="Q18" pin="3"/>
+      <node ref="R96" pin="2"/>
+      <node ref="R47" pin="2"/>
+      <node ref="D32" pin="2"/>
+      <node ref="R46" pin="2"/>
+      <node ref="C42" pin="2"/>
+      <node ref="R53" pin="2"/>
+      <node ref="R2" pin="2"/>
+      <node ref="U3" pin="63"/>
+      <node ref="U3" pin="53"/>
+      <node ref="D30" pin="2"/>
+      <node ref="C41" pin="2"/>
+      <node ref="C6" pin="2"/>
+      <node ref="Y1" pin="2"/>
+      <node ref="Y1" pin="4"/>
+      <node ref="R1" pin="2"/>
+      <node ref="R8" pin="2"/>
+      <node ref="R7" pin="2"/>
+      <node ref="Q2" pin="3"/>
+      <node ref="R10" pin="2"/>
+      <node ref="C20" pin="2"/>
+      <node ref="C8" pin="1"/>
+      <node ref="C7" pin="2"/>
+      <node ref="C9" pin="2"/>
+      <node ref="C12" pin="1"/>
+      <node ref="C11" pin="1"/>
+      <node ref="C10" pin="1"/>
+      <node ref="D8" pin="2"/>
+      <node ref="U2" pin="4"/>
+      <node ref="D10" pin="2"/>
+      <node ref="U3" pin="22"/>
+      <node ref="Q17" pin="3"/>
+      <node ref="R92" pin="2"/>
+      <node ref="U1" pin="15"/>
+      <node ref="U1" pin="1"/>
+      <node ref="C1" pin="2"/>
+      <node ref="U1" pin="8"/>
+      <node ref="C2" pin="1"/>
+      <node ref="C4" pin="2"/>
+    </net>
+    <net code="28" name="Net-(C20-Pad1)">
+      <node ref="R4" pin="1"/>
+      <node ref="C20" pin="1"/>
+      <node ref="U1" pin="16"/>
+    </net>
+    <net code="29" name="/Funkmodul1/VCC">
+      <node ref="U2" pin="8"/>
+      <node ref="R22" pin="1"/>
+      <node ref="D7" pin="1"/>
+      <node ref="D29" pin="1"/>
+      <node ref="R14" pin="1"/>
+      <node ref="C11" pin="2"/>
+      <node ref="U2" pin="7"/>
+      <node ref="C10" pin="2"/>
+      <node ref="R21" pin="1"/>
+      <node ref="R28" pin="2"/>
+      <node ref="U3" pin="21"/>
+      <node ref="R30" pin="2"/>
+      <node ref="R25" pin="1"/>
+      <node ref="R24" pin="1"/>
+      <node ref="C5" pin="2"/>
+      <node ref="U3" pin="52"/>
+      <node ref="R27" pin="2"/>
+      <node ref="R23" pin="1"/>
+      <node ref="R29" pin="2"/>
+      <node ref="D9" pin="1"/>
+      <node ref="D4" pin="2"/>
+      <node ref="L1" pin="2"/>
+      <node ref="D10" pin="1"/>
+      <node ref="R26" pin="2"/>
+    </net>
+    <net code="30" name="/Funkmodul1/BURNWIRE">
+      <node ref="R5" pin="2"/>
+      <node ref="U3" pin="4"/>
+    </net>
+    <net code="31" name="Net-(Q17-Pad2)">
+      <node ref="Q17" pin="2"/>
+      <node ref="R92" pin="1"/>
+      <node ref="R91" pin="1"/>
+    </net>
+    <net code="32" name="WIRE_CONN2">
+      <node ref="Q17" pin="1"/>
+      <node ref="Q18" pin="1"/>
+      <node ref="R97" pin="2"/>
+      <node ref="D33" pin="1"/>
+      <node ref="R93" pin="2"/>
+      <node ref="J1" pin="3"/>
+    </net>
+    <net code="33" name="Net-(D6-Pad1)">
+      <node ref="R15" pin="2"/>
+      <node ref="D6" pin="1"/>
+    </net>
+    <net code="34" name="Net-(R94-Pad1)">
+      <node ref="R94" pin="1"/>
+      <node ref="U3" pin="58"/>
+    </net>
+    <net code="35" name="/Funkmodul1/BURNWIRE2">
+      <node ref="R91" pin="2"/>
+      <node ref="U3" pin="6"/>
+    </net>
+    <net code="36" name="Net-(C41-Pad1)">
+      <node ref="R94" pin="2"/>
+      <node ref="R93" pin="1"/>
+      <node ref="C41" pin="1"/>
+      <node ref="D29" pin="2"/>
+      <node ref="D30" pin="1"/>
+    </net>
+    <net code="37" name="Net-(Q2-Pad2)">
+      <node ref="Q2" pin="2"/>
+      <node ref="R5" pin="1"/>
+      <node ref="R7" pin="1"/>
+    </net>
+    <net code="38" name="WIRE_CONN">
+      <node ref="R12" pin="2"/>
+      <node ref="D17" pin="1"/>
+      <node ref="R57" pin="2"/>
+      <node ref="Q2" pin="1"/>
+      <node ref="Q10" pin="1"/>
+      <node ref="J1" pin="2"/>
+    </net>
+    <net code="39" name="Net-(C1-Pad1)">
+      <node ref="U1" pin="14"/>
+      <node ref="D3" pin="2"/>
+      <node ref="C1" pin="1"/>
+      <node ref="R3" pin="2"/>
+    </net>
+    <net code="40" name="Net-(C4-Pad1)">
+      <node ref="U1" pin="2"/>
+      <node ref="D5" pin="2"/>
+      <node ref="R9" pin="2"/>
+      <node ref="C4" pin="1"/>
+    </net>
+    <net code="41" name="/Funkmodul1/Funkeinheit/NIRQ">
+      <node ref="U3" pin="25"/>
+      <node ref="R44" pin="1"/>
+      <node ref="R45" pin="2"/>
+    </net>
+    <net code="42" name="Net-(R13-Pad1)">
+      <node ref="R13" pin="1"/>
+      <node ref="U3" pin="60"/>
+    </net>
+    <net code="43" name="Net-(C6-Pad1)">
+      <node ref="C6" pin="1"/>
+      <node ref="R13" pin="2"/>
+      <node ref="R12" pin="1"/>
+      <node ref="D8" pin="1"/>
+      <node ref="D7" pin="2"/>
+    </net>
+    <net code="44" name="Net-(C8-Pad2)">
+      <node ref="U3" pin="23"/>
+      <node ref="Y1" pin="3"/>
+      <node ref="C8" pin="2"/>
+    </net>
+    <net code="45" name="Net-(C7-Pad1)">
+      <node ref="U3" pin="24"/>
+      <node ref="Y1" pin="1"/>
+      <node ref="C7" pin="1"/>
+    </net>
+    <net code="46" name="Net-(C9-Pad1)">
+      <node ref="D9" pin="2"/>
+      <node ref="U3" pin="20"/>
+      <node ref="R14" pin="2"/>
+      <node ref="C9" pin="1"/>
+    </net>
+    <net code="47" name="Net-(C12-Pad2)">
+      <node ref="L1" pin="1"/>
+      <node ref="U3" pin="64"/>
+      <node ref="C12" pin="2"/>
+    </net>
+    <net code="48" name="Net-(U3-Pad49)">
+      <node ref="U3" pin="49"/>
+    </net>
+    <net code="49" name="Net-(U3-Pad39)">
+      <node ref="U3" pin="39"/>
+    </net>
+    <net code="50" name="Net-(U3-Pad19)">
+      <node ref="U3" pin="19"/>
+    </net>
+    <net code="51" name="Net-(U3-Pad48)">
+      <node ref="U3" pin="48"/>
+    </net>
+    <net code="52" name="Net-(U3-Pad38)">
+      <node ref="U3" pin="38"/>
+    </net>
+    <net code="53" name="Net-(R11-Pad2)">
+      <node ref="U2" pin="6"/>
+      <node ref="R11" pin="2"/>
+    </net>
+    <net code="54" name="Net-(R10-Pad1)">
+      <node ref="R10" pin="1"/>
+      <node ref="U2" pin="5"/>
+    </net>
+    <net code="55" name="Net-(U3-Pad28)">
+      <node ref="U3" pin="28"/>
+    </net>
+    <net code="56" name="Net-(U3-Pad50)">
+      <node ref="U3" pin="50"/>
+    </net>
+    <net code="57" name="Net-(U3-Pad62)">
+      <node ref="U3" pin="62"/>
+    </net>
+    <net code="58" name="Net-(U3-Pad42)">
+      <node ref="U3" pin="42"/>
+    </net>
+    <net code="59" name="Net-(U3-Pad32)">
+      <node ref="U3" pin="32"/>
+    </net>
+    <net code="60" name="Net-(R18-Pad1)">
+      <node ref="R18" pin="1"/>
+      <node ref="U3" pin="61"/>
+    </net>
+    <net code="61" name="Net-(U3-Pad51)">
+      <node ref="U3" pin="51"/>
+    </net>
+    <net code="62" name="Net-(U3-Pad41)">
+      <node ref="U3" pin="41"/>
+    </net>
+    <net code="63" name="Net-(U3-Pad31)">
+      <node ref="U3" pin="31"/>
+    </net>
+    <net code="64" name="Net-(U3-Pad40)">
+      <node ref="U3" pin="40"/>
+    </net>
+    <net code="65" name="Net-(U3-Pad30)">
+      <node ref="U3" pin="30"/>
+    </net>
+    <net code="66" name="Net-(U3-Pad9)">
+      <node ref="U3" pin="9"/>
+    </net>
+    <net code="67" name="Net-(U3-Pad8)">
+      <node ref="U3" pin="8"/>
+    </net>
+    <net code="68" name="Net-(U3-Pad7)">
+      <node ref="U3" pin="7"/>
+    </net>
+    <net code="69" name="Net-(U3-Pad1)">
+      <node ref="U3" pin="1"/>
+    </net>
+    <net code="70" name="Net-(U3-Pad35)">
+      <node ref="U3" pin="35"/>
+    </net>
+    <net code="71" name="Net-(U3-Pad18)">
+      <node ref="U3" pin="18"/>
+    </net>
+    <net code="72" name="Net-(U3-Pad47)">
+      <node ref="U3" pin="47"/>
+    </net>
+    <net code="73" name="Net-(U3-Pad37)">
+      <node ref="U3" pin="37"/>
+    </net>
+    <net code="74" name="Net-(U3-Pad27)">
+      <node ref="U3" pin="27"/>
+    </net>
+    <net code="75" name="Net-(U3-Pad17)">
+      <node ref="U3" pin="17"/>
+    </net>
+    <net code="76" name="Net-(U3-Pad46)">
+      <node ref="U3" pin="46"/>
+    </net>
+    <net code="77" name="Net-(U3-Pad36)">
+      <node ref="U3" pin="36"/>
+    </net>
+    <net code="78" name="Net-(U3-Pad26)">
+      <node ref="U3" pin="26"/>
+    </net>
+    <net code="79" name="Net-(U3-Pad45)">
+      <node ref="U3" pin="45"/>
+    </net>
+    <net code="80" name="Net-(U3-Pad44)">
+      <node ref="U3" pin="44"/>
+    </net>
+    <net code="81" name="Net-(U3-Pad34)">
+      <node ref="U3" pin="34"/>
+    </net>
+    <net code="82" name="Net-(U3-Pad14)">
+      <node ref="U3" pin="14"/>
+    </net>
+    <net code="83" name="Net-(U3-Pad43)">
+      <node ref="U3" pin="43"/>
+    </net>
+    <net code="84" name="Net-(U3-Pad33)">
+      <node ref="U3" pin="33"/>
+    </net>
+    <net code="85" name="/Funkmodul1/~ON~">
+      <node ref="R15" pin="1"/>
+      <node ref="U2" pin="3"/>
+      <node ref="R2" pin="1"/>
+      <node ref="R41" pin="2"/>
+      <node ref="D2" pin="1"/>
+      <node ref="U1" pin="5"/>
+      <node ref="R6" pin="1"/>
+      <node ref="U1" pin="10"/>
+    </net>
+    <net code="86" name="Net-(D6-Pad2)">
+      <node ref="D6" pin="2"/>
+      <node ref="U1" pin="7"/>
+    </net>
+    <net code="87" name="Net-(D3-Pad1)">
+      <node ref="R6" pin="2"/>
+      <node ref="R4" pin="2"/>
+      <node ref="Q1" pin="3"/>
+      <node ref="R9" pin="1"/>
+      <node ref="D5" pin="1"/>
+      <node ref="D3" pin="1"/>
+      <node ref="R3" pin="1"/>
+    </net>
+    <net code="88" name="Net-(U1-Pad9)">
+      <node ref="U1" pin="9"/>
+    </net>
+    <net code="89" name="Net-(CON21-Pad21)">
+      <node ref="CON21" pin="21"/>
+    </net>
+    <net code="90" name="Net-(CON21-Pad25)">
+      <node ref="CON21" pin="25"/>
+    </net>
+    <net code="91" name="Net-(CON21-Pad15)">
+      <node ref="CON21" pin="15"/>
+    </net>
+    <net code="92" name="Net-(CON21-Pad24)">
+      <node ref="CON21" pin="24"/>
+    </net>
+    <net code="93" name="Net-(CON21-Pad14)">
+      <node ref="CON21" pin="14"/>
+    </net>
+    <net code="94" name="Net-(CON21-Pad22)">
+      <node ref="CON21" pin="22"/>
+    </net>
+    <net code="95" name="Net-(CON21-Pad11)">
+      <node ref="CON21" pin="11"/>
+    </net>
+    <net code="96" name="Net-(CON21-Pad20)">
+      <node ref="CON21" pin="20"/>
+    </net>
+    <net code="97" name="Net-(CON21-Pad10)">
+      <node ref="CON21" pin="10"/>
+    </net>
+    <net code="98" name="Net-(CON21-Pad9)">
+      <node ref="CON21" pin="9"/>
+    </net>
+    <net code="99" name="Net-(CON21-Pad8)">
+      <node ref="CON21" pin="8"/>
+    </net>
+    <net code="100" name="Net-(CON21-Pad7)">
+      <node ref="CON21" pin="7"/>
+    </net>
+    <net code="101" name="Net-(CON11-Pad29)">
+      <node ref="CON11" pin="29"/>
+    </net>
+    <net code="102" name="Net-(CON11-Pad19)">
+      <node ref="CON11" pin="19"/>
+    </net>
+    <net code="103" name="Net-(CON11-Pad28)">
+      <node ref="CON11" pin="28"/>
+    </net>
+    <net code="104" name="VBAT">
+      <node ref="J1" pin="1"/>
+      <node ref="C36" pin="1"/>
+      <node ref="U4" pin="6"/>
+      <node ref="U4" pin="5"/>
+      <node ref="CON11" pin="11"/>
+      <node ref="U4" pin="4"/>
+      <node ref="R42" pin="1"/>
+      <node ref="C15" pin="1"/>
+      <node ref="R90" pin="1"/>
+      <node ref="CON11" pin="12"/>
+      <node ref="U9" pin="4"/>
+      <node ref="U9" pin="5"/>
+      <node ref="U9" pin="6"/>
+    </net>
+    <net code="105" name="Net-(CON11-Pad2)">
+      <node ref="CON11" pin="2"/>
+    </net>
+    <net code="106" name="Net-(CON11-Pad10)">
+      <node ref="CON11" pin="10"/>
+    </net>
+    <net code="107" name="Net-(CON11-Pad9)">
+      <node ref="CON11" pin="9"/>
+    </net>
+    <net code="108" name="Net-(CON11-Pad7)">
+      <node ref="CON11" pin="7"/>
+    </net>
+    <net code="109" name="Net-(CON11-Pad6)">
+      <node ref="CON11" pin="6"/>
+    </net>
+    <net code="110" name="Net-(CON11-Pad5)">
+      <node ref="CON11" pin="5"/>
+    </net>
+    <net code="111" name="Net-(CON11-Pad4)">
+      <node ref="CON11" pin="4"/>
+    </net>
+    <net code="112" name="Net-(CON11-Pad3)">
+      <node ref="CON11" pin="3"/>
+    </net>
+    <net code="113" name="Net-(CON11-Pad20)">
+      <node ref="CON11" pin="20"/>
+    </net>
+    <net code="114" name="Net-(CON21-Pad19)">
+      <node ref="CON21" pin="19"/>
+    </net>
+    <net code="115" name="Net-(CON21-Pad28)">
+      <node ref="CON21" pin="28"/>
+    </net>
+    <net code="116" name="Net-(CON21-Pad27)">
+      <node ref="CON21" pin="27"/>
+    </net>
+    <net code="117" name="Net-(CON21-Pad26)">
+      <node ref="CON21" pin="26"/>
+    </net>
+    <net code="118" name="Net-(CON11-Pad14)">
+      <node ref="CON11" pin="14"/>
+    </net>
+    <net code="119" name="Net-(CON11-Pad18)">
+      <node ref="CON11" pin="18"/>
+    </net>
+    <net code="120" name="Net-(CON11-Pad27)">
+      <node ref="CON11" pin="27"/>
+    </net>
+    <net code="121" name="Net-(CON11-Pad17)">
+      <node ref="CON11" pin="17"/>
+    </net>
+    <net code="122" name="Net-(CON11-Pad26)">
+      <node ref="CON11" pin="26"/>
+    </net>
+    <net code="123" name="Net-(CON11-Pad16)">
+      <node ref="CON11" pin="16"/>
+    </net>
+    <net code="124" name="Net-(CON11-Pad25)">
+      <node ref="CON11" pin="25"/>
+    </net>
+    <net code="125" name="Net-(CON11-Pad15)">
+      <node ref="CON11" pin="15"/>
+    </net>
+    <net code="126" name="Net-(CON11-Pad24)">
+      <node ref="CON11" pin="24"/>
+    </net>
+    <net code="127" name="Net-(CON11-Pad13)">
+      <node ref="CON11" pin="13"/>
+    </net>
+    <net code="128" name="Net-(U8-Pad30)">
+      <node ref="U8" pin="30"/>
+    </net>
+    <net code="129" name="Net-(U8-Pad9)">
+      <node ref="U8" pin="9"/>
+    </net>
+    <net code="130" name="Net-(U8-Pad8)">
+      <node ref="U8" pin="8"/>
+    </net>
+    <net code="131" name="Net-(U8-Pad7)">
+      <node ref="U8" pin="7"/>
+    </net>
+    <net code="132" name="Net-(U8-Pad1)">
+      <node ref="U8" pin="1"/>
+    </net>
+    <net code="133" name="Net-(U8-Pad40)">
+      <node ref="U8" pin="40"/>
+    </net>
+    <net code="134" name="Net-(U6-Pad9)">
+      <node ref="U6" pin="9"/>
+    </net>
+    <net code="135" name="Net-(C24-Pad2)">
+      <node ref="U6" pin="12"/>
+      <node ref="C24" pin="2"/>
+      <node ref="R53" pin="1"/>
+    </net>
+    <net code="136" name="Net-(U8-Pad62)">
+      <node ref="U8" pin="62"/>
+    </net>
+    <net code="137" name="Net-(U8-Pad44)">
+      <node ref="U8" pin="44"/>
+    </net>
+    <net code="138" name="Net-(U8-Pad34)">
+      <node ref="U8" pin="34"/>
+    </net>
+    <net code="139" name="Net-(U8-Pad14)">
+      <node ref="U8" pin="14"/>
+    </net>
+    <net code="140" name="Net-(U8-Pad43)">
+      <node ref="U8" pin="43"/>
+    </net>
+    <net code="141" name="Net-(U8-Pad33)">
+      <node ref="U8" pin="33"/>
+    </net>
+    <net code="142" name="Net-(U8-Pad42)">
+      <node ref="U8" pin="42"/>
+    </net>
+    <net code="143" name="Net-(U8-Pad32)">
+      <node ref="U8" pin="32"/>
+    </net>
+    <net code="144" name="Net-(R63-Pad1)">
+      <node ref="U8" pin="61"/>
+      <node ref="R63" pin="1"/>
+    </net>
+    <net code="145" name="Net-(U8-Pad51)">
+      <node ref="U8" pin="51"/>
+    </net>
+    <net code="146" name="Net-(U8-Pad41)">
+      <node ref="U8" pin="41"/>
+    </net>
+    <net code="147" name="Net-(U8-Pad31)">
+      <node ref="U8" pin="31"/>
+    </net>
+    <net code="148" name="Net-(U8-Pad50)">
+      <node ref="U8" pin="50"/>
+    </net>
+    <net code="149" name="Net-(C21-Pad1)">
+      <node ref="U6" pin="14"/>
+      <node ref="C21" pin="1"/>
+      <node ref="R48" pin="2"/>
+      <node ref="D21" pin="2"/>
+    </net>
+    <net code="150" name="Net-(C25-Pad1)">
+      <node ref="U6" pin="2"/>
+      <node ref="D23" pin="2"/>
+      <node ref="R54" pin="2"/>
+      <node ref="C25" pin="1"/>
+    </net>
+    <net code="151" name="Net-(Q10-Pad2)">
+      <node ref="Q10" pin="2"/>
+      <node ref="R52" pin="1"/>
+      <node ref="R50" pin="1"/>
+    </net>
+    <net code="152" name="/Funkmodul2/BURNWIRE">
+      <node ref="R50" pin="2"/>
+      <node ref="U8" pin="4"/>
+    </net>
+    <net code="153" name="Net-(D19-Pad1)">
+      <node ref="Q9" pin="2"/>
+      <node ref="D19" pin="1"/>
+      <node ref="R46" pin="1"/>
+    </net>
+    <net code="154" name="/Funkmodul2/Funkeinheit2/NIRQ">
+      <node ref="U8" pin="25"/>
+      <node ref="R70" pin="1"/>
+      <node ref="R77" pin="2"/>
+    </net>
+    <net code="155" name="Net-(D24-Pad1)">
+      <node ref="R16" pin="2"/>
+      <node ref="D24" pin="1"/>
+    </net>
+    <net code="156" name="Net-(D24-Pad2)">
+      <node ref="U6" pin="7"/>
+      <node ref="D24" pin="2"/>
+    </net>
+    <net code="157" name="/Funkmodul2/VCC">
+      <node ref="C31" pin="2"/>
+      <node ref="R66" pin="1"/>
+      <node ref="D22" pin="2"/>
+      <node ref="R71" pin="2"/>
+      <node ref="C32" pin="2"/>
+      <node ref="R64" pin="1"/>
+      <node ref="R65" pin="1"/>
+      <node ref="R72" pin="2"/>
+      <node ref="U7" pin="7"/>
+      <node ref="R73" pin="2"/>
+      <node ref="R67" pin="1"/>
+      <node ref="R74" pin="2"/>
+      <node ref="R68" pin="1"/>
+      <node ref="R75" pin="2"/>
+      <node ref="C26" pin="2"/>
+      <node ref="U8" pin="52"/>
+      <node ref="U8" pin="21"/>
+      <node ref="U7" pin="8"/>
+      <node ref="D28" pin="1"/>
+      <node ref="D25" pin="1"/>
+      <node ref="D31" pin="1"/>
+      <node ref="D27" pin="1"/>
+      <node ref="R59" pin="1"/>
+      <node ref="L3" pin="2"/>
+    </net>
+    <net code="158" name="Net-(R56-Pad2)">
+      <node ref="R56" pin="2"/>
+      <node ref="U7" pin="6"/>
+    </net>
+    <net code="159" name="Net-(R55-Pad1)">
+      <node ref="U7" pin="5"/>
+      <node ref="R55" pin="1"/>
+    </net>
+    <net code="160" name="/Funkmodul2/WDG_TRIGGER">
+      <node ref="U6" pin="4"/>
+      <node ref="R63" pin="2"/>
+    </net>
+    <net code="161" name="Net-(C22-Pad1)">
+      <node ref="U6" pin="16"/>
+      <node ref="C22" pin="1"/>
+      <node ref="R49" pin="1"/>
+    </net>
+    <net code="162" name="Net-(U6-Pad11)">
+      <node ref="U6" pin="11"/>
+      <node ref="U6" pin="6"/>
+    </net>
+    <net code="163" name="Net-(U8-Pad18)">
+      <node ref="U8" pin="18"/>
+    </net>
+    <net code="164" name="Net-(U8-Pad49)">
+      <node ref="U8" pin="49"/>
+    </net>
+    <net code="165" name="Net-(U8-Pad39)">
+      <node ref="U8" pin="39"/>
+    </net>
+    <net code="166" name="Net-(U8-Pad19)">
+      <node ref="U8" pin="19"/>
+    </net>
+    <net code="167" name="Net-(U8-Pad48)">
+      <node ref="U8" pin="48"/>
+    </net>
+    <net code="168" name="Net-(U8-Pad38)">
+      <node ref="U8" pin="38"/>
+    </net>
+    <net code="169" name="Net-(U8-Pad28)">
+      <node ref="U8" pin="28"/>
+    </net>
+    <net code="170" name="Net-(C33-Pad2)">
+      <node ref="U8" pin="64"/>
+      <node ref="L3" pin="1"/>
+      <node ref="C33" pin="2"/>
+    </net>
+    <net code="171" name="Net-(U8-Pad47)">
+      <node ref="U8" pin="47"/>
+    </net>
+    <net code="172" name="Net-(U8-Pad37)">
+      <node ref="U8" pin="37"/>
+    </net>
+    <net code="173" name="Net-(U8-Pad27)">
+      <node ref="U8" pin="27"/>
+    </net>
+    <net code="174" name="Net-(U8-Pad17)">
+      <node ref="U8" pin="17"/>
+    </net>
+    <net code="175" name="Net-(U8-Pad46)">
+      <node ref="U8" pin="46"/>
+    </net>
+    <net code="176" name="Net-(U8-Pad36)">
+      <node ref="U8" pin="36"/>
+    </net>
+    <net code="177" name="Net-(U8-Pad26)">
+      <node ref="U8" pin="26"/>
+    </net>
+    <net code="178" name="Net-(U8-Pad45)">
+      <node ref="U8" pin="45"/>
+    </net>
+    <net code="179" name="Net-(U8-Pad35)">
+      <node ref="U8" pin="35"/>
+    </net>
+    <net code="180" name="/Funkmodul2/Funkeinheit2/SS">
+      <node ref="U8" pin="10"/>
+      <node ref="Q14" pin="2"/>
+      <node ref="R64" pin="2"/>
+    </net>
+    <net code="181" name="/Funkmodul2/~ON~">
+      <node ref="R51" pin="1"/>
+      <node ref="R47" pin="1"/>
+      <node ref="U6" pin="5"/>
+      <node ref="R16" pin="1"/>
+      <node ref="U6" pin="10"/>
+      <node ref="R89" pin="2"/>
+      <node ref="U7" pin="3"/>
+      <node ref="D20" pin="1"/>
+    </net>
+    <net code="182" name="/Funkmodul2/Funkeinheit2/TXON">
+      <node ref="U8" pin="16"/>
+      <node ref="Q13" pin="2"/>
+      <node ref="R68" pin="2"/>
+    </net>
+    <net code="183" name="/Funkmodul2/Funkeinheit2/RXON">
+      <node ref="Q12" pin="2"/>
+      <node ref="U8" pin="15"/>
+      <node ref="R67" pin="2"/>
+    </net>
+    <net code="184" name="/Funkmodul2/Funkeinheit2/MISO">
+      <node ref="R76" pin="2"/>
+      <node ref="R69" pin="1"/>
+      <node ref="U8" pin="13"/>
+    </net>
+    <net code="185" name="/Funkmodul2/Funkeinheit2/MOSI">
+      <node ref="U8" pin="12"/>
+      <node ref="Q11" pin="2"/>
+      <node ref="R66" pin="2"/>
+    </net>
+    <net code="186" name="/Funkmodul2/Funkeinheit2/SCK">
+      <node ref="R65" pin="2"/>
+      <node ref="U8" pin="11"/>
+      <node ref="Q15" pin="2"/>
+    </net>
+    <net code="187" name="Net-(C29-Pad2)">
+      <node ref="Y2" pin="3"/>
+      <node ref="C29" pin="2"/>
+      <node ref="U8" pin="23"/>
+    </net>
+    <net code="188" name="Net-(C28-Pad1)">
+      <node ref="Y2" pin="1"/>
+      <node ref="U8" pin="24"/>
+      <node ref="C28" pin="1"/>
+    </net>
+    <net code="189" name="Net-(C30-Pad1)">
+      <node ref="U8" pin="20"/>
+      <node ref="R59" pin="2"/>
+      <node ref="C30" pin="1"/>
+      <node ref="D27" pin="2"/>
+    </net>
+    <net code="190" name="Net-(R58-Pad1)">
+      <node ref="U8" pin="60"/>
+      <node ref="R58" pin="1"/>
+    </net>
+    <net code="191" name="Net-(R98-Pad1)">
+      <node ref="U8" pin="58"/>
+      <node ref="R98" pin="1"/>
+    </net>
+    <net code="192" name="/Funkmodul2/BURNWIRE2">
+      <node ref="U8" pin="6"/>
+      <node ref="R95" pin="2"/>
+    </net>
+    <net code="193" name="Net-(Q18-Pad2)">
+      <node ref="R95" pin="1"/>
+      <node ref="Q18" pin="2"/>
+      <node ref="R96" pin="1"/>
+    </net>
+    <net code="194" name="Net-(D21-Pad1)">
+      <node ref="R51" pin="2"/>
+      <node ref="Q9" pin="3"/>
+      <node ref="D23" pin="1"/>
+      <node ref="D21" pin="1"/>
+      <node ref="R48" pin="1"/>
+      <node ref="R54" pin="1"/>
+      <node ref="R49" pin="2"/>
+    </net>
+    <net code="195" name="Net-(C42-Pad1)">
+      <node ref="D31" pin="2"/>
+      <node ref="C42" pin="1"/>
+      <node ref="R97" pin="1"/>
+      <node ref="D32" pin="1"/>
+      <node ref="R98" pin="2"/>
+    </net>
+    <net code="196" name="Net-(C27-Pad1)">
+      <node ref="D26" pin="1"/>
+      <node ref="D25" pin="2"/>
+      <node ref="R58" pin="2"/>
+      <node ref="C27" pin="1"/>
+      <node ref="R57" pin="1"/>
+    </net>
+    <net code="197" name="/Funkmodul1/Funkeinheit/TXON_">
+      <node ref="U5" pin="11"/>
+      <node ref="Q5" pin="3"/>
+      <node ref="R35" pin="2"/>
+    </net>
+    <net code="198" name="/Funkmodul1/Funkeinheit/MISO_">
+      <node ref="U5" pin="2"/>
+      <node ref="R20" pin="1"/>
+    </net>
+    <net code="199" name="/Funkmodul1/Funkeinheit/MOSI_">
+      <node ref="Q3" pin="3"/>
+      <node ref="R33" pin="2"/>
+      <node ref="U5" pin="3"/>
+    </net>
+    <net code="200" name="/Funkmodul1/Funkeinheit/SCK_">
+      <node ref="Q7" pin="3"/>
+      <node ref="R32" pin="2"/>
+      <node ref="U5" pin="4"/>
+    </net>
+    <net code="201" name="/Funkmodul1/Funkeinheit/SS_">
+      <node ref="Q6" pin="3"/>
+      <node ref="U5" pin="5"/>
+      <node ref="R31" pin="2"/>
+    </net>
+    <net code="202" name="/Funkmodul1/Funkeinheit/NIRQ_">
+      <node ref="U5" pin="6"/>
+      <node ref="R45" pin="1"/>
+    </net>
+    <net code="203" name="Net-(AE1-Pad1)">
+      <node ref="U5" pin="9"/>
+      <node ref="AE1" pin="1"/>
+    </net>
+    <net code="204" name="/Funkmodul1/Funkeinheit/RXON_">
+      <node ref="U5" pin="12"/>
+      <node ref="R34" pin="2"/>
+      <node ref="Q4" pin="3"/>
+    </net>
+    <net code="205" name="Net-(U5-Pad14)">
+      <node ref="U5" pin="14"/>
+    </net>
+    <net code="206" name="Net-(U5-Pad15)">
+      <node ref="U5" pin="15"/>
+    </net>
+    <net code="207" name="Net-(U5-Pad16)">
+      <node ref="U5" pin="16"/>
+    </net>
+    <net code="208" name="Net-(C17-Pad2)">
+      <node ref="R37" pin="1"/>
+      <node ref="C17" pin="2"/>
+    </net>
+    <net code="209" name="Net-(C18-Pad2)">
+      <node ref="U4" pin="12"/>
+      <node ref="R37" pin="2"/>
+      <node ref="C18" pin="2"/>
+    </net>
+    <net code="210" name="/Funkmodul1/Funkeinheit/PGND">
+      <node ref="C13" pin="2"/>
+      <node ref="C19" pin="2"/>
+      <node ref="C14" pin="2"/>
+      <node ref="U4" pin="11"/>
+      <node ref="U4" pin="20"/>
+      <node ref="U4" pin="21"/>
+      <node ref="R43" pin="1"/>
+      <node ref="U4" pin="10"/>
+      <node ref="U5" pin="7"/>
+      <node ref="U5" pin="8"/>
+      <node ref="U5" pin="10"/>
+      <node ref="U5" pin="1"/>
+      <node ref="U4" pin="1"/>
+      <node ref="AE1" pin="2"/>
+      <node ref="C15" pin="2"/>
+    </net>
+    <net code="211" name="/Funkmodul1/Funkeinheit/5V">
+      <node ref="U4" pin="3"/>
+      <node ref="R38" pin="1"/>
+      <node ref="U5" pin="13"/>
+      <node ref="U4" pin="2"/>
+      <node ref="R40" pin="1"/>
+      <node ref="C13" pin="1"/>
+      <node ref="R32" pin="1"/>
+      <node ref="R33" pin="1"/>
+      <node ref="R34" pin="1"/>
+      <node ref="R35" pin="1"/>
+      <node ref="C19" pin="1"/>
+      <node ref="C14" pin="1"/>
+      <node ref="R31" pin="1"/>
+    </net>
+    <net code="212" name="Net-(L2-Pad2)">
+      <node ref="L2" pin="2"/>
+      <node ref="U4" pin="17"/>
+      <node ref="U4" pin="15"/>
+      <node ref="U4" pin="16"/>
+    </net>
+    <net code="213" name="Net-(L2-Pad1)">
+      <node ref="L2" pin="1"/>
+      <node ref="U4" pin="19"/>
+      <node ref="U4" pin="18"/>
+    </net>
+    <net code="214" name="Net-(R36-Pad1)">
+      <node ref="U4" pin="9"/>
+      <node ref="R36" pin="1"/>
+    </net>
+    <net code="215" name="Net-(C16-Pad1)">
+      <node ref="C16" pin="1"/>
+      <node ref="R38" pin="2"/>
+    </net>
+    <net code="216" name="Net-(C16-Pad2)">
+      <node ref="C16" pin="2"/>
+      <node ref="R39" pin="1"/>
+      <node ref="R40" pin="2"/>
+      <node ref="C17" pin="1"/>
+      <node ref="C18" pin="1"/>
+      <node ref="U4" pin="13"/>
+    </net>
+    <net code="217" name="Net-(Q8-Pad3)">
+      <node ref="U4" pin="14"/>
+      <node ref="Q8" pin="3"/>
+      <node ref="R42" pin="2"/>
+    </net>
+    <net code="218" name="Net-(Q8-Pad1)">
+      <node ref="Q8" pin="1"/>
+      <node ref="R41" pin="1"/>
+    </net>
+    <net code="219" name="Net-(Q7-Pad1)">
+      <node ref="Q7" pin="1"/>
+      <node ref="R27" pin="1"/>
+    </net>
+    <net code="220" name="Net-(Q5-Pad1)">
+      <node ref="Q5" pin="1"/>
+      <node ref="R30" pin="1"/>
+    </net>
+    <net code="221" name="Net-(Q6-Pad1)">
+      <node ref="R26" pin="1"/>
+      <node ref="Q6" pin="1"/>
+    </net>
+    <net code="222" name="Net-(Q4-Pad1)">
+      <node ref="R29" pin="1"/>
+      <node ref="Q4" pin="1"/>
+    </net>
+    <net code="223" name="Net-(Q3-Pad1)">
+      <node ref="R28" pin="1"/>
+      <node ref="Q3" pin="1"/>
+    </net>
+    <net code="224" name="Net-(Q16-Pad3)">
+      <node ref="Q16" pin="3"/>
+      <node ref="R90" pin="2"/>
+      <node ref="U9" pin="14"/>
+    </net>
+    <net code="225" name="Net-(R84-Pad1)">
+      <node ref="U9" pin="9"/>
+      <node ref="R84" pin="1"/>
+    </net>
+    <net code="226" name="Net-(Q16-Pad1)">
+      <node ref="Q16" pin="1"/>
+      <node ref="R89" pin="1"/>
+    </net>
+    <net code="227" name="Net-(C38-Pad2)">
+      <node ref="R85" pin="1"/>
+      <node ref="C38" pin="2"/>
+    </net>
+    <net code="228" name="Net-(C37-Pad1)">
+      <node ref="C37" pin="1"/>
+      <node ref="R86" pin="2"/>
+    </net>
+    <net code="229" name="/Funkmodul2/Funkeinheit2/5V">
+      <node ref="U9" pin="3"/>
+      <node ref="R86" pin="1"/>
+      <node ref="R82" pin="1"/>
+      <node ref="U9" pin="2"/>
+      <node ref="R81" pin="1"/>
+      <node ref="R80" pin="1"/>
+      <node ref="R79" pin="1"/>
+      <node ref="R78" pin="1"/>
+      <node ref="C40" pin="1"/>
+      <node ref="C35" pin="1"/>
+      <node ref="C34" pin="1"/>
+      <node ref="R88" pin="1"/>
+      <node ref="U10" pin="13"/>
+    </net>
+    <net code="230" name="Net-(L4-Pad2)">
+      <node ref="U9" pin="15"/>
+      <node ref="U9" pin="16"/>
+      <node ref="U9" pin="17"/>
+      <node ref="L4" pin="2"/>
+    </net>
+    <net code="231" name="Net-(C39-Pad2)">
+      <node ref="R85" pin="2"/>
+      <node ref="C39" pin="2"/>
+      <node ref="U9" pin="12"/>
+    </net>
+    <net code="232" name="/Funkmodul2/Funkeinheit2/PGND">
+      <node ref="U10" pin="10"/>
+      <node ref="U10" pin="1"/>
+      <node ref="C36" pin="2"/>
+      <node ref="C40" pin="2"/>
+      <node ref="U9" pin="10"/>
+      <node ref="C35" pin="2"/>
+      <node ref="R83" pin="1"/>
+      <node ref="C34" pin="2"/>
+      <node ref="U9" pin="21"/>
+      <node ref="U10" pin="7"/>
+      <node ref="U10" pin="8"/>
+      <node ref="U9" pin="20"/>
+      <node ref="U9" pin="11"/>
+      <node ref="U9" pin="1"/>
+      <node ref="AE2" pin="2"/>
+    </net>
+    <net code="233" name="Net-(L4-Pad1)">
+      <node ref="U9" pin="19"/>
+      <node ref="L4" pin="1"/>
+      <node ref="U9" pin="18"/>
+    </net>
+    <net code="234" name="/Funkmodul2/Funkeinheit2/NIRQ_">
+      <node ref="U10" pin="6"/>
+      <node ref="R77" pin="1"/>
+    </net>
+    <net code="235" name="/Funkmodul2/Funkeinheit2/SS_">
+      <node ref="R78" pin="2"/>
+      <node ref="Q14" pin="3"/>
+      <node ref="U10" pin="5"/>
+    </net>
+    <net code="236" name="/Funkmodul2/Funkeinheit2/SCK_">
+      <node ref="U10" pin="4"/>
+      <node ref="R79" pin="2"/>
+      <node ref="Q15" pin="3"/>
+    </net>
+    <net code="237" name="/Funkmodul2/Funkeinheit2/MOSI_">
+      <node ref="R80" pin="2"/>
+      <node ref="Q11" pin="3"/>
+      <node ref="U10" pin="3"/>
+    </net>
+    <net code="238" name="/Funkmodul2/Funkeinheit2/MISO_">
+      <node ref="U10" pin="2"/>
+      <node ref="R76" pin="1"/>
+    </net>
+    <net code="239" name="Net-(AE2-Pad1)">
+      <node ref="U10" pin="9"/>
+      <node ref="AE2" pin="1"/>
+    </net>
+    <net code="240" name="Net-(C37-Pad2)">
+      <node ref="C38" pin="1"/>
+      <node ref="C39" pin="1"/>
+      <node ref="U9" pin="13"/>
+      <node ref="R87" pin="1"/>
+      <node ref="C37" pin="2"/>
+      <node ref="R88" pin="2"/>
+    </net>
+    <net code="241" name="Net-(U10-Pad16)">
+      <node ref="U10" pin="16"/>
+    </net>
+    <net code="242" name="Net-(U10-Pad15)">
+      <node ref="U10" pin="15"/>
+    </net>
+    <net code="243" name="Net-(U10-Pad14)">
+      <node ref="U10" pin="14"/>
+    </net>
+    <net code="244" name="/Funkmodul2/Funkeinheit2/RXON_">
+      <node ref="U10" pin="12"/>
+      <node ref="Q12" pin="3"/>
+      <node ref="R81" pin="2"/>
+    </net>
+    <net code="245" name="/Funkmodul2/Funkeinheit2/TXON_">
+      <node ref="Q13" pin="3"/>
+      <node ref="U10" pin="11"/>
+      <node ref="R82" pin="2"/>
+    </net>
+    <net code="246" name="Net-(Q15-Pad1)">
+      <node ref="R72" pin="1"/>
+      <node ref="Q15" pin="1"/>
+    </net>
+    <net code="247" name="Net-(Q14-Pad1)">
+      <node ref="Q14" pin="1"/>
+      <node ref="R71" pin="1"/>
+    </net>
+    <net code="248" name="Net-(Q13-Pad1)">
+      <node ref="R75" pin="1"/>
+      <node ref="Q13" pin="1"/>
+    </net>
+    <net code="249" name="Net-(Q12-Pad1)">
+      <node ref="R74" pin="1"/>
+      <node ref="Q12" pin="1"/>
+    </net>
+    <net code="250" name="Net-(Q11-Pad1)">
+      <node ref="R73" pin="1"/>
+      <node ref="Q11" pin="1"/>
+    </net>
+  </nets>
+</export>

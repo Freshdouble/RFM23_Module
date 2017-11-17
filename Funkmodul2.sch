@@ -388,7 +388,7 @@ F 3 "" H 1650 2750 50  0001 C CNN
 $EndComp
 Text Label 2000 1250 0    60   ~ 0
 ~ON~
-Text Label 3000 2600 0    60   ~ 0
+Text Label 3300 2600 0    60   ~ 0
 ~ON~
 Text Label 3100 2300 0    60   ~ 0
 WDG_TRIGGER
@@ -894,8 +894,8 @@ L Crystal_GND24 Y2
 U 1 1 59FF9DAB
 P 3750 2650
 F 0 "Y2" H 3875 2850 50  0000 L CNN
-F 1 "Crystal_GND24" H 3875 2775 50  0000 L CNN
-F 2 "Crystals:Crystal_SMD_3225-4pin_3.2x2.5mm_HandSoldering" H 3750 2650 50  0001 C CNN
+F 1 "407F39D007M3728" H 3875 2775 50  0000 L CNN
+F 2 "Crystals:Crystal_SMD_7050-4pin_7.0x5.0mm" H 3750 2650 50  0001 C CNN
 F 3 "" H 3750 2650 50  0001 C CNN
 	1    3750 2650
 	1    0    0    -1  
@@ -1355,4 +1355,17 @@ Text Label 5250 5100 2    60   ~ 0
 BURNWIRE2
 Wire Wire Line
 	5250 5100 5550 5100
+Text HLabel 8150 5100 2    60   Input ~ 0
+RESET_3V3
+$Comp
+L R R16
+U 1 1 5A0FAB4F
+P 3150 2600
+F 0 "R16" V 3230 2600 50  0000 C CNN
+F 1 "0R" V 3150 2600 50  0000 C CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" V 3080 2600 50  0001 C CNN
+F 3 "" H 3150 2600 50  0001 C CNN
+	1    3150 2600
+	0    1    1    0   
+$EndComp
 $EndSCHEMATC
