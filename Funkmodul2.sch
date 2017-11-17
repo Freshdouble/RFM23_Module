@@ -28,8 +28,12 @@ LIBS:opto
 LIBS:atmel
 LIBS:contrib
 LIBS:valves
+LIBS:nxp-ic
+LIBS:7400-ic
 LIBS:cubesatFunkmodul-cache
 LIBS:funkmodul
+LIBS:CubeSat-Bus-1
+LIBS:CubeSat-Bus-2
 LIBS:disco-con
 EELAYER 25 0
 EELAYER END

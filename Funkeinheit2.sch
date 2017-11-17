@@ -28,8 +28,12 @@ LIBS:opto
 LIBS:atmel
 LIBS:contrib
 LIBS:valves
+LIBS:nxp-ic
+LIBS:7400-ic
 LIBS:cubesatFunkmodul-cache
 LIBS:funkmodul
+LIBS:CubeSat-Bus-1
+LIBS:CubeSat-Bus-2
 LIBS:disco-con
 EELAYER 25 0
 EELAYER END
@@ -888,7 +892,7 @@ Wire Notes Line
 Wire Notes Line
 	10250 1850 9650 1850
 Text Notes 9650 2800 0    60   ~ 0
-Precission resistors < 1%
+Precission resistors
 Text Label 9750 4450 0    60   ~ 0
 5V
 $Comp

@@ -28,8 +28,12 @@ LIBS:opto
 LIBS:atmel
 LIBS:contrib
 LIBS:valves
+LIBS:nxp-ic
+LIBS:7400-ic
 LIBS:cubesatFunkmodul-cache
 LIBS:funkmodul
+LIBS:CubeSat-Bus-1
+LIBS:CubeSat-Bus-2
 LIBS:disco-con
 EELAYER 25 0
 EELAYER END
@@ -387,25 +391,13 @@ Text GLabel 6550 5100 0    60   Input ~ 0
 WIRE_CONN
 Text GLabel 6550 5200 0    60   Input ~ 0
 WIRE_CONN2
-Text Label 7100 2400 0    60   ~ 0
-BAT1
-Text Label 7100 2500 0    60   ~ 0
-BAT2
-$Comp
-L D_Schottky_x2_KCom_AKA D34
-U 1 1 5A0DCFFC
-P 8150 5050
-F 0 "D34" H 8200 4950 50  0000 C CNN
-F 1 "STPS640CBY-TR" H 8150 5150 50  0000 C CNN
-F 2 "TO_SOT_Packages_SMD:TO-252-2" H 8150 5050 50  0001 C CNN
-F 3 "http://www.st.com/content/ccc/resource/technical/document/datasheet/bd/b7/a5/a5/2a/bc/4e/65/DM00091810.pdf/files/DM00091810.pdf/jcr:content/translations/en.DM00091810.pdf" H 8150 5050 50  0001 C CNN
-	1    8150 5050
-	1    0    0    -1  
-$EndComp
-Text GLabel 8150 5250 3    60   Input ~ 0
+Wire Wire Line
+	7100 2400 7250 2400
+Wire Wire Line
+	7100 2500 7350 2500
+Wire Wire Line
+	7250 2400 7250 2500
+Connection ~ 7250 2500
+Text GLabel 7350 2500 2    60   Input ~ 0
 VBAT
-Text Label 8450 5050 0    60   ~ 0
-BAT1
-Text Label 7850 5050 2    60   ~ 0
-BAT2
 $EndSCHEMATC

@@ -28,8 +28,12 @@ LIBS:opto
 LIBS:atmel
 LIBS:contrib
 LIBS:valves
+LIBS:nxp-ic
+LIBS:7400-ic
 LIBS:cubesatFunkmodul-cache
 LIBS:funkmodul
+LIBS:CubeSat-Bus-1
+LIBS:CubeSat-Bus-2
 LIBS:disco-con
 EELAYER 25 0
 EELAYER END
@@ -80,6 +84,7 @@ F12 "TDI" I L 4900 3600 60
 F13 "TDO" I L 4900 3700 60 
 F14 "TDO-Rf" I L 4900 3800 60 
 F15 "~RBF~" I L 4900 4000 60 
+F16 "3V3_Reset" I L 4900 4350 60 
 $EndSheet
 Wire Wire Line
 	3700 3050 4900 3050
