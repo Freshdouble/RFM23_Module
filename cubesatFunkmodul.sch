@@ -28,13 +28,10 @@ LIBS:opto
 LIBS:atmel
 LIBS:contrib
 LIBS:valves
-LIBS:nxp-ic
-LIBS:7400-ic
 LIBS:cubesatFunkmodul-cache
 LIBS:funkmodul
-LIBS:CubeSat-Bus-1
-LIBS:CubeSat-Bus-2
 LIBS:disco-con
+LIBS:fiducial
 EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
@@ -182,4 +179,70 @@ Wire Wire Line
 Wire Wire Line
 	4500 4750 3700 4750
 Connection ~ 4500 4350
+$Comp
+L Fiducial FID1
+U 1 1 5A1F2632
+P 2600 1300
+F 0 "FID1" H 2500 1600 60  0000 C CNN
+F 1 "Fiducial" H 2350 1100 60  0000 C CNN
+F 2 "Fiducials:Fiducial_0.5mm_Dia_1mm_Outer" H 2600 1300 60  0001 C CNN
+F 3 "" H 2600 1300 60  0001 C CNN
+	1    2600 1300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Fiducial FID2
+U 1 1 5A1F282D
+P 3250 1300
+F 0 "FID2" H 3150 1600 60  0000 C CNN
+F 1 "Fiducial" H 3000 1100 60  0000 C CNN
+F 2 "Fiducials:Fiducial_0.5mm_Dia_1mm_Outer" H 3250 1300 60  0001 C CNN
+F 3 "" H 3250 1300 60  0001 C CNN
+	1    3250 1300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Fiducial FID3
+U 1 1 5A1F2924
+P 3850 1300
+F 0 "FID3" H 3750 1600 60  0000 C CNN
+F 1 "Fiducial" H 3600 1100 60  0000 C CNN
+F 2 "Fiducials:Fiducial_0.5mm_Dia_1mm_Outer" H 3850 1300 60  0001 C CNN
+F 3 "" H 3850 1300 60  0001 C CNN
+	1    3850 1300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Fiducial FID4
+U 1 1 5A1F2A21
+P 4450 1300
+F 0 "FID4" H 4350 1600 60  0000 C CNN
+F 1 "Fiducial" H 4200 1100 60  0000 C CNN
+F 2 "Fiducials:Fiducial_0.5mm_Dia_1mm_Outer" H 4450 1300 60  0001 C CNN
+F 3 "" H 4450 1300 60  0001 C CNN
+	1    4450 1300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Fiducial FID5
+U 1 1 5A1F2B24
+P 5100 1300
+F 0 "FID5" H 5000 1600 60  0000 C CNN
+F 1 "Fiducial" H 4850 1100 60  0000 C CNN
+F 2 "Fiducials:Fiducial_0.5mm_Dia_1mm_Outer" H 5100 1300 60  0001 C CNN
+F 3 "" H 5100 1300 60  0001 C CNN
+	1    5100 1300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Fiducial FID6
+U 1 1 5A1F2C43
+P 5700 1300
+F 0 "FID6" H 5600 1600 60  0000 C CNN
+F 1 "Fiducial" H 5450 1100 60  0000 C CNN
+F 2 "Fiducials:Fiducial_0.5mm_Dia_1mm_Outer" H 5700 1300 60  0001 C CNN
+F 3 "" H 5700 1300 60  0001 C CNN
+	1    5700 1300
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

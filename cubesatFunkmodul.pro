@@ -1,4 +1,4 @@
-update=02.11.2017 22:44:30
+update=29.11.2017 21:40:43
 version=1
 last_client=kicad
 [pcbnew]
@@ -65,3 +65,4 @@ LibName33=funkmodul
 LibName34=C:/Users/Local/Desktop/Cubesatlib/converted/CubeSat-Bus-1
 LibName35=C:/Users/Local/Desktop/Cubesatlib/converted/CubeSat-Bus-2
 LibName36=disco-con
+LibName37=fiducial
