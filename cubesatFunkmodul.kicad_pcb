@@ -1,11 +1,11 @@
-(kicad_pcb (version 4) (host pcbnew 4.0.7)
+(kicad_pcb (version 4) (host pcbnew 4.0.6)
 
   (general
     (links 1243)
     (no_connects 40)
-    (area 26.150001 32.4736 149.6245 138.700001)
+    (area 26.150001 32.4736 141.009543 138.700001)
     (thickness 1.6)
-    (drawings 29)
+    (drawings 19)
     (tracks 2134)
     (zones 0)
     (modules 413)
@@ -14,32 +14,32 @@
 
   (page A4)
   (layers
-    (0 F.Cu signal)
-    (1 In1.Cu power)
-    (2 In2.Cu mixed)
-    (31 B.Cu signal)
+    (0 F.Cu signal hide)
+    (1 In1.Cu power hide)
+    (2 In2.Cu mixed hide)
+    (31 B.Cu signal hide)
     (32 B.Adhes user hide)
     (33 F.Adhes user hide)
     (34 B.Paste user hide)
     (35 F.Paste user hide)
     (36 B.SilkS user hide)
-    (37 F.SilkS user)
+    (37 F.SilkS user hide)
     (38 B.Mask user hide)
     (39 F.Mask user hide)
     (40 Dwgs.User user hide)
     (41 Cmts.User user hide)
     (42 Eco1.User user hide)
     (43 Eco2.User user hide)
-    (44 Edge.Cuts user hide)
+    (44 Edge.Cuts user)
     (45 Margin user hide)
-    (46 B.CrtYd user)
+    (46 B.CrtYd user hide)
     (47 F.CrtYd user)
     (48 B.Fab user hide)
     (49 F.Fab user)
   )
 
   (setup
-    (last_trace_width 0.2032)
+    (last_trace_width 0.254)
     (user_trace_width 0.254)
     (user_trace_width 0.508)
     (user_trace_width 0.762)
@@ -70,9 +70,9 @@
     (pad_to_mask_clearance 0.19)
     (aux_axis_origin 0 0)
     (grid_origin 126.3145 65.0665)
-    (visible_elements 7FFFDF9F)
+    (visible_elements 7FFF4A21)
     (pcbplotparams
-      (layerselection 0x000f0_80000007)
+      (layerselection 0x21000_00000000)
       (usegerberextensions false)
       (excludeedgelayer true)
       (linewidth 0.100000)
@@ -90,12 +90,12 @@
       (plotvalue false)
       (plotinvisibletext false)
       (padsonsilk false)
-      (subtractmaskfromsilk true)
-      (outputformat 1)
+      (subtractmaskfromsilk false)
+      (outputformat 5)
       (mirror false)
       (drillshape 0)
       (scaleselection 1)
-      (outputdirectory ""))
+      (outputdirectory Bestückung/))
   )
 
   (net 0 "")
@@ -2910,7 +2910,7 @@
       (net 10 GND) (zone_connect 2))
   )
 
-  (module Mounting_Holes:MountingHole_3.2mm_M3 (layer F.Cu) (tedit 56D1B4CB) (tstamp 59FF6A5B)
+  (module Mounting_Holes:MountingHole_3.2mm_M3 (layer F.Cu) (tedit 5A385877) (tstamp 59FF6A5B)
     (at 55.5 114.49)
     (descr "Mounting Hole 3.2mm, no annular, M3")
     (tags "mounting hole 3.2mm no annular m3")
@@ -2918,10 +2918,10 @@
     (fp_text reference REF** (at 0 -4.2) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value MountingHole_3.2mm_M3 (at 0 4.2) (layer F.Fab)
+    (fp_text value MountingHole_3.2mm_M3 (at 0 4.2) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text user %R (at 0.3 0) (layer F.Fab)
+    (fp_text user %R (at 0.3 0) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_circle (center 0 0) (end 3.2 0) (layer Cmts.User) (width 0.15))
@@ -2929,7 +2929,7 @@
     (pad 1 np_thru_hole circle (at 0 0) (size 3.2 3.2) (drill 3.2) (layers *.Cu *.Mask))
   )
 
-  (module Mounting_Holes:MountingHole_3.2mm_M3 (layer F.Cu) (tedit 56D1B4CB) (tstamp 59FF6A3F)
+  (module Mounting_Holes:MountingHole_3.2mm_M3 (layer F.Cu) (tedit 5A3859C0) (tstamp 59FF6A3F)
     (at 131.5 114.49)
     (descr "Mounting Hole 3.2mm, no annular, M3")
     (tags "mounting hole 3.2mm no annular m3")
@@ -2937,10 +2937,10 @@
     (fp_text reference REF** (at 0 -4.2) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value MountingHole_3.2mm_M3 (at 0 4.2) (layer F.Fab)
+    (fp_text value MountingHole_3.2mm_M3 (at 0 4.2) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text user %R (at 0.3 0) (layer F.Fab)
+    (fp_text user %R (at 0.3 0) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_circle (center 0 0) (end 3.2 0) (layer Cmts.User) (width 0.15))
@@ -2948,7 +2948,7 @@
     (pad 1 np_thru_hole circle (at 0 0) (size 3.2 3.2) (drill 3.2) (layers *.Cu *.Mask))
   )
 
-  (module Mounting_Holes:MountingHole_3.2mm_M3 locked (layer F.Cu) (tedit 56D1B4CB) (tstamp 59FF6A13)
+  (module Mounting_Holes:MountingHole_3.2mm_M3 locked (layer F.Cu) (tedit 5A385782) (tstamp 59FF6A13)
     (at 131.5 38.49)
     (descr "Mounting Hole 3.2mm, no annular, M3")
     (tags "mounting hole 3.2mm no annular m3")
@@ -2956,10 +2956,10 @@
     (fp_text reference REF** (at 0 -4.2) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value MountingHole_3.2mm_M3 (at 0 4.2) (layer F.Fab)
+    (fp_text value MountingHole_3.2mm_M3 (at 0 4.2) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text user %R (at 0.3 0) (layer F.Fab)
+    (fp_text user %R (at 0.3 0) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_circle (center 0 0) (end 3.2 0) (layer Cmts.User) (width 0.15))
@@ -3003,7 +3003,7 @@
     )
   )
 
-  (module Capacitors_SMD:C_1210_HandSoldering (layer F.Cu) (tedit 58AA84FB) (tstamp 59DA813D)
+  (module Capacitors_SMD:C_1210_HandSoldering (layer F.Cu) (tedit 5A38587C) (tstamp 59DA813D)
     (at 70.9991 111.934342 180)
     (descr "Capacitor SMD 1210, hand soldering")
     (tags "capacitor 1210")
@@ -3012,10 +3012,10 @@
     (fp_text reference C1 (at 0 -2.25 180) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value 10µF (at 0 2.5 180) (layer F.Fab)
+    (fp_text value 10µF (at 0 2.5 180) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text user %R (at 0 -2.25 180) (layer F.Fab)
+    (fp_text user %R (at -0.08818 -0.145018 180) (layer F.Fab)
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_line (start -1.6 1.25) (end -1.6 -1.25) (layer F.Fab) (width 0.1))
@@ -3039,7 +3039,7 @@
     )
   )
 
-  (module Capacitors_SMD:C_1210_HandSoldering (layer F.Cu) (tedit 58AA84FB) (tstamp 59DA8143)
+  (module Capacitors_SMD:C_1210_HandSoldering (layer F.Cu) (tedit 5A38586E) (tstamp 59DA8143)
     (at 61.1124 108.2355 90)
     (descr "Capacitor SMD 1210, hand soldering")
     (tags "capacitor 1210")
@@ -3048,10 +3048,10 @@
     (fp_text reference C2 (at 0 -2.25 90) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value 1µF (at 0 2.5 90) (layer F.Fab)
+    (fp_text value 1µF (at 0 2.5 90) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text user %R (at 0 -2.25 90) (layer F.Fab)
+    (fp_text user %R (at -0.03894 0.0257 90) (layer F.Fab)
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_line (start -1.6 1.25) (end -1.6 -1.25) (layer F.Fab) (width 0.1))
@@ -3111,7 +3111,7 @@
     )
   )
 
-  (module Capacitors_SMD:C_1210_HandSoldering (layer F.Cu) (tedit 58AA84FB) (tstamp 59DA814F)
+  (module Capacitors_SMD:C_1210_HandSoldering (layer F.Cu) (tedit 5A38587A) (tstamp 59DA814F)
     (at 65.1957 115.8113)
     (descr "Capacitor SMD 1210, hand soldering")
     (tags "capacitor 1210")
@@ -3120,10 +3120,10 @@
     (fp_text reference C4 (at 0 -2.25) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value 10µF (at 0 2.5) (layer F.Fab)
+    (fp_text value 10µF (at 0 2.5) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text user %R (at 0 -2.25) (layer F.Fab)
+    (fp_text user %R (at 0.02926 0.07298) (layer F.Fab)
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_line (start -1.6 1.25) (end -1.6 -1.25) (layer F.Fab) (width 0.1))
@@ -3147,7 +3147,7 @@
     )
   )
 
-  (module Capacitors_SMD:C_0603_HandSoldering (layer F.Cu) (tedit 58AA848B) (tstamp 59DA8155)
+  (module Capacitors_SMD:C_0603_HandSoldering (layer F.Cu) (tedit 5A385868) (tstamp 59DA8155)
     (at 57.6224 109.7534 180)
     (descr "Capacitor SMD 0603, hand soldering")
     (tags "capacitor 0603")
@@ -3156,7 +3156,7 @@
     (fp_text reference C5 (at 0 -1.25 180) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value 100nF (at 0 1.5 180) (layer F.Fab)
+    (fp_text value 100nF (at 0 1.5 180) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text user %R (at 0 -1.25 180) (layer F.Fab)
@@ -3219,7 +3219,7 @@
     )
   )
 
-  (module Capacitors_SMD:C_0603_HandSoldering (layer F.Cu) (tedit 58AA848B) (tstamp 59DA8161)
+  (module Capacitors_SMD:C_0603_HandSoldering (layer F.Cu) (tedit 5A38584D) (tstamp 59DA8161)
     (at 65.5828 100.5078 180)
     (descr "Capacitor SMD 0603, hand soldering")
     (tags "capacitor 0603")
@@ -3228,7 +3228,7 @@
     (fp_text reference C7 (at 0 -1.25 180) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value 10pF (at 0 1.5 180) (layer F.Fab)
+    (fp_text value 10pF (at 0 1.5 180) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text user %R (at 0 -1.25 180) (layer F.Fab)
@@ -3255,7 +3255,7 @@
     )
   )
 
-  (module Capacitors_SMD:C_0603_HandSoldering (layer F.Cu) (tedit 58AA848B) (tstamp 59DA8167)
+  (module Capacitors_SMD:C_0603_HandSoldering (layer F.Cu) (tedit 5A385845) (tstamp 59DA8167)
     (at 65.7098 93.1418 180)
     (descr "Capacitor SMD 0603, hand soldering")
     (tags "capacitor 0603")
@@ -3264,10 +3264,10 @@
     (fp_text reference C8 (at 0 -1.25 180) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value 10pF (at 0 1.5 180) (layer F.Fab)
+    (fp_text value 10pF (at 0 1.5 180) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text user %R (at 0 -1.25 180) (layer F.Fab)
+    (fp_text user %R (at 0.15464 1.19956 180) (layer F.Fab)
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_line (start -0.8 0.4) (end -0.8 -0.4) (layer F.Fab) (width 0.1))
@@ -3291,7 +3291,7 @@
     )
   )
 
-  (module Capacitors_SMD:C_0603_HandSoldering locked (layer F.Cu) (tedit 58AA848B) (tstamp 59DA816D)
+  (module Capacitors_SMD:C_0603_HandSoldering locked (layer F.Cu) (tedit 5A385841) (tstamp 59DA816D)
     (at 68.5038 90.6018 180)
     (descr "Capacitor SMD 0603, hand soldering")
     (tags "capacitor 0603")
@@ -3300,7 +3300,7 @@
     (fp_text reference C9 (at 0 -1.25 180) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value 10nF (at 0 1.5 180) (layer F.Fab)
+    (fp_text value 10nF (at 0 1.5 180) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text user %R (at 0 -1.25 180) (layer F.Fab)
@@ -3327,7 +3327,7 @@
     )
   )
 
-  (module Capacitors_SMD:C_0603_HandSoldering (layer F.Cu) (tedit 58AA848B) (tstamp 59DA8173)
+  (module Capacitors_SMD:C_0603_HandSoldering (layer F.Cu) (tedit 5A385848) (tstamp 59DA8173)
     (at 69.2658 94.2848 270)
     (descr "Capacitor SMD 0603, hand soldering")
     (tags "capacitor 0603")
@@ -3336,10 +3336,10 @@
     (fp_text reference C10 (at 0 -1.25 270) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value 100nF (at 0 1.5 270) (layer F.Fab)
+    (fp_text value 100nF (at 0 1.5 270) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text user %R (at 0 -1.25 270) (layer F.Fab)
+    (fp_text user %R (at 3.06764 -0.16032 270) (layer F.Fab)
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_line (start -0.8 0.4) (end -0.8 -0.4) (layer F.Fab) (width 0.1))
@@ -3363,7 +3363,7 @@
     )
   )
 
-  (module Capacitors_SMD:C_0603_HandSoldering (layer F.Cu) (tedit 58AA848B) (tstamp 59DA8179)
+  (module Capacitors_SMD:C_0603_HandSoldering (layer F.Cu) (tedit 5A385883) (tstamp 59DA8179)
     (at 89.1159 102.9081 90)
     (descr "Capacitor SMD 0603, hand soldering")
     (tags "capacitor 0603")
@@ -3372,10 +3372,10 @@
     (fp_text reference C11 (at 0 -1.25 90) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value 100nF (at 0 1.5 90) (layer F.Fab)
+    (fp_text value 100nF (at 0 1.5 90) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text user %R (at 0 -1.25 90) (layer F.Fab)
+    (fp_text user %R (at -3.23782 0.04348 90) (layer F.Fab)
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_line (start -0.8 0.4) (end -0.8 -0.4) (layer F.Fab) (width 0.1))
@@ -3399,7 +3399,7 @@
     )
   )
 
-  (module Capacitors_SMD:C_0603_HandSoldering (layer F.Cu) (tedit 58AA848B) (tstamp 59DA817F)
+  (module Capacitors_SMD:C_0603_HandSoldering (layer F.Cu) (tedit 5A385891) (tstamp 59DA817F)
     (at 90.2462 93.6371 180)
     (descr "Capacitor SMD 0603, hand soldering")
     (tags "capacitor 0603")
@@ -3408,7 +3408,7 @@
     (fp_text reference C12 (at 0 -1.25 180) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value 100nF (at 0 1.5 180) (layer F.Fab)
+    (fp_text value 100nF (at 0 1.5 180) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text user %R (at 0 -1.25 180) (layer F.Fab)
@@ -3471,7 +3471,7 @@
     )
   )
 
-  (module Diodes_SMD:D_SOD-323F (layer F.Cu) (tedit 590A48EB) (tstamp 59DA81E5)
+  (module Diodes_SMD:D_SOD-323F (layer F.Cu) (tedit 5A385861) (tstamp 59DA81E5)
     (at 57.023 106.6927)
     (descr "SOD-323F http://www.nxp.com/documents/outline_drawing/SOD323F.pdf")
     (tags SOD-323F)
@@ -3480,10 +3480,10 @@
     (fp_text reference D10 (at 0 -1.85) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value DZ2J036M0LCT-ND (at 0.1 1.9) (layer F.Fab)
+    (fp_text value DZ2J036M0LCT-ND (at 0.1 1.9) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text user %R (at 0 -1.85) (layer F.Fab)
+    (fp_text user %R (at 0.04348 1.47252) (layer F.Fab)
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_line (start -1.5 -0.85) (end -1.5 0.85) (layer F.SilkS) (width 0.12))
@@ -3514,7 +3514,7 @@
     )
   )
 
-  (module Diodes_SMD:D_SOD-123F (layer F.Cu) (tedit 587F7769) (tstamp 59DA81EB)
+  (module Diodes_SMD:D_SOD-123F (layer F.Cu) (tedit 5A3857EE) (tstamp 59DA81EB)
     (at 61.3126 73.6219)
     (descr D_SOD-123F)
     (tags D_SOD-123F)
@@ -3523,10 +3523,10 @@
     (fp_text reference D11 (at -0.127 -1.905) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value SMF3.3 (at 0 2.1) (layer F.Fab)
+    (fp_text value SMF3.3 (at 0 2.1) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text user %R (at -0.127 -1.905) (layer F.Fab)
+    (fp_text user %R (at 0.08712 1.78494) (layer F.Fab)
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_line (start -2.2 -1) (end -2.2 1) (layer F.SilkS) (width 0.12))
@@ -3558,7 +3558,7 @@
     )
   )
 
-  (module Diodes_SMD:D_SOD-123F (layer F.Cu) (tedit 587F7769) (tstamp 59DA81F1)
+  (module Diodes_SMD:D_SOD-123F (layer F.Cu) (tedit 5A3857EB) (tstamp 59DA81F1)
     (at 61.3126 71.0819)
     (descr D_SOD-123F)
     (tags D_SOD-123F)
@@ -3567,10 +3567,10 @@
     (fp_text reference D12 (at -0.127 -1.905) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value SMF3.3 (at 0 2.1) (layer F.Fab)
+    (fp_text value SMF3.3 (at 0 2.1) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text user %R (at -0.127 -1.905) (layer F.Fab)
+    (fp_text user %R (at 3.65074 0.02218) (layer F.Fab)
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_line (start -2.2 -1) (end -2.2 1) (layer F.SilkS) (width 0.12))
@@ -3602,7 +3602,7 @@
     )
   )
 
-  (module Diodes_SMD:D_SOD-123F (layer F.Cu) (tedit 587F7769) (tstamp 59DA81F7)
+  (module Diodes_SMD:D_SOD-123F (layer F.Cu) (tedit 5A3857E8) (tstamp 59DA81F7)
     (at 61.3126 68.7959)
     (descr D_SOD-123F)
     (tags D_SOD-123F)
@@ -3611,7 +3611,7 @@
     (fp_text reference D13 (at -0.127 -1.905) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value SMF3.3 (at 0 2.1) (layer F.Fab)
+    (fp_text value SMF3.3 (at 0 2.1) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text user %R (at -0.127 -1.905) (layer F.Fab)
@@ -3646,7 +3646,7 @@
     )
   )
 
-  (module Diodes_SMD:D_SOD-123F (layer F.Cu) (tedit 587F7769) (tstamp 59DA81FD)
+  (module Diodes_SMD:D_SOD-123F (layer F.Cu) (tedit 5A38593A) (tstamp 59DA81FD)
     (at 123.2946 71.8439 180)
     (descr D_SOD-123F)
     (tags D_SOD-123F)
@@ -3655,10 +3655,10 @@
     (fp_text reference D14 (at -0.127 -1.905 180) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value SMF3.3 (at 0 2.1 180) (layer F.Fab)
+    (fp_text value SMF3.3 (at 0 2.1 180) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text user %R (at -0.127 -1.905 180) (layer F.Fab)
+    (fp_text user %R (at 3.38852 0.04386 180) (layer F.Fab)
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_line (start -2.2 -1) (end -2.2 1) (layer F.SilkS) (width 0.12))
@@ -3690,7 +3690,7 @@
     )
   )
 
-  (module Diodes_SMD:D_SOD-123F (layer F.Cu) (tedit 587F7769) (tstamp 59DA8203)
+  (module Diodes_SMD:D_SOD-123F (layer F.Cu) (tedit 5A385938) (tstamp 59DA8203)
     (at 123.2886 74.3839 180)
     (descr D_SOD-123F)
     (tags D_SOD-123F)
@@ -3699,10 +3699,10 @@
     (fp_text reference D15 (at -0.127 -1.905 180) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value SMF3.3 (at 0 2.1 180) (layer F.Fab)
+    (fp_text value SMF3.3 (at 0 2.1 180) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text user %R (at -0.127 -1.905 180) (layer F.Fab)
+    (fp_text user %R (at 3.45618 0.01846 180) (layer F.Fab)
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_line (start -2.2 -1) (end -2.2 1) (layer F.SilkS) (width 0.12))
@@ -3734,7 +3734,7 @@
     )
   )
 
-  (module Diodes_SMD:D_SOD-123F (layer F.Cu) (tedit 587F7769) (tstamp 59DA8209)
+  (module Diodes_SMD:D_SOD-123F (layer F.Cu) (tedit 5A38592E) (tstamp 59DA8209)
     (at 123.2886 76.9239 180)
     (descr D_SOD-123F)
     (tags D_SOD-123F)
@@ -3743,7 +3743,7 @@
     (fp_text reference D16 (at -0.127 -1.905 180) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value SMF3.3 (at 0 2.1 180) (layer F.Fab)
+    (fp_text value SMF3.3 (at 0 2.1 180) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text user %R (at -0.127 -1.905 180) (layer F.Fab)
@@ -3822,7 +3822,7 @@
     )
   )
 
-  (module Diodes_SMD:D_SOD-123F (layer F.Cu) (tedit 587F7769) (tstamp 59DA8215)
+  (module Diodes_SMD:D_SOD-123F (layer F.Cu) (tedit 5A38593D) (tstamp 59DA8215)
     (at 123.2886 69.3039 180)
     (descr D_SOD-123F)
     (tags D_SOD-123F)
@@ -3831,10 +3831,10 @@
     (fp_text reference D18 (at -0.127 -1.905 180) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value SMF3.3 (at 0 2.1 180) (layer F.Fab)
+    (fp_text value SMF3.3 (at 0 2.1 180) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text user %R (at -0.127 -1.905 180) (layer F.Fab)
+    (fp_text user %R (at 0.23038 1.71772 180) (layer F.Fab)
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_line (start -2.2 -1) (end -2.2 1) (layer F.SilkS) (width 0.12))
@@ -3866,7 +3866,7 @@
     )
   )
 
-  (module Inductors_SMD:L_0603_HandSoldering (layer F.Cu) (tedit 58307AEF) (tstamp 59DA821B)
+  (module Inductors_SMD:L_0603_HandSoldering (layer F.Cu) (tedit 5A38588E) (tstamp 59DA821B)
     (at 92.7989 95.2119)
     (descr "Resistor SMD 0603, hand soldering")
     (tags "resistor 0603")
@@ -3875,7 +3875,7 @@
     (fp_text reference L1 (at 0 -1.9) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value 10nH (at 0 1.9) (layer F.Fab)
+    (fp_text value 10nH (at 0 1.9) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text user %R (at 0 0) (layer F.Fab)
@@ -3984,7 +3984,7 @@
     )
   )
 
-  (module TO_SOT_Packages_SMD:SOT-23 (layer F.Cu) (tedit 58CE4E7E) (tstamp 59DA8236)
+  (module TO_SOT_Packages_SMD:SOT-23 (layer F.Cu) (tedit 5A385820) (tstamp 59DA8236)
     (at 86.76132 69.39864 270)
     (descr "SOT-23, Standard")
     (tags SOT-23)
@@ -3993,7 +3993,7 @@
     (fp_text reference Q3 (at 0 -2.5 270) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value MMBT5551-TP (at 0 2.5 270) (layer F.Fab)
+    (fp_text value MMBT5551-TP (at 0 2.5 270) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text user %R (at 0.0269 -0.0434 360) (layer F.Fab)
@@ -4025,7 +4025,7 @@
     )
   )
 
-  (module TO_SOT_Packages_SMD:SOT-23 (layer F.Cu) (tedit 58CE4E7E) (tstamp 59DA823D)
+  (module TO_SOT_Packages_SMD:SOT-23 (layer F.Cu) (tedit 5A3857BB) (tstamp 59DA823D)
     (at 88.7476 45.3517 90)
     (descr "SOT-23, Standard")
     (tags SOT-23)
@@ -4034,7 +4034,7 @@
     (fp_text reference Q4 (at 0 -2.5 90) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value MMBT5551-TP (at 0.5334 3.4671 90) (layer F.Fab)
+    (fp_text value MMBT5551-TP (at 0.5334 3.4671 90) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text user %R (at -0.0239 0 180) (layer F.Fab)
@@ -4066,7 +4066,7 @@
     )
   )
 
-  (module TO_SOT_Packages_SMD:SOT-23 (layer F.Cu) (tedit 58CE4E7E) (tstamp 59DA8244)
+  (module TO_SOT_Packages_SMD:SOT-23 (layer F.Cu) (tedit 5A3857C7) (tstamp 59DA8244)
     (at 80.30464 45.87672 90)
     (descr "SOT-23, Standard")
     (tags SOT-23)
@@ -4075,7 +4075,7 @@
     (fp_text reference Q5 (at 0 -2.5 90) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value MMBT5551-TP (at 0 2.5 90) (layer F.Fab)
+    (fp_text value MMBT5551-TP (at 0 2.5 90) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text user %R (at 0 0 180) (layer F.Fab)
@@ -4107,7 +4107,7 @@
     )
   )
 
-  (module TO_SOT_Packages_SMD:SOT-23 (layer F.Cu) (tedit 58CE4E7E) (tstamp 59DA824B)
+  (module TO_SOT_Packages_SMD:SOT-23 (layer F.Cu) (tedit 5A38582F) (tstamp 59DA824B)
     (at 82.7024 77.65288 90)
     (descr "SOT-23, Standard")
     (tags SOT-23)
@@ -4116,7 +4116,7 @@
     (fp_text reference Q6 (at 0 -2.5 90) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value MMBT5551-TP (at 0 2.5 90) (layer F.Fab)
+    (fp_text value MMBT5551-TP (at 0 2.5 90) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text user %R (at 0 0 180) (layer F.Fab)
@@ -4148,7 +4148,7 @@
     )
   )
 
-  (module TO_SOT_Packages_SMD:SOT-23 (layer F.Cu) (tedit 58CE4E7E) (tstamp 59DA8252)
+  (module TO_SOT_Packages_SMD:SOT-23 (layer F.Cu) (tedit 5A385817) (tstamp 59DA8252)
     (at 79.0346 68.6402 270)
     (descr "SOT-23, Standard")
     (tags SOT-23)
@@ -4157,7 +4157,7 @@
     (fp_text reference Q7 (at 0 -2.5 270) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value MMBT5551-TP (at 0 2.5 270) (layer F.Fab)
+    (fp_text value MMBT5551-TP (at 0 2.5 270) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text user %R (at 0 0 360) (layer F.Fab)
@@ -4225,7 +4225,7 @@
     )
   )
 
-  (module Resistors_SMD:R_0603_HandSoldering (layer F.Cu) (tedit 58E0A804) (tstamp 59DA8265)
+  (module Resistors_SMD:R_0603_HandSoldering (layer F.Cu) (tedit 5A385865) (tstamp 59DA8265)
     (at 58.5392 104.0003)
     (descr "Resistor SMD 0603, hand soldering")
     (tags "resistor 0603")
@@ -4234,7 +4234,7 @@
     (fp_text reference R2 (at 0 -1.45) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value 100k (at 0 1.55) (layer F.Fab)
+    (fp_text value 100k (at 0 1.55) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text user %R (at -0.003 -0.0053) (layer F.Fab)
@@ -4333,7 +4333,7 @@
     )
   )
 
-  (module Resistors_SMD:R_0603_HandSoldering (layer F.Cu) (tedit 58E0A804) (tstamp 59DA8277)
+  (module Resistors_SMD:R_0603_HandSoldering (layer F.Cu) (tedit 5A3858B1) (tstamp 59DA8277)
     (at 96.52 109.4994 180)
     (descr "Resistor SMD 0603, hand soldering")
     (tags "resistor 0603")
@@ -4342,7 +4342,7 @@
     (fp_text reference R5 (at 0 -1.45 180) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value 100R (at 0 1.55 180) (layer F.Fab)
+    (fp_text value 100R (at 0 1.55 180) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text user %R (at 0 0 180) (layer F.Fab)
@@ -4441,7 +4441,7 @@
     )
   )
 
-  (module Resistors_SMD:R_0603_HandSoldering (layer F.Cu) (tedit 58E0A804) (tstamp 59DA8289)
+  (module Resistors_SMD:R_0603_HandSoldering (layer F.Cu) (tedit 5A38586B) (tstamp 59DA8289)
     (at 63.4492 107.6579 270)
     (descr "Resistor SMD 0603, hand soldering")
     (tags "resistor 0603")
@@ -4450,7 +4450,7 @@
     (fp_text reference R8 (at 0 -1.45 270) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value 10k (at -0.0792 4.8969 270) (layer F.Fab)
+    (fp_text value 10k (at -0.0792 4.8969 270) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text user %R (at 0 0 270) (layer F.Fab)
@@ -4657,7 +4657,7 @@
     )
   )
 
-  (module Resistors_SMD:R_0603_HandSoldering locked (layer F.Cu) (tedit 58E0A804) (tstamp 59DA82AD)
+  (module Resistors_SMD:R_0603_HandSoldering locked (layer F.Cu) (tedit 5A38583B) (tstamp 59DA82AD)
     (at 71.2978 87.3428 270)
     (descr "Resistor SMD 0603, hand soldering")
     (tags "resistor 0603")
@@ -4666,7 +4666,7 @@
     (fp_text reference R14 (at 0 -1.45 270) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value 100k (at 0 1.55 270) (layer F.Fab)
+    (fp_text value 100k (at 0 1.55 270) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text user %R (at 0 0 270) (layer F.Fab)
@@ -4693,7 +4693,7 @@
     )
   )
 
-  (module Resistors_SMD:R_0603_HandSoldering (layer F.Cu) (tedit 58E0A804) (tstamp 59DA82C5)
+  (module Resistors_SMD:R_0603_HandSoldering (layer F.Cu) (tedit 5A38588B) (tstamp 59DA82C5)
     (at 91.4654 101.1125 270)
     (descr "Resistor SMD 0603, hand soldering")
     (tags "resistor 0603")
@@ -4702,7 +4702,7 @@
     (fp_text reference R18 (at 0 -1.45 270) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value 100R (at 0 1.55 270) (layer F.Fab)
+    (fp_text value 100R (at 0 1.55 270) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text user %R (at 0 0 270) (layer F.Fab)
@@ -4801,7 +4801,7 @@
     )
   )
 
-  (module Resistors_SMD:R_0603_HandSoldering (layer F.Cu) (tedit 58E0A804) (tstamp 59DA82D7)
+  (module Resistors_SMD:R_0603_HandSoldering (layer F.Cu) (tedit 5A385833) (tstamp 59DA82D7)
     (at 81.6151 80.21828)
     (descr "Resistor SMD 0603, hand soldering")
     (tags "resistor 0603")
@@ -4810,7 +4810,7 @@
     (fp_text reference R21 (at 0 -1.45) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value 10k (at 0 1.55) (layer F.Fab)
+    (fp_text value 10k (at 0 1.55) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text user %R (at 0.0351 0.0582) (layer F.Fab)
@@ -4837,7 +4837,7 @@
     )
   )
 
-  (module Resistors_SMD:R_0603_HandSoldering (layer F.Cu) (tedit 58E0A804) (tstamp 59DA82DD)
+  (module Resistors_SMD:R_0603_HandSoldering (layer F.Cu) (tedit 5A38581D) (tstamp 59DA82DD)
     (at 80.0813 66.1289 180)
     (descr "Resistor SMD 0603, hand soldering")
     (tags "resistor 0603")
@@ -4846,7 +4846,7 @@
     (fp_text reference R22 (at 0 -1.45 180) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value 10k (at 0 1.55 180) (layer F.Fab)
+    (fp_text value 10k (at 0 1.55 180) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text user %R (at 0 0 180) (layer F.Fab)
@@ -4873,7 +4873,7 @@
     )
   )
 
-  (module Resistors_SMD:R_0603_HandSoldering (layer F.Cu) (tedit 58E0A804) (tstamp 59DA82E3)
+  (module Resistors_SMD:R_0603_HandSoldering (layer F.Cu) (tedit 5A385826) (tstamp 59DA82E3)
     (at 84.6406 66.1416)
     (descr "Resistor SMD 0603, hand soldering")
     (tags "resistor 0603")
@@ -4882,7 +4882,7 @@
     (fp_text reference R23 (at 0 -1.45) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value 10k (at 0 1.55) (layer F.Fab)
+    (fp_text value 10k (at 0 1.55) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text user %R (at 0 0) (layer F.Fab)
@@ -4909,7 +4909,7 @@
     )
   )
 
-  (module Resistors_SMD:R_0603_HandSoldering (layer F.Cu) (tedit 58E0A804) (tstamp 59DA82E9)
+  (module Resistors_SMD:R_0603_HandSoldering (layer F.Cu) (tedit 5A3857C3) (tstamp 59DA82E9)
     (at 87.6886 47.8917)
     (descr "Resistor SMD 0603, hand soldering")
     (tags "resistor 0603")
@@ -4918,7 +4918,7 @@
     (fp_text reference R24 (at 0 -1.45) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value 10k (at 0 1.55) (layer F.Fab)
+    (fp_text value 10k (at 0 1.55) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text user %R (at 0 0) (layer F.Fab)
@@ -4945,7 +4945,7 @@
     )
   )
 
-  (module Resistors_SMD:R_0603_HandSoldering (layer F.Cu) (tedit 58E0A804) (tstamp 59DA82EF)
+  (module Resistors_SMD:R_0603_HandSoldering (layer F.Cu) (tedit 5A3857C5) (tstamp 59DA82EF)
     (at 82.94624 46.65472 90)
     (descr "Resistor SMD 0603, hand soldering")
     (tags "resistor 0603")
@@ -4954,7 +4954,7 @@
     (fp_text reference R25 (at 0 -1.45 90) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value 10k (at 0 1.55 90) (layer F.Fab)
+    (fp_text value 10k (at 0 1.55 90) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text user %R (at 0 0 90) (layer F.Fab)
@@ -4981,7 +4981,7 @@
     )
   )
 
-  (module Resistors_SMD:R_0603_HandSoldering (layer F.Cu) (tedit 58E0A804) (tstamp 59DA82F5)
+  (module Resistors_SMD:R_0603_HandSoldering (layer F.Cu) (tedit 5A385835) (tstamp 59DA82F5)
     (at 80.1243 77.43698 90)
     (descr "Resistor SMD 0603, hand soldering")
     (tags "resistor 0603")
@@ -4990,7 +4990,7 @@
     (fp_text reference R26 (at 0 -1.45 90) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value 4k7 (at 0 1.55 90) (layer F.Fab)
+    (fp_text value 4k7 (at 0 1.55 90) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text user %R (at 0 0 90) (layer F.Fab)
@@ -5017,7 +5017,7 @@
     )
   )
 
-  (module Resistors_SMD:R_0603_HandSoldering (layer F.Cu) (tedit 58E0A804) (tstamp 59DA82FB)
+  (module Resistors_SMD:R_0603_HandSoldering (layer F.Cu) (tedit 5A38581B) (tstamp 59DA82FB)
     (at 81.5848 68.8799 270)
     (descr "Resistor SMD 0603, hand soldering")
     (tags "resistor 0603")
@@ -5026,7 +5026,7 @@
     (fp_text reference R27 (at 0 -1.45 270) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value 4k7 (at 0 1.55 270) (layer F.Fab)
+    (fp_text value 4k7 (at 0 1.55 270) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text user %R (at 0 0 270) (layer F.Fab)
@@ -5053,7 +5053,7 @@
     )
   )
 
-  (module Resistors_SMD:R_0603_HandSoldering (layer F.Cu) (tedit 58E0A804) (tstamp 59DA8301)
+  (module Resistors_SMD:R_0603_HandSoldering (layer F.Cu) (tedit 5A385829) (tstamp 59DA8301)
     (at 89.6366 69.46392 270)
     (descr "Resistor SMD 0603, hand soldering")
     (tags "resistor 0603")
@@ -5062,7 +5062,7 @@
     (fp_text reference R28 (at 0 -1.45 270) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value 4k7 (at 0 1.55 270) (layer F.Fab)
+    (fp_text value 4k7 (at 0 1.55 270) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text user %R (at 0 0 270) (layer F.Fab)
@@ -5089,7 +5089,7 @@
     )
   )
 
-  (module Resistors_SMD:R_0603_HandSoldering (layer F.Cu) (tedit 58E0A804) (tstamp 59DA8307)
+  (module Resistors_SMD:R_0603_HandSoldering (layer F.Cu) (tedit 5A3857C0) (tstamp 59DA8307)
     (at 86.1949 45.0977 90)
     (descr "Resistor SMD 0603, hand soldering")
     (tags "resistor 0603")
@@ -5098,7 +5098,7 @@
     (fp_text reference R29 (at 0 -1.45 90) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value 4k7 (at 0 1.55 90) (layer F.Fab)
+    (fp_text value 4k7 (at 0 1.55 90) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text user %R (at 0.0224 0 90) (layer F.Fab)
@@ -5125,7 +5125,7 @@
     )
   )
 
-  (module Resistors_SMD:R_0603_HandSoldering (layer F.Cu) (tedit 58E0A804) (tstamp 59DA830D)
+  (module Resistors_SMD:R_0603_HandSoldering (layer F.Cu) (tedit 5A3857CA) (tstamp 59DA830D)
     (at 77.75194 45.63382 90)
     (descr "Resistor SMD 0603, hand soldering")
     (tags "resistor 0603")
@@ -5134,7 +5134,7 @@
     (fp_text reference R30 (at 0 -1.45 90) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value 4k7 (at 0 1.55 90) (layer F.Fab)
+    (fp_text value 4k7 (at 0 1.55 90) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text user %R (at 0 0 90) (layer F.Fab)
@@ -5161,7 +5161,7 @@
     )
   )
 
-  (module Resistors_SMD:R_0603_HandSoldering (layer F.Cu) (tedit 58E0A804) (tstamp 59DA8313)
+  (module Resistors_SMD:R_0603_HandSoldering (layer F.Cu) (tedit 5A385831) (tstamp 59DA8313)
     (at 85.2932 77.90688 90)
     (descr "Resistor SMD 0603, hand soldering")
     (tags "resistor 0603")
@@ -5170,7 +5170,7 @@
     (fp_text reference R31 (at 0 -1.45 90) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value 10k (at 0 1.55 90) (layer F.Fab)
+    (fp_text value 10k (at 0 1.55 90) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text user %R (at 0 0 90) (layer F.Fab)
@@ -5197,7 +5197,7 @@
     )
   )
 
-  (module Resistors_SMD:R_0603_HandSoldering (layer F.Cu) (tedit 58E0A804) (tstamp 59DA8319)
+  (module Resistors_SMD:R_0603_HandSoldering (layer F.Cu) (tedit 5A385819) (tstamp 59DA8319)
     (at 76.4794 68.4227 270)
     (descr "Resistor SMD 0603, hand soldering")
     (tags "resistor 0603")
@@ -5206,7 +5206,7 @@
     (fp_text reference R32 (at 0 -1.45 270) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value 10k (at 0 1.55 270) (layer F.Fab)
+    (fp_text value 10k (at 0 1.55 270) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text user %R (at 0 0 270) (layer F.Fab)
@@ -5233,7 +5233,7 @@
     )
   )
 
-  (module Resistors_SMD:R_0603_HandSoldering (layer F.Cu) (tedit 58E0A804) (tstamp 59DA831F)
+  (module Resistors_SMD:R_0603_HandSoldering (layer F.Cu) (tedit 5A385822) (tstamp 59DA831F)
     (at 84.19592 69.14624 270)
     (descr "Resistor SMD 0603, hand soldering")
     (tags "resistor 0603")
@@ -5242,7 +5242,7 @@
     (fp_text reference R33 (at 0 -1.45 270) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value 10k (at 0 1.55 270) (layer F.Fab)
+    (fp_text value 10k (at 0 1.55 270) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text user %R (at 0 0 270) (layer F.Fab)
@@ -5269,7 +5269,7 @@
     )
   )
 
-  (module Resistors_SMD:R_0603_HandSoldering (layer F.Cu) (tedit 58E0A804) (tstamp 59DA8325)
+  (module Resistors_SMD:R_0603_HandSoldering (layer F.Cu) (tedit 5A3857BD) (tstamp 59DA8325)
     (at 88.9811 42.8625 180)
     (descr "Resistor SMD 0603, hand soldering")
     (tags "resistor 0603")
@@ -5278,7 +5278,7 @@
     (fp_text reference R34 (at -0.297 -1.2573 180) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value 10k (at 0 1.55 180) (layer F.Fab)
+    (fp_text value 10k (at 0 1.55 180) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text user %R (at 0 0 180) (layer F.Fab)
@@ -5305,7 +5305,7 @@
     )
   )
 
-  (module Resistors_SMD:R_0603_HandSoldering (layer F.Cu) (tedit 58E0A804) (tstamp 59DA832B)
+  (module Resistors_SMD:R_0603_HandSoldering (layer F.Cu) (tedit 5A3857CD) (tstamp 59DA832B)
     (at 80.55084 43.36542 180)
     (descr "Resistor SMD 0603, hand soldering")
     (tags "resistor 0603")
@@ -5314,7 +5314,7 @@
     (fp_text reference R35 (at 0 -1.45 180) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value 10k (at 0 1.55 180) (layer F.Fab)
+    (fp_text value 10k (at 0 1.55 180) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text user %R (at 0 0 180) (layer F.Fab)
@@ -5411,7 +5411,7 @@
     )
   )
 
-  (module Housings_QFP:TQFP-64_14x14mm_Pitch0.8mm (layer F.Cu) (tedit 58CC9A48) (tstamp 59DA83AD)
+  (module Housings_QFP:TQFP-64_14x14mm_Pitch0.8mm (layer F.Cu) (tedit 5A38584B) (tstamp 59DA83AD)
     (at 79.2988 98.2218 270)
     (descr "64-Lead Plastic Thin Quad Flatpack (PF) - 14x14x1 mm Body, 2.00 mm [TQFP] (see Microchip Packaging Specification 00000049BS.pdf)")
     (tags "QFP 0.8")
@@ -5420,7 +5420,7 @@
     (fp_text reference U3 (at 0 -9.45 270) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value ATMEGA128-16AU (at 0 9.45 270) (layer F.Fab)
+    (fp_text value ATMEGA128-16AU (at 0 9.45 270) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text user %R (at -0.1768 -0.4818 270) (layer F.Fab)
@@ -5662,7 +5662,7 @@
       (net 212 "Net-(U5-Pad16)"))
   )
 
-  (module Resistors_SMD:R_0603_HandSoldering locked (layer F.Cu) (tedit 58E0A804) (tstamp 59DBF962)
+  (module Resistors_SMD:R_0603_HandSoldering locked (layer F.Cu) (tedit 5A385838) (tstamp 59DBF962)
     (at 73.533 75.735 270)
     (descr "Resistor SMD 0603, hand soldering")
     (tags "resistor 0603")
@@ -5671,7 +5671,7 @@
     (fp_text reference R43 (at 0 -1.45 270) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value 0R (at 0 1.55 270) (layer F.Fab)
+    (fp_text value 0R (at 0 1.55 270) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text user %R (at 0 0 270) (layer F.Fab)
@@ -5734,13 +5734,13 @@
     )
   )
 
-  (module Maxim:µMAX-8 (layer F.Cu) (tedit 59E4AC2E) (tstamp 59E4B072)
+  (module Maxim:µMAX-8 (layer F.Cu) (tedit 5A38585F) (tstamp 59E4B072)
     (at 53.6702 104.2289 180)
     (path /5993797A/59FF9D52)
     (fp_text reference U2 (at 3.9878 0.3048 180) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value MAX892 (at 0.3556 -4.1656 180) (layer F.Fab)
+    (fp_text value MAX892 (at 7.76702 -0.42604 180) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_line (start -1.5006 1.4732) (end -1.5006 -1.5768) (layer F.Fab) (width 0.15))
@@ -5894,7 +5894,7 @@
     )
   )
 
-  (module Diodes_SMD:D_0603 (layer F.Cu) (tedit 590CE922) (tstamp 59E4BFD6)
+  (module Diodes_SMD:D_0603 (layer F.Cu) (tedit 5A385854) (tstamp 59E4BFD6)
     (at 54.9783 99.1743)
     (descr "Diode SMD in 0603 package http://datasheets.avx.com/schottky.pdf")
     (tags "smd diode")
@@ -5903,7 +5903,7 @@
     (fp_text reference D4 (at 0 -1.4) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value TS4148C (at 0 1.4) (layer F.Fab)
+    (fp_text value TS4148C (at 0 1.4) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text user %R (at 0 -1.4) (layer F.Fab)
@@ -6109,7 +6109,7 @@
     )
   )
 
-  (module Diodes_SMD:D_0603 locked (layer F.Cu) (tedit 590CE922) (tstamp 59E4BFEF)
+  (module Diodes_SMD:D_0603 locked (layer F.Cu) (tedit 5A38583D) (tstamp 59E4BFEF)
     (at 69.7738 87.5538 270)
     (descr "Diode SMD in 0603 package http://datasheets.avx.com/schottky.pdf")
     (tags "smd diode")
@@ -6118,10 +6118,10 @@
     (fp_text reference D9 (at 0 -1.4 270) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value TS4148C (at 0 1.4 270) (layer F.Fab)
+    (fp_text value TS4148C (at 0 1.4 270) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text user %R (at 0 -1.4 270) (layer F.Fab)
+    (fp_text user %R (at 0.07298 1.34082 270) (layer F.Fab)
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_line (start -1.3 -0.57) (end -1.3 0.57) (layer F.SilkS) (width 0.12))
@@ -6158,7 +6158,7 @@
     (fp_text reference CON21 (at -12.065 3.802 270) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value DISCO-CON2 (at -12.065 2.802 270) (layer F.Fab)
+    (fp_text value DISCO-CON2 (at -14.30088 4.3313 270) (layer F.Fab)
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (pad 1 thru_hole circle (at -18.415 -1.778 270) (size 0.8 0.8) (drill 0.3) (layers *.Cu *.Mask)
@@ -6775,7 +6775,7 @@
     (fp_text reference CON11 (at -12.065 3.802 270) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value DISCO-CON1 (at -12.065 2.802 270) (layer F.Fab)
+    (fp_text value DISCO-CON1 (at -13.20106 -3.93554 270) (layer F.Fab)
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (pad 1 thru_hole circle (at -18.415 -1.778 270) (size 0.8 0.8) (drill 0.3) (layers *.Cu *.Mask)
@@ -7390,7 +7390,7 @@
       (net 77 "Net-(CON11-Pad24)") (zone_connect 2))
   )
 
-  (module Mounting_Holes:MountingHole_3.2mm_M3 (layer F.Cu) (tedit 56D1B4CB) (tstamp 59FCA269)
+  (module Mounting_Holes:MountingHole_3.2mm_M3 (layer F.Cu) (tedit 5A385771) (tstamp 59FCA269)
     (at 55.5 38.49)
     (descr "Mounting Hole 3.2mm, no annular, M3")
     (tags "mounting hole 3.2mm no annular m3")
@@ -7398,10 +7398,10 @@
     (fp_text reference REF** (at 0 -4.2) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value MountingHole_3.2mm_M3 (at 0 4.2) (layer F.Fab)
+    (fp_text value MountingHole_3.2mm_M3 (at 0 4.2) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text user %R (at 0.3 0) (layer F.Fab)
+    (fp_text user %R (at 0.3 0) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_circle (center 0 0) (end 3.2 0) (layer Cmts.User) (width 0.15))
@@ -7669,7 +7669,7 @@
     )
   )
 
-  (module TO_SOT_Packages_SMD:SOT-23 (layer F.Cu) (tedit 58CE4E7E) (tstamp 59FCB2C5)
+  (module TO_SOT_Packages_SMD:SOT-23 (layer F.Cu) (tedit 5A3857DB) (tstamp 59FCB2C5)
     (at 65.95288 56.31438)
     (descr "SOT-23, Standard")
     (tags SOT-23)
@@ -7678,7 +7678,7 @@
     (fp_text reference Q8 (at 0 -2.5) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value MMBT5551-TP (at 0 2.5) (layer F.Fab)
+    (fp_text value MMBT5551-TP (at 0 2.5) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text user %R (at 0 0 90) (layer F.Fab)
@@ -7890,7 +7890,7 @@
     )
   )
 
-  (module Resistors_SMD:R_0603_HandSoldering (layer F.Cu) (tedit 58E0A804) (tstamp 59FCB32B)
+  (module Resistors_SMD:R_0603_HandSoldering (layer F.Cu) (tedit 5A3857DF) (tstamp 59FCB32B)
     (at 62.15398 55.26278 180)
     (descr "Resistor SMD 0603, hand soldering")
     (tags "resistor 0603")
@@ -7899,7 +7899,7 @@
     (fp_text reference R41 (at 0 -1.45 180) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value 10k (at 0 1.55 180) (layer F.Fab)
+    (fp_text value 10k (at 0 1.55 180) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text user %R (at 0 0 180) (layer F.Fab)
@@ -7926,7 +7926,7 @@
     )
   )
 
-  (module Resistors_SMD:R_0603_HandSoldering (layer F.Cu) (tedit 58E0A804) (tstamp 59FCB33C)
+  (module Resistors_SMD:R_0603_HandSoldering (layer F.Cu) (tedit 5A3857DD) (tstamp 59FCB33C)
     (at 62.16378 57.25668)
     (descr "Resistor SMD 0603, hand soldering")
     (tags "resistor 0603")
@@ -7935,7 +7935,7 @@
     (fp_text reference R42 (at 0 -1.45) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value 10k (at 0 1.55) (layer F.Fab)
+    (fp_text value 10k (at 0 1.55) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text user %R (at 0 0) (layer F.Fab)
@@ -8066,7 +8066,7 @@
     )
   )
 
-  (module Capacitors_SMD:C_1210_HandSoldering locked (layer F.Cu) (tedit 58AA84FB) (tstamp 59FF62F2)
+  (module Capacitors_SMD:C_1210_HandSoldering locked (layer F.Cu) (tedit 5A385904) (tstamp 59FF62F2)
     (at 129.4638 107.5624 90)
     (descr "Capacitor SMD 1210, hand soldering")
     (tags "capacitor 1210")
@@ -8075,10 +8075,10 @@
     (fp_text reference C21 (at 0 -2.25 90) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value 10µF (at 0 2.5 90) (layer F.Fab)
+    (fp_text value 10µF (at 0 2.5 90) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text user %R (at 0 -2.25 90) (layer F.Fab)
+    (fp_text user %R (at 0.08298 -0.01494 90) (layer F.Fab)
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_line (start -1.6 1.25) (end -1.6 -1.25) (layer F.Fab) (width 0.1))
@@ -8138,7 +8138,7 @@
     )
   )
 
-  (module Capacitors_SMD:C_1210_HandSoldering locked (layer F.Cu) (tedit 58AA84FB) (tstamp 59FF6314)
+  (module Capacitors_SMD:C_1210_HandSoldering locked (layer F.Cu) (tedit 5A3858DD) (tstamp 59FF6314)
     (at 125.7427 110.6363 270)
     (descr "Capacitor SMD 1210, hand soldering")
     (tags "capacitor 1210")
@@ -8147,10 +8147,10 @@
     (fp_text reference C23 (at 0 -2.25 270) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value 1µF (at 0 2.5 270) (layer F.Fab)
+    (fp_text value 1µF (at 0 2.5 270) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text user %R (at 0 -2.25 270) (layer F.Fab)
+    (fp_text user %R (at -0.03014 -0.09174 270) (layer F.Fab)
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_line (start -1.6 1.25) (end -1.6 -1.25) (layer F.Fab) (width 0.1))
@@ -8210,7 +8210,7 @@
     )
   )
 
-  (module Capacitors_SMD:C_1210_HandSoldering locked (layer F.Cu) (tedit 58AA84FB) (tstamp 59FF6336)
+  (module Capacitors_SMD:C_1210_HandSoldering locked (layer F.Cu) (tedit 5A3858EA) (tstamp 59FF6336)
     (at 124.7902 117.1448)
     (descr "Capacitor SMD 1210, hand soldering")
     (tags "capacitor 1210")
@@ -8219,10 +8219,10 @@
     (fp_text reference C25 (at 0 -2.25) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value 10µF (at 0 2.5) (layer F.Fab)
+    (fp_text value 10µF (at 0 2.5) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text user %R (at 0 -2.25) (layer F.Fab)
+    (fp_text user %R (at 0.0257 0.01202) (layer F.Fab)
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_line (start -1.6 1.25) (end -1.6 -1.25) (layer F.Fab) (width 0.1))
@@ -8246,7 +8246,7 @@
     )
   )
 
-  (module Capacitors_SMD:C_0603_HandSoldering locked (layer F.Cu) (tedit 58AA848B) (tstamp 59FF6347)
+  (module Capacitors_SMD:C_0603_HandSoldering locked (layer F.Cu) (tedit 5A3858E3) (tstamp 59FF6347)
     (at 119.5426 115.57 180)
     (descr "Capacitor SMD 0603, hand soldering")
     (tags "capacitor 0603")
@@ -8255,11 +8255,11 @@
     (fp_text reference C26 (at 0 -1.25 180) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value 100nF (at 0 1.5 180) (layer F.Fab)
+    (fp_text value 100nF (at 0 1.5 180) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text user %R (at 0 -1.25 180) (layer F.Fab)
-      (effects (font (size 1 1) (thickness 0.15)))
+    (fp_text user %R (at 1.79552 0.00068 180) (layer F.Fab)
+      (effects (font (size 0.6 0.6) (thickness 0.15)))
     )
     (fp_line (start -0.8 0.4) (end -0.8 -0.4) (layer F.Fab) (width 0.1))
     (fp_line (start 0.8 0.4) (end -0.8 0.4) (layer F.Fab) (width 0.1))
@@ -8318,7 +8318,7 @@
     )
   )
 
-  (module Capacitors_SMD:C_0603_HandSoldering (layer F.Cu) (tedit 58AA848B) (tstamp 59FF6369)
+  (module Capacitors_SMD:C_0603_HandSoldering (layer F.Cu) (tedit 5A3858A7) (tstamp 59FF6369)
     (at 103.5045 101.5865 270)
     (descr "Capacitor SMD 0603, hand soldering")
     (tags "capacitor 0603")
@@ -8327,10 +8327,10 @@
     (fp_text reference C28 (at 0 -1.25 270) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value 10pF (at 0 1.5 270) (layer F.Fab)
+    (fp_text value 10pF (at 0 1.5 270) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text user %R (at 0 -1.25 270) (layer F.Fab)
+    (fp_text user %R (at -3.08852 -0.13542 270) (layer F.Fab)
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_line (start -0.8 0.4) (end -0.8 -0.4) (layer F.Fab) (width 0.1))
@@ -8354,7 +8354,7 @@
     )
   )
 
-  (module Capacitors_SMD:C_0603_HandSoldering (layer F.Cu) (tedit 58AA848B) (tstamp 59FF637A)
+  (module Capacitors_SMD:C_0603_HandSoldering (layer F.Cu) (tedit 5A385897) (tstamp 59FF637A)
     (at 99.7145 92.8165 180)
     (descr "Capacitor SMD 0603, hand soldering")
     (tags "capacitor 0603")
@@ -8363,10 +8363,10 @@
     (fp_text reference C29 (at 0 -1.25 180) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value 10pF (at 0 1.5 180) (layer F.Fab)
+    (fp_text value 10pF (at 0 1.5 180) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text user %R (at 0 -1.25 180) (layer F.Fab)
+    (fp_text user %R (at 0.03698 1.2197 180) (layer F.Fab)
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_line (start -0.8 0.4) (end -0.8 -0.4) (layer F.Fab) (width 0.1))
@@ -8426,7 +8426,7 @@
     )
   )
 
-  (module Capacitors_SMD:C_0603_HandSoldering locked (layer F.Cu) (tedit 58AA848B) (tstamp 59FF639C)
+  (module Capacitors_SMD:C_0603_HandSoldering locked (layer F.Cu) (tedit 5A385914) (tstamp 59FF639C)
     (at 124.5108 102.0064 180)
     (descr "Capacitor SMD 0603, hand soldering")
     (tags "capacitor 0603")
@@ -8435,7 +8435,7 @@
     (fp_text reference C31 (at 0 -1.25 180) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value 100nF (at 0 1.5 180) (layer F.Fab)
+    (fp_text value 100nF (at 0 1.5 180) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text user %R (at 0 -1.25 180) (layer F.Fab)
@@ -8462,7 +8462,7 @@
     )
   )
 
-  (module Capacitors_SMD:C_0603_HandSoldering locked (layer F.Cu) (tedit 58AA848B) (tstamp 59FF63AD)
+  (module Capacitors_SMD:C_0603_HandSoldering locked (layer F.Cu) (tedit 5A38589A) (tstamp 59FF63AD)
     (at 103.9495 94.2111 270)
     (descr "Capacitor SMD 0603, hand soldering")
     (tags "capacitor 0603")
@@ -8471,10 +8471,10 @@
     (fp_text reference C32 (at 0 -1.25 270) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value 100nF (at 0 1.5 270) (layer F.Fab)
+    (fp_text value 100nF (at 0 1.5 270) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text user %R (at 0 -1.25 270) (layer F.Fab)
+    (fp_text user %R (at -3.19596 0.07082 270) (layer F.Fab)
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_line (start -0.8 0.4) (end -0.8 -0.4) (layer F.Fab) (width 0.1))
@@ -8498,7 +8498,7 @@
     )
   )
 
-  (module Capacitors_SMD:C_0603_HandSoldering locked (layer F.Cu) (tedit 58AA848B) (tstamp 59FF63BE)
+  (module Capacitors_SMD:C_0603_HandSoldering locked (layer F.Cu) (tedit 5A385921) (tstamp 59FF63BE)
     (at 124.5235 92.4052 180)
     (descr "Capacitor SMD 0603, hand soldering")
     (tags "capacitor 0603")
@@ -8507,7 +8507,7 @@
     (fp_text reference C33 (at 0 -1.25 180) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value 100nF (at 0 1.5 180) (layer F.Fab)
+    (fp_text value 100nF (at 0 1.5 180) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text user %R (at 0 -1.25 180) (layer F.Fab)
@@ -8786,7 +8786,7 @@
     )
   )
 
-  (module Diodes_SMD:D_0603 (layer F.Cu) (tedit 590CE922) (tstamp 59FF644D)
+  (module Diodes_SMD:D_0603 (layer F.Cu) (tedit 5A385907) (tstamp 59FF644D)
     (at 133.1976 103.3272)
     (descr "Diode SMD in 0603 package http://datasheets.avx.com/schottky.pdf")
     (tags "smd diode")
@@ -8795,10 +8795,10 @@
     (fp_text reference D19 (at 0 -1.4) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value TS4148C (at 0 1.4) (layer F.Fab)
+    (fp_text value TS4148C (at 0 1.4) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text user %R (at 0 -1.4) (layer F.Fab)
+    (fp_text user %R (at -0.03526 1.249) (layer F.Fab)
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_line (start -1.3 -0.57) (end -1.3 0.57) (layer F.SilkS) (width 0.12))
@@ -8829,7 +8829,7 @@
     )
   )
 
-  (module Diodes_SMD:D_0603 (layer F.Cu) (tedit 590CE922) (tstamp 59FF6465)
+  (module Diodes_SMD:D_0603 (layer F.Cu) (tedit 5A3858BE) (tstamp 59FF6465)
     (at 113.8165 108.839 180)
     (descr "Diode SMD in 0603 package http://datasheets.avx.com/schottky.pdf")
     (tags "smd diode")
@@ -8838,10 +8838,10 @@
     (fp_text reference D20 (at 0 -1.4 180) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value TS4148C (at 0 1.4 180) (layer F.Fab)
+    (fp_text value TS4148C (at 0 1.4 180) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text user %R (at 0 -1.4 180) (layer F.Fab)
+    (fp_text user %R (at 2.84868 -0.01456 180) (layer F.Fab)
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_line (start -1.3 -0.57) (end -1.3 0.57) (layer F.SilkS) (width 0.12))
@@ -8872,7 +8872,7 @@
     )
   )
 
-  (module Diodes_SMD:D_0603 locked (layer F.Cu) (tedit 590CE922) (tstamp 59FF647D)
+  (module Diodes_SMD:D_0603 locked (layer F.Cu) (tedit 5A3858FE) (tstamp 59FF647D)
     (at 133.6548 108.165 270)
     (descr "Diode SMD in 0603 package http://datasheets.avx.com/schottky.pdf")
     (tags "smd diode")
@@ -8881,7 +8881,7 @@
     (fp_text reference D21 (at 0 -1.4 270) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value TS4148C (at 0 1.4 270) (layer F.Fab)
+    (fp_text value TS4148C (at 0 1.4 270) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text user %R (at 0 -1.4 270) (layer F.Fab)
@@ -8915,7 +8915,7 @@
     )
   )
 
-  (module Diodes_SMD:D_0603 locked (layer F.Cu) (tedit 590CE922) (tstamp 59FF6495)
+  (module Diodes_SMD:D_0603 locked (layer F.Cu) (tedit 5A3858CD) (tstamp 59FF6495)
     (at 119.3156 114.1222 180)
     (descr "Diode SMD in 0603 package http://datasheets.avx.com/schottky.pdf")
     (tags "smd diode")
@@ -8924,10 +8924,10 @@
     (fp_text reference D22 (at 0 -1.4 180) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value TS4148C (at 0 1.4 180) (layer F.Fab)
+    (fp_text value TS4148C (at 0 1.4 180) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text user %R (at 0 -1.4 180) (layer F.Fab)
+    (fp_text user %R (at 2.72676 -0.00694 180) (layer F.Fab)
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_line (start -1.3 -0.57) (end -1.3 0.57) (layer F.SilkS) (width 0.12))
@@ -8958,7 +8958,7 @@
     )
   )
 
-  (module Diodes_SMD:D_0603 locked (layer F.Cu) (tedit 590CE922) (tstamp 59FF64AD)
+  (module Diodes_SMD:D_0603 locked (layer F.Cu) (tedit 5A3858F2) (tstamp 59FF64AD)
     (at 119.9515 117.2845)
     (descr "Diode SMD in 0603 package http://datasheets.avx.com/schottky.pdf")
     (tags "smd diode")
@@ -8967,10 +8967,10 @@
     (fp_text reference D23 (at 0 -1.4) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value TS4148C (at 0 1.4) (layer F.Fab)
+    (fp_text value TS4148C (at 0 1.4) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text user %R (at 0 -1.4) (layer F.Fab)
+    (fp_text user %R (at -2.59558 0.09838) (layer F.Fab)
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_line (start -1.3 -0.57) (end -1.3 0.57) (layer F.SilkS) (width 0.12))
@@ -9173,7 +9173,7 @@
     )
   )
 
-  (module Diodes_SMD:D_SOD-323F (layer F.Cu) (tedit 590A48EB) (tstamp 59FF6525)
+  (module Diodes_SMD:D_SOD-323F (layer F.Cu) (tedit 5A3858C0) (tstamp 59FF6525)
     (at 114.9985 115.5446 180)
     (descr "SOD-323F http://www.nxp.com/documents/outline_drawing/SOD323F.pdf")
     (tags SOD-323F)
@@ -9182,10 +9182,10 @@
     (fp_text reference D28 (at 0 -1.85 180) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value DZ2J036M0LCT-ND (at 0.1 1.9 180) (layer F.Fab)
+    (fp_text value DZ2J036M0LCT-ND (at 0.1 1.9 180) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text user %R (at 0 -1.85 180) (layer F.Fab)
+    (fp_text user %R (at 2.9461 -0.04758 180) (layer F.Fab)
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_line (start -1.5 -0.85) (end -1.5 0.85) (layer F.SilkS) (width 0.12))
@@ -9216,7 +9216,7 @@
     )
   )
 
-  (module Inductors_SMD:L_0603_HandSoldering locked (layer F.Cu) (tedit 58307AEF) (tstamp 59FF6536)
+  (module Inductors_SMD:L_0603_HandSoldering locked (layer F.Cu) (tedit 5A385924) (tstamp 59FF6536)
     (at 124.6554 90.8558)
     (descr "Resistor SMD 0603, hand soldering")
     (tags "resistor 0603")
@@ -9225,7 +9225,7 @@
     (fp_text reference L3 (at 0 -1.9) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value 10nH (at 0 1.9) (layer F.Fab)
+    (fp_text value 10nH (at 0 1.9) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text user %R (at 0 0) (layer F.Fab)
@@ -9296,7 +9296,7 @@
     )
   )
 
-  (module TO_SOT_Packages_SMD:SOT-23 locked (layer F.Cu) (tedit 58CE4E7E) (tstamp 59FF6564)
+  (module TO_SOT_Packages_SMD:SOT-23 locked (layer F.Cu) (tedit 5A38590D) (tstamp 59FF6564)
     (at 129.5367 102.3645)
     (descr "SOT-23, Standard")
     (tags SOT-23)
@@ -9305,7 +9305,7 @@
     (fp_text reference Q9 (at 0 -2.5) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value SSM3J334RLFTR-ND (at 0 2.5) (layer F.Fab)
+    (fp_text value SSM3J334RLFTR-ND (at 0 2.5) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text user %R (at 0 0 90) (layer F.Fab)
@@ -9378,7 +9378,7 @@
     )
   )
 
-  (module TO_SOT_Packages_SMD:SOT-23 (layer F.Cu) (tedit 58CE4E7E) (tstamp 59FF658E)
+  (module TO_SOT_Packages_SMD:SOT-23 (layer F.Cu) (tedit 5A385940) (tstamp 59FF658E)
     (at 114.88678 69.104 90)
     (descr "SOT-23, Standard")
     (tags SOT-23)
@@ -9387,7 +9387,7 @@
     (fp_text reference Q11 (at 0 -2.5 90) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value MMBT5551-TP (at 0 2.5 90) (layer F.Fab)
+    (fp_text value MMBT5551-TP (at 0 2.5 90) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text user %R (at 0 0 180) (layer F.Fab)
@@ -9419,7 +9419,7 @@
     )
   )
 
-  (module TO_SOT_Packages_SMD:SOT-23 (layer F.Cu) (tedit 58CE4E7E) (tstamp 59FF65A3)
+  (module TO_SOT_Packages_SMD:SOT-23 (layer F.Cu) (tedit 5A3857A1) (tstamp 59FF65A3)
     (at 109.03712 46.81652 90)
     (descr "SOT-23, Standard")
     (tags SOT-23)
@@ -9428,7 +9428,7 @@
     (fp_text reference Q12 (at 0 -2.5 90) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value MMBT5551-TP (at 0 2.5 90) (layer F.Fab)
+    (fp_text value MMBT5551-TP (at 0 2.5 90) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text user %R (at 0 0 180) (layer F.Fab)
@@ -9460,7 +9460,7 @@
     )
   )
 
-  (module TO_SOT_Packages_SMD:SOT-23 (layer F.Cu) (tedit 58CE4E7E) (tstamp 59FF65B8)
+  (module TO_SOT_Packages_SMD:SOT-23 (layer F.Cu) (tedit 5A38578E) (tstamp 59FF65B8)
     (at 101.42982 46.85716 90)
     (descr "SOT-23, Standard")
     (tags SOT-23)
@@ -9469,7 +9469,7 @@
     (fp_text reference Q13 (at 0 -2.5 90) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value MMBT5551-TP (at 0 2.5 90) (layer F.Fab)
+    (fp_text value MMBT5551-TP (at 0 2.5 90) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text user %R (at 0 0 180) (layer F.Fab)
@@ -9501,7 +9501,7 @@
     )
   )
 
-  (module TO_SOT_Packages_SMD:SOT-23 (layer F.Cu) (tedit 58CE4E7E) (tstamp 59FF65CD)
+  (module TO_SOT_Packages_SMD:SOT-23 (layer F.Cu) (tedit 5A385956) (tstamp 59FF65CD)
     (at 99.7204 69.01942 90)
     (descr "SOT-23, Standard")
     (tags SOT-23)
@@ -9510,7 +9510,7 @@
     (fp_text reference Q14 (at 0 -2.5 90) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value MMBT5551-TP (at 0 2.5 90) (layer F.Fab)
+    (fp_text value MMBT5551-TP (at 0 2.5 90) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text user %R (at 0 0 180) (layer F.Fab)
@@ -9542,7 +9542,7 @@
     )
   )
 
-  (module TO_SOT_Packages_SMD:SOT-23 (layer F.Cu) (tedit 58CE4E7E) (tstamp 59FF65E2)
+  (module TO_SOT_Packages_SMD:SOT-23 (layer F.Cu) (tedit 5A385948) (tstamp 59FF65E2)
     (at 107.38104 69.05168 90)
     (descr "SOT-23, Standard")
     (tags SOT-23)
@@ -9551,7 +9551,7 @@
     (fp_text reference Q15 (at 0 -2.5 90) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value MMBT5551-TP (at 0 2.5 90) (layer F.Fab)
+    (fp_text value MMBT5551-TP (at 0 2.5 90) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text user %R (at 0 0 180) (layer F.Fab)
@@ -9583,7 +9583,7 @@
     )
   )
 
-  (module TO_SOT_Packages_SMD:SOT-23 locked (layer F.Cu) (tedit 58CE4E7E) (tstamp 59FF65F7)
+  (module TO_SOT_Packages_SMD:SOT-23 locked (layer F.Cu) (tedit 5A3857AA) (tstamp 59FF65F7)
     (at 117.58168 53.9496 270)
     (descr "SOT-23, Standard")
     (tags SOT-23)
@@ -9592,7 +9592,7 @@
     (fp_text reference Q16 (at 0 -2.5 270) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value MMBT5551-TP (at 0 2.5 270) (layer F.Fab)
+    (fp_text value MMBT5551-TP (at 0 2.5 270) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text user %R (at 0 0 360) (layer F.Fab)
@@ -9624,7 +9624,7 @@
     )
   )
 
-  (module Resistors_SMD:R_0603_HandSoldering (layer F.Cu) (tedit 58E0A804) (tstamp 59FF6608)
+  (module Resistors_SMD:R_0603_HandSoldering (layer F.Cu) (tedit 5A385917) (tstamp 59FF6608)
     (at 133.4262 101.6762)
     (descr "Resistor SMD 0603, hand soldering")
     (tags "resistor 0603")
@@ -9633,7 +9633,7 @@
     (fp_text reference R46 (at 0 -1.45) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value 22k (at 0 1.55) (layer F.Fab)
+    (fp_text value 22k (at 0 1.55) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text user %R (at 0 0) (layer F.Fab)
@@ -9660,7 +9660,7 @@
     )
   )
 
-  (module Resistors_SMD:R_0603_HandSoldering (layer F.Cu) (tedit 58E0A804) (tstamp 59FF6619)
+  (module Resistors_SMD:R_0603_HandSoldering (layer F.Cu) (tedit 5A3858C6) (tstamp 59FF6619)
     (at 113.1697 111.6789 270)
     (descr "Resistor SMD 0603, hand soldering")
     (tags "resistor 0603")
@@ -9669,7 +9669,7 @@
     (fp_text reference R47 (at 0 -1.45 270) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value 100k (at 0 1.55 270) (layer F.Fab)
+    (fp_text value 100k (at 0 1.55 270) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text user %R (at 0 0 270) (layer F.Fab)
@@ -9696,7 +9696,7 @@
     )
   )
 
-  (module Resistors_SMD:R_0603_HandSoldering locked (layer F.Cu) (tedit 58E0A804) (tstamp 59FF662A)
+  (module Resistors_SMD:R_0603_HandSoldering locked (layer F.Cu) (tedit 5A385910) (tstamp 59FF662A)
     (at 131.8895 108.2343 270)
     (descr "Resistor SMD 0603, hand soldering")
     (tags "resistor 0603")
@@ -9705,7 +9705,7 @@
     (fp_text reference R48 (at 0 -1.45 270) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value 100k (at 0 1.55 270) (layer F.Fab)
+    (fp_text value 100k (at 0 1.55 270) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text user %R (at 0 0 270) (layer F.Fab)
@@ -9912,7 +9912,7 @@
     )
   )
 
-  (module Resistors_SMD:R_0603_HandSoldering locked (layer F.Cu) (tedit 58E0A804) (tstamp 59FF6690)
+  (module Resistors_SMD:R_0603_HandSoldering locked (layer F.Cu) (tedit 5A3858E0) (tstamp 59FF6690)
     (at 123.6345 114.7826 180)
     (descr "Resistor SMD 0603, hand soldering")
     (tags "resistor 0603")
@@ -9921,7 +9921,7 @@
     (fp_text reference R54 (at 0 -1.45 180) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value 100k (at 0 1.55 180) (layer F.Fab)
+    (fp_text value 100k (at 0 1.55 180) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text user %R (at 0 0 180) (layer F.Fab)
@@ -9948,7 +9948,7 @@
     )
   )
 
-  (module Resistors_SMD:R_0603_HandSoldering locked (layer F.Cu) (tedit 58E0A804) (tstamp 59FF66A1)
+  (module Resistors_SMD:R_0603_HandSoldering locked (layer F.Cu) (tedit 5A3858D4) (tstamp 59FF66A1)
     (at 117.9371 109.0041)
     (descr "Resistor SMD 0603, hand soldering")
     (tags "resistor 0603")
@@ -9957,7 +9957,7 @@
     (fp_text reference R55 (at 0 -1.45) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value 15k (at 0 1.55) (layer F.Fab)
+    (fp_text value 15k (at 0 1.55) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text user %R (at 0 0) (layer F.Fab)
@@ -9984,7 +9984,7 @@
     )
   )
 
-  (module Resistors_SMD:R_0603_HandSoldering locked (layer F.Cu) (tedit 58E0A804) (tstamp 59FF66B2)
+  (module Resistors_SMD:R_0603_HandSoldering locked (layer F.Cu) (tedit 5A3858D1) (tstamp 59FF66B2)
     (at 114.8334 111.6662 90)
     (descr "Resistor SMD 0603, hand soldering")
     (tags "resistor 0603")
@@ -9993,7 +9993,7 @@
     (fp_text reference R56 (at 0 -1.45 90) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value 100k (at 0 1.55 90) (layer F.Fab)
+    (fp_text value 100k (at 0 1.55 90) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text user %R (at 0 0 90) (layer F.Fab)
@@ -10164,7 +10164,7 @@
     )
   )
 
-  (module Resistors_SMD:R_0603_HandSoldering (layer F.Cu) (tedit 58E0A804) (tstamp 59FF673A)
+  (module Resistors_SMD:R_0603_HandSoldering (layer F.Cu) (tedit 5A38595D) (tstamp 59FF673A)
     (at 102.3874 68.77032 270)
     (descr "Resistor SMD 0603, hand soldering")
     (tags "resistor 0603")
@@ -10173,7 +10173,7 @@
     (fp_text reference R64 (at 0 -1.45 270) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value 10k (at 0 1.55 270) (layer F.Fab)
+    (fp_text value 10k (at 0 1.55 270) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text user %R (at 0 0 270) (layer F.Fab)
@@ -10200,7 +10200,7 @@
     )
   )
 
-  (module Resistors_SMD:R_0603_HandSoldering (layer F.Cu) (tedit 58E0A804) (tstamp 59FF674B)
+  (module Resistors_SMD:R_0603_HandSoldering (layer F.Cu) (tedit 5A38594D) (tstamp 59FF674B)
     (at 110.07344 68.80588 270)
     (descr "Resistor SMD 0603, hand soldering")
     (tags "resistor 0603")
@@ -10209,7 +10209,7 @@
     (fp_text reference R65 (at 0 -1.45 270) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value 10k (at 0 1.55 270) (layer F.Fab)
+    (fp_text value 10k (at 0 1.55 270) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text user %R (at 0 0 270) (layer F.Fab)
@@ -10236,7 +10236,7 @@
     )
   )
 
-  (module Resistors_SMD:R_0603_HandSoldering (layer F.Cu) (tedit 58E0A804) (tstamp 59FF675C)
+  (module Resistors_SMD:R_0603_HandSoldering (layer F.Cu) (tedit 5A385943) (tstamp 59FF675C)
     (at 117.6909 68.8848 270)
     (descr "Resistor SMD 0603, hand soldering")
     (tags "resistor 0603")
@@ -10245,7 +10245,7 @@
     (fp_text reference R66 (at 0 -1.45 270) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value 10k (at 0 1.55 270) (layer F.Fab)
+    (fp_text value 10k (at 0 1.55 270) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text user %R (at 0 0 270) (layer F.Fab)
@@ -10272,7 +10272,7 @@
     )
   )
 
-  (module Resistors_SMD:R_0603_HandSoldering (layer F.Cu) (tedit 58E0A804) (tstamp 59FF676D)
+  (module Resistors_SMD:R_0603_HandSoldering (layer F.Cu) (tedit 5A3857A6) (tstamp 59FF676D)
     (at 111.83112 46.59612 270)
     (descr "Resistor SMD 0603, hand soldering")
     (tags "resistor 0603")
@@ -10281,7 +10281,7 @@
     (fp_text reference R67 (at 0 -1.45 270) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value 10k (at 0 1.55 270) (layer F.Fab)
+    (fp_text value 10k (at 0 1.55 270) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text user %R (at 0 0 270) (layer F.Fab)
@@ -10308,7 +10308,7 @@
     )
   )
 
-  (module Resistors_SMD:R_0603_HandSoldering (layer F.Cu) (tedit 58E0A804) (tstamp 59FF677E)
+  (module Resistors_SMD:R_0603_HandSoldering (layer F.Cu) (tedit 5A385792) (tstamp 59FF677E)
     (at 104.17302 46.59866 270)
     (descr "Resistor SMD 0603, hand soldering")
     (tags "resistor 0603")
@@ -10317,7 +10317,7 @@
     (fp_text reference R68 (at 0 -1.45 270) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value 10k (at 0 1.55 270) (layer F.Fab)
+    (fp_text value 10k (at 0 1.55 270) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text user %R (at 0 0 270) (layer F.Fab)
@@ -10344,7 +10344,7 @@
     )
   )
 
-  (module Resistors_SMD:R_0603_HandSoldering (layer F.Cu) (tedit 58E0A804) (tstamp 59FF678F)
+  (module Resistors_SMD:R_0603_HandSoldering (layer F.Cu) (tedit 5A385936) (tstamp 59FF678F)
     (at 107.640032 76.901938 180)
     (descr "Resistor SMD 0603, hand soldering")
     (tags "resistor 0603")
@@ -10353,7 +10353,7 @@
     (fp_text reference R69 (at 0 -1.45 180) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value 10k (at 0 1.55 180) (layer F.Fab)
+    (fp_text value 10k (at 0 1.55 180) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text user %R (at 0 0 180) (layer F.Fab)
@@ -10416,7 +10416,7 @@
     )
   )
 
-  (module Resistors_SMD:R_0603_HandSoldering (layer F.Cu) (tedit 58E0A804) (tstamp 59FF67B1)
+  (module Resistors_SMD:R_0603_HandSoldering (layer F.Cu) (tedit 5A385960) (tstamp 59FF67B1)
     (at 96.9137 68.73512 90)
     (descr "Resistor SMD 0603, hand soldering")
     (tags "resistor 0603")
@@ -10425,7 +10425,7 @@
     (fp_text reference R71 (at 0 -1.45 90) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value 4k7 (at 0 1.55 90) (layer F.Fab)
+    (fp_text value 4k7 (at 0 1.55 90) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text user %R (at 0 0 90) (layer F.Fab)
@@ -10452,7 +10452,7 @@
     )
   )
 
-  (module Resistors_SMD:R_0603_HandSoldering (layer F.Cu) (tedit 58E0A804) (tstamp 59FF67C2)
+  (module Resistors_SMD:R_0603_HandSoldering (layer F.Cu) (tedit 5A385950) (tstamp 59FF67C2)
     (at 104.52354 68.80878 90)
     (descr "Resistor SMD 0603, hand soldering")
     (tags "resistor 0603")
@@ -10461,7 +10461,7 @@
     (fp_text reference R72 (at 0 -1.45 90) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value 4k7 (at 0 1.55 90) (layer F.Fab)
+    (fp_text value 4k7 (at 0 1.55 90) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text user %R (at 0 0 90) (layer F.Fab)
@@ -10488,7 +10488,7 @@
     )
   )
 
-  (module Resistors_SMD:R_0603_HandSoldering (layer F.Cu) (tedit 58E0A804) (tstamp 59FF67D3)
+  (module Resistors_SMD:R_0603_HandSoldering (layer F.Cu) (tedit 5A38594B) (tstamp 59FF67D3)
     (at 112.04448 68.8545 90)
     (descr "Resistor SMD 0603, hand soldering")
     (tags "resistor 0603")
@@ -10497,7 +10497,7 @@
     (fp_text reference R73 (at 0 -1.45 90) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value 4k7 (at 0 1.55 90) (layer F.Fab)
+    (fp_text value 4k7 (at 0 1.55 90) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text user %R (at 0 0 90) (layer F.Fab)
@@ -10524,7 +10524,7 @@
     )
   )
 
-  (module Resistors_SMD:R_0603_HandSoldering (layer F.Cu) (tedit 58E0A804) (tstamp 59FF67E4)
+  (module Resistors_SMD:R_0603_HandSoldering (layer F.Cu) (tedit 5A3857A4) (tstamp 59FF67E4)
     (at 106.26852 46.54822 90)
     (descr "Resistor SMD 0603, hand soldering")
     (tags "resistor 0603")
@@ -10533,7 +10533,7 @@
     (fp_text reference R74 (at 0 -1.45 90) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value 4k7 (at 0 1.55 90) (layer F.Fab)
+    (fp_text value 4k7 (at 0 1.55 90) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text user %R (at 0 0 90) (layer F.Fab)
@@ -10560,7 +10560,7 @@
     )
   )
 
-  (module Resistors_SMD:R_0603_HandSoldering (layer F.Cu) (tedit 58E0A804) (tstamp 59FF67F5)
+  (module Resistors_SMD:R_0603_HandSoldering (layer F.Cu) (tedit 5A385795) (tstamp 59FF67F5)
     (at 98.58502 46.57616 90)
     (descr "Resistor SMD 0603, hand soldering")
     (tags "resistor 0603")
@@ -10569,7 +10569,7 @@
     (fp_text reference R75 (at 0 -1.45 90) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value 4k7 (at 0 1.55 90) (layer F.Fab)
+    (fp_text value 4k7 (at 0 1.55 90) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text user %R (at 0 0 90) (layer F.Fab)
@@ -10596,7 +10596,7 @@
     )
   )
 
-  (module Resistors_SMD:R_0603_HandSoldering (layer F.Cu) (tedit 58E0A804) (tstamp 59FF6806)
+  (module Resistors_SMD:R_0603_HandSoldering (layer F.Cu) (tedit 5A385933) (tstamp 59FF6806)
     (at 107.678132 78.514838)
     (descr "Resistor SMD 0603, hand soldering")
     (tags "resistor 0603")
@@ -10605,7 +10605,7 @@
     (fp_text reference R76 (at 0 -1.45) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value 4k7 (at 0 1.55) (layer F.Fab)
+    (fp_text value 4k7 (at 0 1.55) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text user %R (at 0 0) (layer F.Fab)
@@ -10668,7 +10668,7 @@
     )
   )
 
-  (module Resistors_SMD:R_0603_HandSoldering (layer F.Cu) (tedit 58E0A804) (tstamp 59FF6828)
+  (module Resistors_SMD:R_0603_HandSoldering (layer F.Cu) (tedit 5A38595B) (tstamp 59FF6828)
     (at 99.652 66.53022)
     (descr "Resistor SMD 0603, hand soldering")
     (tags "resistor 0603")
@@ -10677,7 +10677,7 @@
     (fp_text reference R78 (at 0 -1.45) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value 10k (at 0 1.55) (layer F.Fab)
+    (fp_text value 10k (at 0 1.55) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text user %R (at 0 0) (layer F.Fab)
@@ -10704,7 +10704,7 @@
     )
   )
 
-  (module Resistors_SMD:R_0603_HandSoldering (layer F.Cu) (tedit 58E0A804) (tstamp 59FF6839)
+  (module Resistors_SMD:R_0603_HandSoldering (layer F.Cu) (tedit 5A385953) (tstamp 59FF6839)
     (at 107.29214 66.51498 180)
     (descr "Resistor SMD 0603, hand soldering")
     (tags "resistor 0603")
@@ -10713,7 +10713,7 @@
     (fp_text reference R79 (at 0 -1.45 180) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value 10k (at 0 1.55 180) (layer F.Fab)
+    (fp_text value 10k (at 0 1.55 180) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text user %R (at 0 0 180) (layer F.Fab)
@@ -10740,7 +10740,7 @@
     )
   )
 
-  (module Resistors_SMD:R_0603_HandSoldering (layer F.Cu) (tedit 58E0A804) (tstamp 59FF684A)
+  (module Resistors_SMD:R_0603_HandSoldering (layer F.Cu) (tedit 5A385946) (tstamp 59FF684A)
     (at 114.83068 66.5861 180)
     (descr "Resistor SMD 0603, hand soldering")
     (tags "resistor 0603")
@@ -10749,7 +10749,7 @@
     (fp_text reference R80 (at 0 -1.45 180) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value 10k (at 0 1.55 180) (layer F.Fab)
+    (fp_text value 10k (at 0 1.55 180) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text user %R (at 0 0 180) (layer F.Fab)
@@ -10776,7 +10776,7 @@
     )
   )
 
-  (module Resistors_SMD:R_0603_HandSoldering (layer F.Cu) (tedit 58E0A804) (tstamp 59FF685B)
+  (module Resistors_SMD:R_0603_HandSoldering (layer F.Cu) (tedit 5A38579F) (tstamp 59FF685B)
     (at 109.05762 44.26712 180)
     (descr "Resistor SMD 0603, hand soldering")
     (tags "resistor 0603")
@@ -10785,7 +10785,7 @@
     (fp_text reference R81 (at 0 -1.45 180) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value 10k (at 0 1.55 180) (layer F.Fab)
+    (fp_text value 10k (at 0 1.55 180) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text user %R (at 0 0 180) (layer F.Fab)
@@ -10812,7 +10812,7 @@
     )
   )
 
-  (module Resistors_SMD:R_0603_HandSoldering (layer F.Cu) (tedit 58E0A804) (tstamp 59FF686C)
+  (module Resistors_SMD:R_0603_HandSoldering (layer F.Cu) (tedit 5A38578B) (tstamp 59FF686C)
     (at 101.34872 44.32046 180)
     (descr "Resistor SMD 0603, hand soldering")
     (tags "resistor 0603")
@@ -10821,7 +10821,7 @@
     (fp_text reference R82 (at 0 -1.45 180) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value 10k (at 0 1.55 180) (layer F.Fab)
+    (fp_text value 10k (at 0 1.55 180) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text user %R (at 0 0 180) (layer F.Fab)
@@ -10848,7 +10848,7 @@
     )
   )
 
-  (module Resistors_SMD:R_0603_HandSoldering (layer F.Cu) (tedit 58E0A804) (tstamp 59FF687D)
+  (module Resistors_SMD:R_0603_HandSoldering (layer F.Cu) (tedit 5A385931) (tstamp 59FF687D)
     (at 115.1763 75.7252 270)
     (descr "Resistor SMD 0603, hand soldering")
     (tags "resistor 0603")
@@ -10857,7 +10857,7 @@
     (fp_text reference R83 (at 0 -1.45 270) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value 0R (at 0 1.55 270) (layer F.Fab)
+    (fp_text value 0R (at 0 1.55 270) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text user %R (at 0 0 270) (layer F.Fab)
@@ -11064,7 +11064,7 @@
     )
   )
 
-  (module Resistors_SMD:R_0603_HandSoldering locked (layer F.Cu) (tedit 58E0A804) (tstamp 59FF68E3)
+  (module Resistors_SMD:R_0603_HandSoldering locked (layer F.Cu) (tedit 5A3857B6) (tstamp 59FF68E3)
     (at 120.22328 53.4416 270)
     (descr "Resistor SMD 0603, hand soldering")
     (tags "resistor 0603")
@@ -11073,7 +11073,7 @@
     (fp_text reference R89 (at 0 -1.45 270) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value 10k (at 0 1.55 270) (layer F.Fab)
+    (fp_text value 10k (at 0 1.55 270) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text user %R (at 0 0 270) (layer F.Fab)
@@ -11100,7 +11100,7 @@
     )
   )
 
-  (module Resistors_SMD:R_0603_HandSoldering locked (layer F.Cu) (tedit 58E0A804) (tstamp 59FF68F4)
+  (module Resistors_SMD:R_0603_HandSoldering locked (layer F.Cu) (tedit 5A3857B3) (tstamp 59FF68F4)
     (at 118.68168 56.5023 180)
     (descr "Resistor SMD 0603, hand soldering")
     (tags "resistor 0603")
@@ -11109,7 +11109,7 @@
     (fp_text reference R90 (at 0 -1.45 180) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value 10k (at 0 1.55 180) (layer F.Fab)
+    (fp_text value 10k (at 0 1.55 180) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text user %R (at 0 0 180) (layer F.Fab)
@@ -11206,13 +11206,13 @@
     )
   )
 
-  (module Maxim:µMAX-8 locked (layer F.Cu) (tedit 59E4AC2E) (tstamp 59FF6929)
+  (module Maxim:µMAX-8 locked (layer F.Cu) (tedit 5A3858D9) (tstamp 59FF6929)
     (at 119.3673 111.6111 90)
     (path /59FF6F05/59B7DE36)
     (fp_text reference U7 (at 3.9878 0.3048 90) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value MAX892 (at 0.3556 -4.1656 90) (layer F.Fab)
+    (fp_text value MAX892 (at 0.3556 -4.1656 90) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_line (start -1.5006 1.4732) (end -1.5006 -1.5768) (layer F.Fab) (width 0.15))
@@ -11237,7 +11237,7 @@
       (net 108 /Funkmodul2/VCC))
   )
 
-  (module Housings_QFP:TQFP-64_14x14mm_Pitch0.8mm locked (layer F.Cu) (tedit 58CC9A48) (tstamp 59FF6980)
+  (module Housings_QFP:TQFP-64_14x14mm_Pitch0.8mm locked (layer F.Cu) (tedit 5A3858A2) (tstamp 59FF6980)
     (at 113.6396 98.3996 270)
     (descr "64-Lead Plastic Thin Quad Flatpack (PF) - 14x14x1 mm Body, 2.00 mm [TQFP] (see Microchip Packaging Specification 00000049BS.pdf)")
     (tags "QFP 0.8")
@@ -11246,7 +11246,7 @@
     (fp_text reference U8 (at 0 -9.45 270) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value ATMEGA128-16AU (at 0 9.45 270) (layer F.Fab)
+    (fp_text value ATMEGA128-16AU (at 0 9.45 270) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text user %R (at 0 0 270) (layer F.Fab)
@@ -11800,7 +11800,7 @@
     )
   )
 
-  (module TO_SOT_Packages_SMD:SOT-23 (layer F.Cu) (tedit 5A0DC76F) (tstamp 5A088CD0)
+  (module TO_SOT_Packages_SMD:SOT-23 (layer F.Cu) (tedit 5A3858B7) (tstamp 5A088CD0)
     (at 102.3841 108.8415)
     (descr "SOT-23, Standard")
     (tags SOT-23)
@@ -11809,7 +11809,7 @@
     (fp_text reference Q17 (at 0 -2.5) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value AO3414 (at 0 2.5) (layer F.Fab)
+    (fp_text value AO3414 (at 0 2.5) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text user %R (at 0 0 90) (layer F.Fab)
@@ -11841,7 +11841,7 @@
     )
   )
 
-  (module TO_SOT_Packages_SMD:SOT-23 (layer F.Cu) (tedit 5A0DC750) (tstamp 5A088CE5)
+  (module TO_SOT_Packages_SMD:SOT-23 (layer F.Cu) (tedit 5A3858AC) (tstamp 5A088CE5)
     (at 102.3714 105.0138)
     (descr "SOT-23, Standard")
     (tags SOT-23)
@@ -11850,7 +11850,7 @@
     (fp_text reference Q18 (at 0 -2.5) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value AO3414 (at 0 2.5) (layer F.Fab)
+    (fp_text value AO3414 (at 0 2.5) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text user %R (at 0 0 90) (layer F.Fab)
@@ -11882,7 +11882,7 @@
     )
   )
 
-  (module Resistors_SMD:R_0603_HandSoldering (layer F.Cu) (tedit 58E0A804) (tstamp 5A088CF6)
+  (module Resistors_SMD:R_0603_HandSoldering (layer F.Cu) (tedit 5A3858B3) (tstamp 5A088CF6)
     (at 98.425 111.4933 180)
     (descr "Resistor SMD 0603, hand soldering")
     (tags "resistor 0603")
@@ -11891,7 +11891,7 @@
     (fp_text reference R91 (at 0 -1.45 180) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value 100R (at 0 1.55 180) (layer F.Fab)
+    (fp_text value 100R (at 0 1.55 180) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text user %R (at 0 0 180) (layer F.Fab)
@@ -11918,7 +11918,7 @@
     )
   )
 
-  (module Resistors_SMD:R_0603_HandSoldering (layer F.Cu) (tedit 58E0A804) (tstamp 5A088D07)
+  (module Resistors_SMD:R_0603_HandSoldering (layer F.Cu) (tedit 5A3858BA) (tstamp 5A088D07)
     (at 102.6541 111.5568)
     (descr "Resistor SMD 0603, hand soldering")
     (tags "resistor 0603")
@@ -11927,7 +11927,7 @@
     (fp_text reference R92 (at 0 -1.45) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value 100k (at 0 1.55) (layer F.Fab)
+    (fp_text value 100k (at 0 1.55) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text user %R (at 0 0) (layer F.Fab)
@@ -12170,7 +12170,7 @@
     )
   )
 
-  (module Diodes_SMD:D_SOD-123F (layer F.Cu) (tedit 587F7769) (tstamp 5A0B34EC)
+  (module Diodes_SMD:D_SOD-123F (layer F.Cu) (tedit 5A3858AE) (tstamp 5A0B34EC)
     (at 98.425 105.4354 270)
     (descr D_SOD-123F)
     (tags D_SOD-123F)
@@ -12179,7 +12179,7 @@
     (fp_text reference D33 (at -0.127 -1.905 270) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value SMF3.3 (at 0 2.1 270) (layer F.Fab)
+    (fp_text value SMF3.3 (at 0 2.1 270) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text user %R (at -0.127 -1.905 270) (layer F.Fab)
@@ -12404,7 +12404,7 @@
       (net 57 /Funkmodul1/Funkeinheit/PGND) (zone_connect 2))
   )
 
-  (module Crystals:Crystal_SMD_7050-4pin_7.0x5.0mm (layer F.Cu) (tedit 58CD2E9C) (tstamp 5A0EE63B)
+  (module Crystals:Crystal_SMD_7050-4pin_7.0x5.0mm (layer F.Cu) (tedit 5A385850) (tstamp 5A0EE63B)
     (at 63.5545 96.8765)
     (descr "SMD Crystal SERIES SMD7050/4 https://www.foxonline.com/pdfs/FQ7050.pdf, 7.0x5.0mm^2 package")
     (tags "SMD SMT crystal")
@@ -12413,7 +12413,7 @@
     (fp_text reference Y1 (at 0 -3.7) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value 407F39D007M3728 (at 0 3.7) (layer F.Fab)
+    (fp_text value 407F39D007M3728 (at 0 3.7) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text user %R (at 0 0) (layer F.Fab)
@@ -12457,7 +12457,7 @@
     )
   )
 
-  (module Crystals:Crystal_SMD_7050-4pin_7.0x5.0mm (layer F.Cu) (tedit 58CD2E9C) (tstamp 5A0EE65B)
+  (module Crystals:Crystal_SMD_7050-4pin_7.0x5.0mm (layer F.Cu) (tedit 5A38589D) (tstamp 5A0EE65B)
     (at 99.5045 97.9265 90)
     (descr "SMD Crystal SERIES SMD7050/4 https://www.foxonline.com/pdfs/FQ7050.pdf, 7.0x5.0mm^2 package")
     (tags "SMD SMT crystal")
@@ -12466,7 +12466,7 @@
     (fp_text reference Y2 (at 0 -3.7 90) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value 407F39D007M3728 (at 0 3.7 90) (layer F.Fab)
+    (fp_text value 407F39D007M3728 (at 0 3.7 90) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text user %R (at 0 0 90) (layer F.Fab)
@@ -12679,7 +12679,7 @@
     (fp_text reference FID2 (at 0 -1.5) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value Fiducial (at 0 1.5) (layer F.Fab)
+    (fp_text value Fiducial (at 1.23952 -1.75514) (layer F.Fab)
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_circle (center 0 0) (end 0.5 0) (layer F.Fab) (width 0.1))
@@ -12787,16 +12787,6 @@
   (gr_text ANT1 (at 100.7745 89.7365) (layer B.SilkS)
     (effects (font (size 1.5 1.5) (thickness 0.3)) (justify mirror))
   )
-  (target plus (at 126.5745 65.1065) (size 5) (width 0.15) (layer Edge.Cuts) (tstamp 5A0EF24E))
-  (target plus (at 125.7445 65.1065) (size 5) (width 0.15) (layer Edge.Cuts))
-  (target plus (at 147.1245 60.0365) (size 5) (width 0.15) (layer Edge.Cuts) (tstamp 5A0EF24B))
-  (target plus (at 125.8545 64.9565) (size 5) (width 0.15) (layer Edge.Cuts) (tstamp 5A0EF24A))
-  (target plus (at 125.8545 64.9565) (size 5) (width 0.15) (layer Edge.Cuts) (tstamp 5A0EF249))
-  (target plus (at 125.8545 64.9565) (size 5) (width 0.15) (layer Edge.Cuts) (tstamp 5A0EF248))
-  (target plus (at 125.8545 64.9565) (size 5) (width 0.15) (layer Edge.Cuts) (tstamp 5A0EF247))
-  (target plus (at 125.8545 64.9565) (size 5) (width 0.15) (layer Edge.Cuts))
-  (target plus (at 59.1545 41.1665) (size 5) (width 0.15) (layer Edge.Cuts) (tstamp 5A0EF245))
-  (target plus (at 64.7745 41.3265) (size 5) (width 0.15) (layer Edge.Cuts))
   (gr_line (start 114.8345 57.3265) (end 101.5445 57.3065) (layer F.SilkS) (width 0.2))
   (gr_line (start 114.8345 64.4765) (end 114.8345 57.3265) (layer F.SilkS) (width 0.2))
   (gr_line (start 101.5045 64.4765) (end 114.8345 64.4765) (layer F.SilkS) (width 0.2))
