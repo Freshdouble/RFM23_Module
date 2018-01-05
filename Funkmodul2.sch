@@ -28,8 +28,12 @@ LIBS:opto
 LIBS:atmel
 LIBS:contrib
 LIBS:valves
+LIBS:nxp-ic
+LIBS:7400-ic
 LIBS:cubesatFunkmodul-cache
 LIBS:funkmodul
+LIBS:CubeSat-Bus-1
+LIBS:CubeSat-Bus-2
 LIBS:disco-con
 LIBS:fiducial
 EELAYER 25 0
@@ -385,7 +389,7 @@ F 3 "" H 1650 2750 50  0001 C CNN
 $EndComp
 Text Label 2000 1250 0    60   ~ 0
 ~ON~
-Text Label 3300 2600 0    60   ~ 0
+Text Label 3400 3100 0    60   ~ 0
 ~ON~
 Text Label 3100 2300 0    60   ~ 0
 WDG_TRIGGER
@@ -1357,12 +1361,18 @@ RESET_3V3
 $Comp
 L R R16
 U 1 1 5A0FAB4F
-P 3150 2600
-F 0 "R16" V 3230 2600 50  0000 C CNN
-F 1 "0R" V 3150 2600 50  0000 C CNN
-F 2 "Resistors_SMD:R_0805_HandSoldering" V 3080 2600 50  0001 C CNN
-F 3 "" H 3150 2600 50  0001 C CNN
-	1    3150 2600
-	0    1    1    0   
+P 3400 2850
+F 0 "R16" V 3480 2850 50  0000 C CNN
+F 1 "0R" V 3400 2850 50  0000 C CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" V 3330 2850 50  0001 C CNN
+F 3 "" H 3400 2850 50  0001 C CNN
+	1    3400 2850
+	-1   0    0    1   
 $EndComp
+Wire Wire Line
+	3400 3100 3400 3000
+Wire Wire Line
+	3000 2600 3400 2600
+Wire Wire Line
+	3400 2600 3400 2700
 $EndSCHEMATC

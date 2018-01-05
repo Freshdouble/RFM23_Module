@@ -28,8 +28,12 @@ LIBS:opto
 LIBS:atmel
 LIBS:contrib
 LIBS:valves
+LIBS:nxp-ic
+LIBS:7400-ic
 LIBS:cubesatFunkmodul-cache
 LIBS:funkmodul
+LIBS:CubeSat-Bus-1
+LIBS:CubeSat-Bus-2
 LIBS:disco-con
 LIBS:fiducial
 EELAYER 25 0
@@ -1352,17 +1356,23 @@ Text Label 5250 5100 2    60   ~ 0
 BURNWIRE2
 Text HLabel 8150 5100 2    60   Input ~ 0
 RESET_3V3
-Text Label 3300 2600 0    60   ~ 0
+Text Label 3450 3100 0    60   ~ 0
 ~ON~
 $Comp
 L R R15
 U 1 1 5A0FBAB8
-P 3150 2600
-F 0 "R15" V 3230 2600 50  0000 C CNN
-F 1 "0R" V 3150 2600 50  0000 C CNN
-F 2 "Resistors_SMD:R_0805_HandSoldering" V 3080 2600 50  0001 C CNN
-F 3 "" H 3150 2600 50  0001 C CNN
-	1    3150 2600
-	0    1    1    0   
+P 3450 2800
+F 0 "R15" V 3530 2800 50  0000 C CNN
+F 1 "0R" V 3450 2800 50  0000 C CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" V 3380 2800 50  0001 C CNN
+F 3 "" H 3450 2800 50  0001 C CNN
+	1    3450 2800
+	-1   0    0    1   
 $EndComp
+Wire Wire Line
+	3450 2950 3450 3100
+Wire Wire Line
+	3450 2650 3450 2600
+Wire Wire Line
+	3450 2600 3000 2600
 $EndSCHEMATC
