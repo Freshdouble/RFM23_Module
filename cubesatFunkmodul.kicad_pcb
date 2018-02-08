@@ -1,4 +1,4 @@
-(kicad_pcb (version 4) (host pcbnew 4.0.6)
+(kicad_pcb (version 4) (host pcbnew 4.0.7)
 
   (general
     (links 1241)
@@ -14,10 +14,10 @@
 
   (page A4)
   (layers
-    (0 F.Cu signal hide)
+    (0 F.Cu signal)
     (1 In1.Cu power hide)
     (2 In2.Cu mixed hide)
-    (31 B.Cu signal hide)
+    (31 B.Cu signal)
     (32 B.Adhes user hide)
     (33 F.Adhes user hide)
     (34 B.Paste user hide)
@@ -70,7 +70,7 @@
     (pad_to_mask_clearance 0.19)
     (aux_axis_origin 0 0)
     (grid_origin 126.3145 65.0665)
-    (visible_elements 7FFF8041)
+    (visible_elements 7FFFC601)
     (pcbplotparams
       (layerselection 0x21000_00000000)
       (usegerberextensions false)
@@ -12404,6 +12404,7 @@
   (module Maxim:µMAX-8 (layer F.Cu) (tedit 5A4FAECD) (tstamp 59E4B072)
     (at 53.6702 104.2289 180)
     (path /5993797A/59FF9D52)
+    (attr smd)
     (fp_text reference U2 (at 4.1402 0.0254 180) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
     )
@@ -12439,6 +12440,7 @@
   (module Maxim:µMAX-8 locked (layer F.Cu) (tedit 5A4FAEE1) (tstamp 59FF6929)
     (at 119.3673 111.6111 90)
     (path /59FF6F05/59B7DE36)
+    (attr smd)
     (fp_text reference U7 (at 4.1402 0.0254 90) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
     )
@@ -12580,7 +12582,7 @@
   (gr_text "CON21\n" (at 131.2294 92.7652) (layer B.Fab) (tstamp 5A5E1D66)
     (effects (font (size 1.5 1.5) (thickness 0.3)) (justify mirror))
   )
-  (gr_text "CON21\n" (at 131.2294 92.7652 360) (layer F.Fab)
+  (gr_text "CON21\n" (at 131.2294 92.7652) (layer F.Fab)
     (effects (font (size 1.5 1.5) (thickness 0.3)))
   )
   (gr_text FTS-130-03-L-DV-SA (at 127.3305 71.861 90) (layer F.Fab) (tstamp 5A5E1D3B)
