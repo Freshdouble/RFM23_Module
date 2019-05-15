@@ -1,42 +1,6 @@
-EESchema Schematic File Version 2
-LIBS:power
-LIBS:device
-LIBS:transistors
-LIBS:conn
-LIBS:linear
-LIBS:regul
-LIBS:74xx
-LIBS:cmos4000
-LIBS:adc-dac
-LIBS:memory
-LIBS:xilinx
-LIBS:microcontrollers
-LIBS:dsp
-LIBS:microchip
-LIBS:analog_switches
-LIBS:motorola
-LIBS:texas
-LIBS:intel
-LIBS:audio
-LIBS:interface
-LIBS:digital-audio
-LIBS:philips
-LIBS:display
-LIBS:cypress
-LIBS:siliconi
-LIBS:opto
-LIBS:atmel
-LIBS:contrib
-LIBS:valves
-LIBS:nxp-ic
-LIBS:7400-ic
+EESchema Schematic File Version 4
 LIBS:cubesatFunkmodul-cache
-LIBS:funkmodul
-LIBS:CubeSat-Bus-1
-LIBS:CubeSat-Bus-2
-LIBS:disco-con
-LIBS:fiducial
-EELAYER 25 0
+EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -57,7 +21,7 @@ SCK_
 Text Label 4250 2500 0    60   ~ 0
 MOSI_
 $Comp
-L R R19
+L cubesatFunkmodul-rescue:R R19
 U 1 1 5994BD7C
 P 3200 4300
 F 0 "R19" V 3280 4300 50  0000 C CNN
@@ -68,7 +32,7 @@ F 3 "" H 3200 4300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R20
+L cubesatFunkmodul-rescue:R R20
 U 1 1 5994BD83
 P 3550 4100
 F 0 "R20" V 3630 4100 50  0000 C CNN
@@ -97,7 +61,7 @@ RXON
 Text HLabel 2100 3550 0    60   Input ~ 0
 TXON
 $Comp
-L Q_NPN_BEC Q6
+L cubesatFunkmodul-rescue:Q_NPN_BEC Q6
 U 1 1 59FF9D3E
 P 3600 1300
 F 0 "Q6" H 3800 1350 50  0000 L CNN
@@ -108,7 +72,7 @@ F 3 "" H 3600 1300 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Q_NPN_BEC Q7
+L cubesatFunkmodul-rescue:Q_NPN_BEC Q7
 U 1 1 599CAF76
 P 3600 1800
 F 0 "Q7" H 3800 1850 50  0000 L CNN
@@ -119,7 +83,7 @@ F 3 "" H 3600 1800 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Q_NPN_BEC Q3
+L cubesatFunkmodul-rescue:Q_NPN_BEC Q3
 U 1 1 599CAF95
 P 3550 2400
 F 0 "Q3" H 3750 2450 50  0000 L CNN
@@ -130,7 +94,7 @@ F 3 "" H 3550 2400 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Q_NPN_BEC Q4
+L cubesatFunkmodul-rescue:Q_NPN_BEC Q4
 U 1 1 599CB00B
 P 3550 2950
 F 0 "Q4" H 3750 3000 50  0000 L CNN
@@ -141,7 +105,7 @@ F 3 "" H 3550 2950 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Q_NPN_BEC Q5
+L cubesatFunkmodul-rescue:Q_NPN_BEC Q5
 U 1 1 599CB196
 P 3550 3450
 F 0 "Q5" H 3750 3500 50  0000 L CNN
@@ -152,7 +116,7 @@ F 3 "" H 3550 3450 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L R R26
+L cubesatFunkmodul-rescue:R R26
 U 1 1 59FF9D43
 P 3400 1000
 F 0 "R26" V 3480 1000 50  0000 C CNN
@@ -163,7 +127,7 @@ F 3 "" H 3400 1000 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L R R21
+L cubesatFunkmodul-rescue:R R21
 U 1 1 599CB4C0
 P 3200 1250
 F 0 "R21" V 3280 1250 50  0000 C CNN
@@ -174,7 +138,7 @@ F 3 "" H 3200 1250 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R22
+L cubesatFunkmodul-rescue:R R22
 U 1 1 599CB4F7
 P 3200 1750
 F 0 "R22" V 3280 1750 50  0000 C CNN
@@ -185,7 +149,7 @@ F 3 "" H 3200 1750 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R27
+L cubesatFunkmodul-rescue:R R27
 U 1 1 599CB530
 P 3400 1550
 F 0 "R27" V 3480 1550 50  0000 C CNN
@@ -196,7 +160,7 @@ F 3 "" H 3400 1550 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L R R23
+L cubesatFunkmodul-rescue:R R23
 U 1 1 599CB563
 P 3200 2350
 F 0 "R23" V 3280 2350 50  0000 C CNN
@@ -207,7 +171,7 @@ F 3 "" H 3200 2350 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R28
+L cubesatFunkmodul-rescue:R R28
 U 1 1 599CB59A
 P 3400 2150
 F 0 "R28" V 3480 2150 50  0000 C CNN
@@ -218,7 +182,7 @@ F 3 "" H 3400 2150 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L R R24
+L cubesatFunkmodul-rescue:R R24
 U 1 1 59FF9D49
 P 3200 2900
 F 0 "R24" V 3280 2900 50  0000 C CNN
@@ -229,7 +193,7 @@ F 3 "" H 3200 2900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R29
+L cubesatFunkmodul-rescue:R R29
 U 1 1 599CB606
 P 3400 2700
 F 0 "R29" V 3480 2700 50  0000 C CNN
@@ -240,7 +204,7 @@ F 3 "" H 3400 2700 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L R R25
+L cubesatFunkmodul-rescue:R R25
 U 1 1 59FF9D4B
 P 3200 3400
 F 0 "R25" V 3280 3400 50  0000 C CNN
@@ -251,7 +215,7 @@ F 3 "" H 3200 3400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R30
+L cubesatFunkmodul-rescue:R R30
 U 1 1 59FF9D4C
 P 3400 3200
 F 0 "R30" V 3480 3200 50  0000 C CNN
@@ -272,7 +236,7 @@ Text HLabel 3200 2700 0    60   Input ~ 0
 Text HLabel 3200 3200 0    60   Input ~ 0
 +3.3V
 $Comp
-L R R31
+L cubesatFunkmodul-rescue:R R31
 U 1 1 59FF9D4D
 P 3900 1200
 F 0 "R31" V 3980 1200 50  0000 C CNN
@@ -283,7 +247,7 @@ F 3 "" H 3900 1200 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R32
+L cubesatFunkmodul-rescue:R R32
 U 1 1 59FF9D4E
 P 3900 1700
 F 0 "R32" V 3980 1700 50  0000 C CNN
@@ -294,7 +258,7 @@ F 3 "" H 3900 1700 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R33
+L cubesatFunkmodul-rescue:R R33
 U 1 1 59FF9D4F
 P 3900 2300
 F 0 "R33" V 3980 2300 50  0000 C CNN
@@ -305,7 +269,7 @@ F 3 "" H 3900 2300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R34
+L cubesatFunkmodul-rescue:R R34
 U 1 1 59FF9D50
 P 3900 2850
 F 0 "R34" V 3980 2850 50  0000 C CNN
@@ -316,7 +280,7 @@ F 3 "" H 3900 2850 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R35
+L cubesatFunkmodul-rescue:R R35
 U 1 1 599CBFAB
 P 3900 3350
 F 0 "R35" V 3980 3350 50  0000 C CNN
@@ -423,7 +387,7 @@ Wire Wire Line
 Wire Wire Line
 	3800 1400 4250 1400
 $Comp
-L GND #PWR30
+L cubesatFunkmodul-rescue:GND #PWR30
 U 1 1 59FF9D62
 P 3200 4450
 F 0 "#PWR30" H 3200 4200 50  0001 C CNN
@@ -434,7 +398,7 @@ F 3 "" H 3200 4450 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR32
+L cubesatFunkmodul-rescue:GND #PWR32
 U 1 1 59FF9D63
 P 5750 3550
 F 0 "#PWR32" H 5750 3300 50  0001 C CNN
@@ -463,7 +427,7 @@ PGND
 Text Label 7350 2200 2    60   ~ 0
 PGND
 $Comp
-L GND #PWR34
+L cubesatFunkmodul-rescue:GND #PWR34
 U 1 1 59FF9D71
 P 7350 1900
 F 0 "#PWR34" H 7350 1650 50  0001 C CNN
@@ -481,7 +445,7 @@ Connection ~ 7350 1700
 Wire Wire Line
 	8600 1700 8950 1700
 $Comp
-L L L2
+L cubesatFunkmodul-rescue:L L2
 U 1 1 59BD8CDE
 P 9100 1700
 F 0 "L2" V 9050 1700 50  0000 C CNN
@@ -502,7 +466,7 @@ Wire Wire Line
 	5900 1450 7350 1450
 Connection ~ 7350 1450
 $Comp
-L C C14
+L cubesatFunkmodul-rescue:C C14
 U 1 1 59BD91A9
 P 6500 1600
 F 0 "C14" H 6525 1700 50  0000 L CNN
@@ -513,7 +477,7 @@ F 3 "" H 6500 1600 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C13
+L cubesatFunkmodul-rescue:C C13
 U 1 1 59BD91F8
 P 6250 1600
 F 0 "C13" H 6275 1700 50  0000 L CNN
@@ -525,7 +489,7 @@ F 3 "" H 6250 1600 50  0001 C CNN
 $EndComp
 Connection ~ 6500 1450
 $Comp
-L C C15
+L cubesatFunkmodul-rescue:C C15
 U 1 1 59BD95C3
 P 6900 1850
 F 0 "C15" H 6925 1950 50  0000 L CNN
@@ -541,7 +505,7 @@ Wire Wire Line
 Text GLabel 6800 1600 2    60   Input ~ 0
 VBAT
 $Comp
-L LTC3113 U4
+L cubesatFunkmodul-rescue:LTC3113 U4
 U 1 1 59BDB4B6
 P 8200 2050
 F 0 "U4" H 7800 2950 60  0000 C CNN
@@ -561,7 +525,7 @@ Connection ~ 6250 1450
 Text Label 5900 1450 0    60   ~ 0
 5V
 $Comp
-L GND #PWR35
+L cubesatFunkmodul-rescue:GND #PWR35
 U 1 1 59C59DAC
 P 7350 2000
 F 0 "#PWR35" H 7350 1750 50  0001 C CNN
@@ -572,7 +536,7 @@ F 3 "" H 7350 2000 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L R R42
+L cubesatFunkmodul-rescue:R R42
 U 1 1 59C59E59
 P 10550 1700
 F 0 "R42" V 10630 1700 50  0000 C CNN
@@ -587,7 +551,7 @@ VBAT
 Wire Wire Line
 	10550 1550 10550 1450
 $Comp
-L Q_NPN_BEC Q8
+L cubesatFunkmodul-rescue:Q_NPN_BEC Q8
 U 1 1 59FF9D94
 P 10450 2100
 F 0 "Q8" H 10650 2150 50  0000 L CNN
@@ -600,7 +564,7 @@ $EndComp
 Wire Wire Line
 	10550 1850 10550 1900
 $Comp
-L GND #PWR37
+L cubesatFunkmodul-rescue:GND #PWR37
 U 1 1 59FF9D95
 P 10550 2300
 F 0 "#PWR37" H 10550 2050 50  0001 C CNN
@@ -611,7 +575,7 @@ F 3 "" H 10550 2300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R41
+L cubesatFunkmodul-rescue:R R41
 U 1 1 59FF9D96
 P 10250 2250
 F 0 "R41" V 10330 2250 50  0000 C CNN
@@ -632,7 +596,7 @@ PGND
 Wire Wire Line
 	7350 2100 7050 2100
 $Comp
-L R R36
+L cubesatFunkmodul-rescue:R R36
 U 1 1 59FF9D97
 P 7050 2250
 F 0 "R36" V 7130 2250 50  0000 C CNN
@@ -643,7 +607,7 @@ F 3 "" H 7050 2250 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR33
+L cubesatFunkmodul-rescue:GND #PWR33
 U 1 1 59FF9D98
 P 7050 2400
 F 0 "#PWR33" H 7050 2150 50  0001 C CNN
@@ -661,7 +625,7 @@ Connection ~ 10550 1900
 Wire Wire Line
 	8600 2000 9900 2000
 $Comp
-L R R40
+L cubesatFunkmodul-rescue:R R40
 U 1 1 59C601D7
 P 10050 2000
 F 0 "R40" V 10130 2000 50  0000 C CNN
@@ -672,7 +636,7 @@ F 3 "" H 10050 2000 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L R R39
+L cubesatFunkmodul-rescue:R R39
 U 1 1 59C6023C
 P 9750 2150
 F 0 "R39" V 9830 2150 50  0000 C CNN
@@ -683,7 +647,7 @@ F 3 "" H 9750 2150 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR36
+L cubesatFunkmodul-rescue:GND #PWR36
 U 1 1 59C6029F
 P 9750 2300
 F 0 "#PWR36" H 9750 2050 50  0001 C CNN
@@ -697,7 +661,7 @@ Connection ~ 9750 2000
 Text Label 10200 2000 0    60   ~ 0
 5V
 $Comp
-L R R38
+L cubesatFunkmodul-rescue:R R38
 U 1 1 59FF9D9C
 P 9350 2100
 F 0 "R38" V 9430 2100 50  0000 C CNN
@@ -708,7 +672,7 @@ F 3 "" H 9350 2100 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L C C16
+L cubesatFunkmodul-rescue:C C16
 U 1 1 59C60B7E
 P 9050 2100
 F 0 "C16" H 9075 2200 50  0000 L CNN
@@ -724,7 +688,7 @@ Connection ~ 8900 2000
 Text Label 9500 2100 0    60   ~ 0
 5V
 $Comp
-L C C18
+L cubesatFunkmodul-rescue:C C18
 U 1 1 59FF9D9E
 P 9300 2500
 F 0 "C18" H 9325 2600 50  0000 L CNN
@@ -735,7 +699,7 @@ F 3 "" H 9300 2500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R37
+L cubesatFunkmodul-rescue:R R37
 U 1 1 59C60DED
 P 9050 2800
 F 0 "R37" V 9130 2800 50  0000 C CNN
@@ -767,7 +731,7 @@ Wire Wire Line
 Wire Wire Line
 	6500 2000 6900 2000
 $Comp
-L RFM23BP U5
+L cubesatFunkmodul-rescue:RFM23BP U5
 U 1 1 59FF9DA0
 P 8500 4500
 F 0 "U5" H 8150 5050 60  0000 C CNN
@@ -778,7 +742,7 @@ F 3 "" H 9000 3800 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C17
+L cubesatFunkmodul-rescue:C C17
 U 1 1 59FF9DA1
 P 9050 2500
 F 0 "C17" H 9075 2600 50  0000 L CNN
@@ -805,7 +769,7 @@ Precission resistors
 Text Label 9750 4450 0    60   ~ 0
 5V
 $Comp
-L Antenna_Shield AE1
+L cubesatFunkmodul-rescue:Antenna_Shield AE1
 U 1 1 59FF9DA2
 P 9700 3700
 F 0 "AE1" H 9625 3775 50  0000 R CNN
@@ -833,7 +797,7 @@ Wire Wire Line
 Wire Wire Line
 	9100 4450 9750 4450
 $Comp
-L C C19
+L cubesatFunkmodul-rescue:C C19
 U 1 1 59FF9DA3
 P 9600 4600
 F 0 "C19" H 9625 4700 50  0000 L CNN
@@ -862,7 +826,7 @@ TXON_
 Text Label 9100 4350 0    60   ~ 0
 RXON_
 $Comp
-L R R43
+L cubesatFunkmodul-rescue:R R43
 U 1 1 59FF9DAC
 P 6150 3500
 F 0 "R43" V 6230 3500 50  0000 C CNN
@@ -881,7 +845,7 @@ PGND
 Text Label 9600 4750 0    60   ~ 0
 PGND
 $Comp
-L R R45
+L cubesatFunkmodul-rescue:R R45
 U 1 1 59FF9DAD
 P 3600 4950
 F 0 "R45" V 3680 4950 50  0000 C CNN
@@ -892,7 +856,7 @@ F 3 "" H 3600 4950 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L R R44
+L cubesatFunkmodul-rescue:R R44
 U 1 1 59FF9DAE
 P 3200 5200
 F 0 "R44" V 3280 5200 50  0000 C CNN
@@ -903,7 +867,7 @@ F 3 "" H 3200 5200 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR31
+L cubesatFunkmodul-rescue:GND #PWR31
 U 1 1 59DE335D
 P 3200 5350
 F 0 "#PWR31" H 3200 5100 50  0001 C CNN

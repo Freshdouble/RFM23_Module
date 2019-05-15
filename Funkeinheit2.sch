@@ -1,42 +1,6 @@
-EESchema Schematic File Version 2
-LIBS:power
-LIBS:device
-LIBS:transistors
-LIBS:conn
-LIBS:linear
-LIBS:regul
-LIBS:74xx
-LIBS:cmos4000
-LIBS:adc-dac
-LIBS:memory
-LIBS:xilinx
-LIBS:microcontrollers
-LIBS:dsp
-LIBS:microchip
-LIBS:analog_switches
-LIBS:motorola
-LIBS:texas
-LIBS:intel
-LIBS:audio
-LIBS:interface
-LIBS:digital-audio
-LIBS:philips
-LIBS:display
-LIBS:cypress
-LIBS:siliconi
-LIBS:opto
-LIBS:atmel
-LIBS:contrib
-LIBS:valves
-LIBS:nxp-ic
-LIBS:7400-ic
+EESchema Schematic File Version 4
 LIBS:cubesatFunkmodul-cache
-LIBS:funkmodul
-LIBS:CubeSat-Bus-1
-LIBS:CubeSat-Bus-2
-LIBS:disco-con
-LIBS:fiducial
-EELAYER 25 0
+EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -57,7 +21,7 @@ SCK_
 Text Label 4250 2500 0    60   ~ 0
 MOSI_
 $Comp
-L R R?
+L cubesatFunkmodul-rescue:R R?
 U 1 1 59FF9D3C
 P 3200 4300
 AR Path="/59FF6F05/5994BAF1/59FF9D3C" Ref="R?"  Part="1" 
@@ -70,7 +34,7 @@ F 3 "" H 3200 4300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R?
+L cubesatFunkmodul-rescue:R R?
 U 1 1 59FF9D3D
 P 3550 4100
 AR Path="/59FF6F05/5994BAF1/59FF9D3D" Ref="R?"  Part="1" 
@@ -101,7 +65,7 @@ RXON
 Text HLabel 2100 3550 0    60   Input ~ 0
 TXON
 $Comp
-L Q_NPN_BEC Q?
+L cubesatFunkmodul-rescue:Q_NPN_BEC Q?
 U 1 1 599CAE07
 P 3600 1300
 AR Path="/59FF6F05/5994BAF1/599CAE07" Ref="Q?"  Part="1" 
@@ -114,7 +78,7 @@ F 3 "" H 3600 1300 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Q_NPN_BEC Q?
+L cubesatFunkmodul-rescue:Q_NPN_BEC Q?
 U 1 1 59FF9D3F
 P 3600 1800
 AR Path="/59FF6F05/5994BAF1/59FF9D3F" Ref="Q?"  Part="1" 
@@ -127,7 +91,7 @@ F 3 "" H 3600 1800 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Q_NPN_BEC Q?
+L cubesatFunkmodul-rescue:Q_NPN_BEC Q?
 U 1 1 59FF9D40
 P 3550 2400
 AR Path="/59FF6F05/5994BAF1/59FF9D40" Ref="Q?"  Part="1" 
@@ -140,7 +104,7 @@ F 3 "" H 3550 2400 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Q_NPN_BEC Q?
+L cubesatFunkmodul-rescue:Q_NPN_BEC Q?
 U 1 1 59FF9D41
 P 3550 2950
 AR Path="/59FF6F05/5994BAF1/59FF9D41" Ref="Q?"  Part="1" 
@@ -153,7 +117,7 @@ F 3 "" H 3550 2950 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Q_NPN_BEC Q?
+L cubesatFunkmodul-rescue:Q_NPN_BEC Q?
 U 1 1 59FF9D42
 P 3550 3450
 AR Path="/59FF6F05/5994BAF1/59FF9D42" Ref="Q?"  Part="1" 
@@ -166,7 +130,7 @@ F 3 "" H 3550 3450 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L R R?
+L cubesatFunkmodul-rescue:R R?
 U 1 1 599CB475
 P 3400 1000
 AR Path="/59FF6F05/5994BAF1/599CB475" Ref="R?"  Part="1" 
@@ -179,7 +143,7 @@ F 3 "" H 3400 1000 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L R R?
+L cubesatFunkmodul-rescue:R R?
 U 1 1 59FF9D44
 P 3200 1250
 AR Path="/59FF6F05/5994BAF1/59FF9D44" Ref="R?"  Part="1" 
@@ -192,7 +156,7 @@ F 3 "" H 3200 1250 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R?
+L cubesatFunkmodul-rescue:R R?
 U 1 1 59FF9D45
 P 3200 1750
 AR Path="/59FF6F05/5994BAF1/59FF9D45" Ref="R?"  Part="1" 
@@ -205,7 +169,7 @@ F 3 "" H 3200 1750 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R?
+L cubesatFunkmodul-rescue:R R?
 U 1 1 59FF9D46
 P 3400 1550
 AR Path="/59FF6F05/5994BAF1/59FF9D46" Ref="R?"  Part="1" 
@@ -218,7 +182,7 @@ F 3 "" H 3400 1550 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L R R?
+L cubesatFunkmodul-rescue:R R?
 U 1 1 59FF9D47
 P 3200 2350
 AR Path="/59FF6F05/5994BAF1/59FF9D47" Ref="R?"  Part="1" 
@@ -231,7 +195,7 @@ F 3 "" H 3200 2350 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R?
+L cubesatFunkmodul-rescue:R R?
 U 1 1 59FF9D48
 P 3400 2150
 AR Path="/59FF6F05/5994BAF1/59FF9D48" Ref="R?"  Part="1" 
@@ -244,7 +208,7 @@ F 3 "" H 3400 2150 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L R R?
+L cubesatFunkmodul-rescue:R R?
 U 1 1 599CB5CD
 P 3200 2900
 AR Path="/59FF6F05/5994BAF1/599CB5CD" Ref="R?"  Part="1" 
@@ -257,7 +221,7 @@ F 3 "" H 3200 2900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R?
+L cubesatFunkmodul-rescue:R R?
 U 1 1 59FF9D4A
 P 3400 2700
 AR Path="/59FF6F05/5994BAF1/59FF9D4A" Ref="R?"  Part="1" 
@@ -270,7 +234,7 @@ F 3 "" H 3400 2700 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L R R?
+L cubesatFunkmodul-rescue:R R?
 U 1 1 599CB649
 P 3200 3400
 AR Path="/59FF6F05/5994BAF1/599CB649" Ref="R?"  Part="1" 
@@ -283,7 +247,7 @@ F 3 "" H 3200 3400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R?
+L cubesatFunkmodul-rescue:R R?
 U 1 1 599CB6B7
 P 3400 3200
 AR Path="/59FF6F05/5994BAF1/599CB6B7" Ref="R?"  Part="1" 
@@ -306,7 +270,7 @@ Text HLabel 3200 2700 0    60   Input ~ 0
 Text HLabel 3200 3200 0    60   Input ~ 0
 +3.3V
 $Comp
-L R R?
+L cubesatFunkmodul-rescue:R R?
 U 1 1 599CBEB7
 P 3900 1200
 AR Path="/59FF6F05/5994BAF1/599CBEB7" Ref="R?"  Part="1" 
@@ -319,7 +283,7 @@ F 3 "" H 3900 1200 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R?
+L cubesatFunkmodul-rescue:R R?
 U 1 1 599CBEF0
 P 3900 1700
 AR Path="/59FF6F05/5994BAF1/599CBEF0" Ref="R?"  Part="1" 
@@ -332,7 +296,7 @@ F 3 "" H 3900 1700 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R?
+L cubesatFunkmodul-rescue:R R?
 U 1 1 599CBF2D
 P 3900 2300
 AR Path="/59FF6F05/5994BAF1/599CBF2D" Ref="R?"  Part="1" 
@@ -345,7 +309,7 @@ F 3 "" H 3900 2300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R?
+L cubesatFunkmodul-rescue:R R?
 U 1 1 599CBF6A
 P 3900 2850
 AR Path="/59FF6F05/5994BAF1/599CBF6A" Ref="R?"  Part="1" 
@@ -358,7 +322,7 @@ F 3 "" H 3900 2850 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R?
+L cubesatFunkmodul-rescue:R R?
 U 1 1 59FF9D51
 P 3900 3350
 AR Path="/59FF6F05/5994BAF1/59FF9D51" Ref="R?"  Part="1" 
@@ -467,7 +431,7 @@ Wire Wire Line
 Wire Wire Line
 	3800 1400 4250 1400
 $Comp
-L GND #PWR?
+L cubesatFunkmodul-rescue:GND #PWR?
 U 1 1 59B87665
 P 3200 4450
 AR Path="/59FF6F05/5994BAF1/59B87665" Ref="#PWR?"  Part="1" 
@@ -480,7 +444,7 @@ F 3 "" H 3200 4450 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR?
+L cubesatFunkmodul-rescue:GND #PWR?
 U 1 1 59B89289
 P 5750 3550
 AR Path="/59FF6F05/5994BAF1/59B89289" Ref="#PWR?"  Part="1" 
@@ -511,7 +475,7 @@ PGND
 Text Label 7350 2200 2    60   ~ 0
 PGND
 $Comp
-L GND #PWR?
+L cubesatFunkmodul-rescue:GND #PWR?
 U 1 1 59BD80CC
 P 7350 1900
 AR Path="/59FF6F05/5994BAF1/59BD80CC" Ref="#PWR?"  Part="1" 
@@ -531,7 +495,7 @@ Connection ~ 7350 1700
 Wire Wire Line
 	8600 1700 8950 1700
 $Comp
-L L L?
+L cubesatFunkmodul-rescue:L L?
 U 1 1 59FF9D72
 P 9100 1700
 AR Path="/59FF6F05/5994BAF1/59FF9D72" Ref="L?"  Part="1" 
@@ -554,7 +518,7 @@ Wire Wire Line
 	5900 1450 7350 1450
 Connection ~ 7350 1450
 $Comp
-L C C?
+L cubesatFunkmodul-rescue:C C?
 U 1 1 59FF9D73
 P 6500 1600
 AR Path="/59FF6F05/5994BAF1/59FF9D73" Ref="C?"  Part="1" 
@@ -567,7 +531,7 @@ F 3 "" H 6500 1600 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C?
+L cubesatFunkmodul-rescue:C C?
 U 1 1 59FF9D74
 P 6250 1600
 AR Path="/59FF6F05/5994BAF1/59FF9D74" Ref="C?"  Part="1" 
@@ -581,7 +545,7 @@ F 3 "" H 6250 1600 50  0001 C CNN
 $EndComp
 Connection ~ 6500 1450
 $Comp
-L C C?
+L cubesatFunkmodul-rescue:C C?
 U 1 1 59FF9D75
 P 6900 1850
 AR Path="/59FF6F05/5994BAF1/59FF9D75" Ref="C?"  Part="1" 
@@ -599,7 +563,7 @@ Wire Wire Line
 Text GLabel 6800 1600 2    60   Input ~ 0
 VBAT
 $Comp
-L LTC3113 U?
+L cubesatFunkmodul-rescue:LTC3113 U?
 U 1 1 59FF9D76
 P 8200 2050
 AR Path="/59FF6F05/5994BAF1/59FF9D76" Ref="U?"  Part="1" 
@@ -621,7 +585,7 @@ Connection ~ 6250 1450
 Text Label 5900 1450 0    60   ~ 0
 5V
 $Comp
-L GND #PWR?
+L cubesatFunkmodul-rescue:GND #PWR?
 U 1 1 59FF9D92
 P 7350 2000
 AR Path="/59FF6F05/5994BAF1/59FF9D92" Ref="#PWR?"  Part="1" 
@@ -634,7 +598,7 @@ F 3 "" H 7350 2000 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L R R?
+L cubesatFunkmodul-rescue:R R?
 U 1 1 59FF9D93
 P 10550 1700
 AR Path="/59FF6F05/5994BAF1/59FF9D93" Ref="R?"  Part="1" 
@@ -651,7 +615,7 @@ VBAT
 Wire Wire Line
 	10550 1550 10550 1450
 $Comp
-L Q_NPN_BEC Q?
+L cubesatFunkmodul-rescue:Q_NPN_BEC Q?
 U 1 1 59C5A277
 P 10450 2100
 AR Path="/59FF6F05/5994BAF1/59C5A277" Ref="Q?"  Part="1" 
@@ -666,7 +630,7 @@ $EndComp
 Wire Wire Line
 	10550 1850 10550 1900
 $Comp
-L GND #PWR?
+L cubesatFunkmodul-rescue:GND #PWR?
 U 1 1 59C5A346
 P 10550 2300
 AR Path="/59FF6F05/5994BAF1/59C5A346" Ref="#PWR?"  Part="1" 
@@ -679,7 +643,7 @@ F 3 "" H 10550 2300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R?
+L cubesatFunkmodul-rescue:R R?
 U 1 1 59C5A3D8
 P 10250 2250
 AR Path="/59FF6F05/5994BAF1/59C5A3D8" Ref="R?"  Part="1" 
@@ -702,7 +666,7 @@ PGND
 Wire Wire Line
 	7350 2100 7050 2100
 $Comp
-L R R?
+L cubesatFunkmodul-rescue:R R?
 U 1 1 59C5FAC7
 P 7050 2250
 AR Path="/59FF6F05/5994BAF1/59C5FAC7" Ref="R?"  Part="1" 
@@ -715,7 +679,7 @@ F 3 "" H 7050 2250 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR?
+L cubesatFunkmodul-rescue:GND #PWR?
 U 1 1 59C5FB2A
 P 7050 2400
 AR Path="/59FF6F05/5994BAF1/59C5FB2A" Ref="#PWR?"  Part="1" 
@@ -735,7 +699,7 @@ Connection ~ 10550 1900
 Wire Wire Line
 	8600 2000 9900 2000
 $Comp
-L R R?
+L cubesatFunkmodul-rescue:R R?
 U 1 1 59FF9D99
 P 10050 2000
 AR Path="/59FF6F05/5994BAF1/59FF9D99" Ref="R?"  Part="1" 
@@ -748,7 +712,7 @@ F 3 "" H 10050 2000 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L R R?
+L cubesatFunkmodul-rescue:R R?
 U 1 1 59FF9D9A
 P 9750 2150
 AR Path="/59FF6F05/5994BAF1/59FF9D9A" Ref="R?"  Part="1" 
@@ -761,7 +725,7 @@ F 3 "" H 9750 2150 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR?
+L cubesatFunkmodul-rescue:GND #PWR?
 U 1 1 59FF9D9B
 P 9750 2300
 AR Path="/59FF6F05/5994BAF1/59FF9D9B" Ref="#PWR?"  Part="1" 
@@ -777,7 +741,7 @@ Connection ~ 9750 2000
 Text Label 10200 2000 0    60   ~ 0
 5V
 $Comp
-L R R?
+L cubesatFunkmodul-rescue:R R?
 U 1 1 59C60B17
 P 9350 2100
 AR Path="/59FF6F05/5994BAF1/59C60B17" Ref="R?"  Part="1" 
@@ -790,7 +754,7 @@ F 3 "" H 9350 2100 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L C C?
+L cubesatFunkmodul-rescue:C C?
 U 1 1 59FF9D9D
 P 9050 2100
 AR Path="/59FF6F05/5994BAF1/59FF9D9D" Ref="C?"  Part="1" 
@@ -808,7 +772,7 @@ Connection ~ 8900 2000
 Text Label 9500 2100 0    60   ~ 0
 5V
 $Comp
-L C C?
+L cubesatFunkmodul-rescue:C C?
 U 1 1 59C60CFB
 P 9300 2500
 AR Path="/59FF6F05/5994BAF1/59C60CFB" Ref="C?"  Part="1" 
@@ -821,7 +785,7 @@ F 3 "" H 9300 2500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R?
+L cubesatFunkmodul-rescue:R R?
 U 1 1 59FF9D9F
 P 9050 2800
 AR Path="/59FF6F05/5994BAF1/59FF9D9F" Ref="R?"  Part="1" 
@@ -855,7 +819,7 @@ Wire Wire Line
 Wire Wire Line
 	6500 2000 6900 2000
 $Comp
-L RFM23BP U?
+L cubesatFunkmodul-rescue:RFM23BP U?
 U 1 1 59C696A7
 P 8500 4500
 AR Path="/59FF6F05/5994BAF1/59C696A7" Ref="U?"  Part="1" 
@@ -868,7 +832,7 @@ F 3 "" H 9000 3800 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C?
+L cubesatFunkmodul-rescue:C C?
 U 1 1 59C94242
 P 9050 2500
 AR Path="/59FF6F05/5994BAF1/59C94242" Ref="C?"  Part="1" 
@@ -897,7 +861,7 @@ Precission resistors
 Text Label 9750 4450 0    60   ~ 0
 5V
 $Comp
-L Antenna_Shield AE?
+L cubesatFunkmodul-rescue:Antenna_Shield AE?
 U 1 1 59C98C71
 P 9700 3700
 AR Path="/59FF6F05/5994BAF1/59C98C71" Ref="AE?"  Part="1" 
@@ -927,7 +891,7 @@ Wire Wire Line
 Wire Wire Line
 	9100 4450 9750 4450
 $Comp
-L C C?
+L cubesatFunkmodul-rescue:C C?
 U 1 1 59CB2ACF
 P 9600 4600
 AR Path="/59FF6F05/5994BAF1/59CB2ACF" Ref="C?"  Part="1" 
@@ -958,7 +922,7 @@ TXON_
 Text Label 9100 4350 0    60   ~ 0
 RXON_
 $Comp
-L R R?
+L cubesatFunkmodul-rescue:R R?
 U 1 1 59DBF7EA
 P 6150 3500
 AR Path="/59FF6F05/5994BAF1/59DBF7EA" Ref="R?"  Part="1" 
@@ -979,7 +943,7 @@ PGND
 Text Label 9600 4750 0    60   ~ 0
 PGND
 $Comp
-L R R?
+L cubesatFunkmodul-rescue:R R?
 U 1 1 59DE3235
 P 3600 4950
 AR Path="/59FF6F05/5994BAF1/59DE3235" Ref="R?"  Part="1" 
@@ -992,7 +956,7 @@ F 3 "" H 3600 4950 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L R R?
+L cubesatFunkmodul-rescue:R R?
 U 1 1 59DE32B8
 P 3200 5200
 AR Path="/59FF6F05/5994BAF1/59DE32B8" Ref="R?"  Part="1" 
@@ -1005,7 +969,7 @@ F 3 "" H 3200 5200 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR?
+L cubesatFunkmodul-rescue:GND #PWR?
 U 1 1 59FF9DAF
 P 3200 5350
 AR Path="/59FF6F05/5994BAF1/59FF9DAF" Ref="#PWR?"  Part="1" 

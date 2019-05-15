@@ -1,42 +1,6 @@
-EESchema Schematic File Version 2
-LIBS:power
-LIBS:device
-LIBS:transistors
-LIBS:conn
-LIBS:linear
-LIBS:regul
-LIBS:74xx
-LIBS:cmos4000
-LIBS:adc-dac
-LIBS:memory
-LIBS:xilinx
-LIBS:microcontrollers
-LIBS:dsp
-LIBS:microchip
-LIBS:analog_switches
-LIBS:motorola
-LIBS:texas
-LIBS:intel
-LIBS:audio
-LIBS:interface
-LIBS:digital-audio
-LIBS:philips
-LIBS:display
-LIBS:cypress
-LIBS:siliconi
-LIBS:opto
-LIBS:atmel
-LIBS:contrib
-LIBS:valves
-LIBS:nxp-ic
-LIBS:7400-ic
+EESchema Schematic File Version 4
 LIBS:cubesatFunkmodul-cache
-LIBS:funkmodul
-LIBS:CubeSat-Bus-1
-LIBS:CubeSat-Bus-2
-LIBS:disco-con
-LIBS:fiducial
-EELAYER 25 0
+EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -95,21 +59,21 @@ Wire Wire Line
 Wire Wire Line
 	3700 3250 4900 3250
 Wire Wire Line
-	3700 2550 4900 2550
+	3700 2550 3900 2550
 Wire Wire Line
-	3700 2800 4900 2800
+	3700 2800 3950 2800
 Wire Wire Line
 	4450 3700 4900 3700
 Wire Wire Line
-	4900 3500 3700 3500
+	4900 3500 4250 3500
 Wire Wire Line
-	4900 3400 3700 3400
+	4900 3400 4150 3400
 Wire Wire Line
 	3700 3850 4550 3850
 Wire Wire Line
 	4550 3850 4550 4000
 Wire Wire Line
-	4550 4000 4900 4000
+	4550 4000 4800 4000
 $Sheet
 S 2650 4250 1050 1550
 U 59FF6F05
@@ -177,14 +141,14 @@ Wire Wire Line
 Wire Wire Line
 	3700 3950 4500 3950
 Wire Wire Line
-	4500 3950 4500 4750
+	4500 3950 4500 4350
 Wire Wire Line
 	4500 4350 4900 4350
 Wire Wire Line
 	4500 4750 3700 4750
 Connection ~ 4500 4350
 $Comp
-L Fiducial FID1
+L cubesatFunkmodul-rescue:Fiducial FID1
 U 1 1 5A1F2632
 P 2600 1300
 F 0 "FID1" H 2500 1600 60  0000 C CNN
@@ -195,7 +159,7 @@ F 3 "" H 2600 1300 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Fiducial FID2
+L cubesatFunkmodul-rescue:Fiducial FID2
 U 1 1 5A1F282D
 P 3250 1300
 F 0 "FID2" H 3150 1600 60  0000 C CNN
@@ -206,7 +170,7 @@ F 3 "" H 3250 1300 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Fiducial FID3
+L cubesatFunkmodul-rescue:Fiducial FID3
 U 1 1 5A1F2924
 P 3850 1300
 F 0 "FID3" H 3750 1600 60  0000 C CNN
@@ -217,7 +181,7 @@ F 3 "" H 3850 1300 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Fiducial FID4
+L cubesatFunkmodul-rescue:Fiducial FID4
 U 1 1 5A1F2A21
 P 4450 1300
 F 0 "FID4" H 4350 1600 60  0000 C CNN
@@ -228,7 +192,7 @@ F 3 "" H 4450 1300 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Fiducial FID5
+L cubesatFunkmodul-rescue:Fiducial FID5
 U 1 1 5A1F2B24
 P 5100 1300
 F 0 "FID5" H 5000 1600 60  0000 C CNN
@@ -239,7 +203,7 @@ F 3 "" H 5100 1300 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Fiducial FID6
+L cubesatFunkmodul-rescue:Fiducial FID6
 U 1 1 5A1F2C43
 P 5700 1300
 F 0 "FID6" H 5600 1600 60  0000 C CNN
@@ -249,4 +213,16 @@ F 3 "" H 5700 1300 60  0001 C CNN
 	1    5700 1300
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	3900 2550 4900 2550
+Wire Wire Line
+	3950 2800 4900 2800
+Wire Wire Line
+	4150 3400 3700 3400
+Wire Wire Line
+	4250 3500 3700 3500
+Wire Wire Line
+	4800 4000 4900 4000
+Wire Wire Line
+	4500 4350 4500 4750
 $EndSCHEMATC
